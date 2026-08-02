@@ -1,0 +1,200 @@
+2026-08-02 13:36:03,917 INFO [backend.app.services.camera] [420bb096] Saved camera frame to: /tmp/tmpzjzr52dc.jpg
+2026-08-02 13:36:07,144 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:36:07,247 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:36:12,087 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:36:12,188 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:36:17,126 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:36:17,227 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:36:21,567 INFO [uvicorn.access] [-] [IP]:46234 - "PATCH /api/v1/printers/1 HTTP/1.1" 200
+2026-08-02 13:36:21,597 INFO [backend.app.services.camera] [7a53d3e1] Capturing camera frame bytes from [IP] using chamber image protocol (model: P1S)
+2026-08-02 13:36:22,268 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:36:22,371 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:36:23,501 INFO [backend.app.services.camera] [7a53d3e1] Saved camera frame to: /tmp/tmps51vr7o1.jpg
+2026-08-02 13:36:27,309 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:36:27,410 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:36:32,248 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:36:32,349 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:36:34,020 INFO [uvicorn.access] [-] [IP]:41312 - "PATCH /api/v1/printers/1 HTTP/1.1" 200
+2026-08-02 13:36:34,049 INFO [backend.app.services.camera] [eaa3bc8a] Capturing camera frame bytes from [IP] using chamber image protocol (model: P1S)
+2026-08-02 13:36:35,910 INFO [backend.app.services.camera] [eaa3bc8a] Saved camera frame to: /tmp/tmpxc6gve3b.jpg
+2026-08-02 13:36:37,290 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:36:37,391 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:36:42,437 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:36:42,538 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:36:47,475 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:36:47,576 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:36:50,361 INFO [uvicorn.access] [-] [IP]:42042 - "PATCH /api/v1/printers/1 HTTP/1.1" 200
+2026-08-02 13:36:52,427 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:36:52,528 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:36:57,464 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:36:57,565 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:37:02,703 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:37:02,805 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:37:07,749 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:37:07,851 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:37:12,533 INFO [backend.app.main] [-] Recorded 2 AMS sensor history entries
+2026-08-02 13:37:12,791 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:37:12,892 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:37:17,829 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:37:17,930 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:37:22,873 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:37:22,974 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:37:27,914 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:37:28,015 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:37:32,950 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:37:33,051 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:37:38,093 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:37:38,194 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:37:43,434 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:37:43,535 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:37:48,471 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:37:48,572 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:37:53,610 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:37:53,712 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:37:58,550 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:37:58,652 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:38:03,590 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:38:03,692 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:38:05,092 INFO [uvicorn.access] [-] [IP]:46832 - "POST /api/v1/cloud/login HTTP/1.1" 200
+2026-08-02 13:38:08,937 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:38:09,038 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:38:10,085 INFO [uvicorn.access] [-] [IP]:46832 - "POST /api/v1/cloud/login HTTP/1.1" 200
+2026-08-02 13:38:14,278 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:38:14,380 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:38:19,317 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:38:19,418 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:38:22,744 INFO [uvicorn.access] [-] [IP]:42060 - "POST /api/v1/cloud/login HTTP/1.1" 200
+2026-08-02 13:38:24,254 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:38:24,357 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:38:29,295 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:38:29,397 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:38:30,188 INFO [uvicorn.access] [-] [IP]:42060 - "POST /api/v1/cloud/verify HTTP/1.1" 200
+2026-08-02 13:38:44,216 INFO [uvicorn.access] [-] [IP]:47000 - "POST /api/v1/cloud/verify HTTP/1.1" 200
+2026-08-02 13:38:57,072 INFO [uvicorn.access] [-] [IP]:48994 - "POST /api/v1/cloud/verify HTTP/1.1" 200
+2026-08-02 13:39:12,367 INFO [uvicorn.access] [-] [IP]:42394 - "POST /api/v1/cloud/verify HTTP/1.1" 200
+2026-08-02 13:39:41,243 INFO [uvicorn.access] [-] [IP]:34774 - "POST /api/v1/cloud/login HTTP/1.1" 200
+2026-08-02 13:39:55,773 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:39:55,874 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:40:00,712 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:40:00,812 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:40:05,752 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:40:05,853 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:40:07,928 INFO [uvicorn.access] [-] [IP]:57474 - "POST /api/v1/cloud/verify HTTP/1.1" 200
+2026-08-02 13:40:11,096 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:40:11,197 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:40:16,482 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:40:16,583 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:40:21,523 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:40:21,624 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:40:26,561 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:40:26,662 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:40:31,600 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:40:31,701 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:40:36,537 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:40:36,638 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:40:41,677 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:40:41,778 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:40:46,715 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:40:46,816 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:40:51,754 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:40:51,855 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:40:56,696 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:40:56,798 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:41:01,738 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:41:01,839 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:41:06,878 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:41:06,980 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:41:12,219 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:41:12,321 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:41:17,457 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:41:17,560 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:41:22,395 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:41:22,496 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:41:27,537 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:41:27,638 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:41:32,577 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:41:32,678 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:41:37,614 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:41:37,716 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:41:42,691 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:41:42,792 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:41:47,732 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:41:47,833 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:41:52,771 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:41:52,873 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:41:57,810 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:41:57,913 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:42:02,745 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:42:02,846 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:42:07,888 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:42:07,989 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:42:12,558 INFO [backend.app.main] [-] Recorded 2 AMS sensor history entries
+2026-08-02 13:42:13,326 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:42:13,427 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:42:18,572 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:42:18,673 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:42:23,509 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:42:23,611 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:42:28,705 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:42:28,807 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:42:33,642 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:42:33,744 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:42:38,884 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:42:38,985 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:42:43,926 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:42:44,027 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:42:49,368 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:42:49,470 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:42:54,405 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:42:54,506 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:42:59,342 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:42:59,444 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:43:04,378 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:43:04,483 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:43:09,424 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:43:09,526 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:43:14,463 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:43:14,565 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:43:19,605 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:43:19,708 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:43:20,161 INFO [backend.app.api.routes.support] [8d5d6427] Log level changed to DEBUG
+2026-08-02 13:43:20,162 INFO [backend.app.api.routes.bug_report] [8d5d6427] Bug report: enabled debug logging
+2026-08-02 13:43:20,162 DEBUG [backend.app.services.bambu_mqtt] [8d5d6427] [[SERIAL]] Requesting status update (pushall)
+2026-08-02 13:43:20,163 INFO [uvicorn.access] [-] [IP]:55556 - "POST /api/v1/bug-report/start-logging HTTP/1.1" 200
+2026-08-02 13:43:20,207 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: IDLE, gcode_file: , subtask_name: 
+2026-08-02 13:43:20,208 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] AMS dict fields: {'ams_exist_bits': '11', 'tray_exist_bits': '1000f', 'tray_is_bbl_bits': '1000f', 'tray_tar': '255', 'tray_now': '254', 'tray_pre': '254', 'tray_read_done_bits': '1000f', 'tray_reading_bits': '0', 'version': 7, 'insert_flag': True, 'power_on_flag': False}
+2026-08-02 13:43:20,208 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] tray_now updated: 254
+2026-08-02 13:43:20,208 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Merged AMS data: 2 new units, 2 total
+2026-08-02 13:43:20,208 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] AMS 0 info=0x2003 -> extruder 0
+2026-08-02 13:43:20,208 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] AMS 128 info=0x2004 -> extruder 0
+2026-08-02 13:43:20,209 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0, '128': 0}
+2026-08-02 13:43:20,209 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_status: 0 (main=0, sub=0)
+2026-08-02 13:43:20,209 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-02 13:43:20,209 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper raw value: 5.0
+2026-08-02 13:43:20,209 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper direct value: 5.0°C (heater OFF)
+2026-08-02 13:43:20,210 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Chamber heating calculated: target=0.0, current=5.0, heating=False, respect_local=False
+2026-08-02 13:43:20,210 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Chamber temp updated to: 5.0, target: 0.0, heating: False
+2026-08-02 13:43:20,210 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-02 13:43:20,210 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ipcam field: {'ipcam_dev': '1', 'ipcam_record': 'enable', 'timelapse': 'disable', 'resolution': '', 'tutk_server': 'disable', 'mode_bits': 3}
+2026-08-02 13:43:20,210 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -51dBm
+2026-08-02 13:43:20,211 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'node': 'chamber_light', 'mode': 'on'}]
+2026-08-02 13:43:20,211 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: IDLE -> IDLE, file: , subtask: 
+2026-08-02 13:43:24,268 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-02 13:43:24,547 DEBUG [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Received M-SEARCH from [IP]
+2026-08-02 13:43:24,548 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:43:24,649 DEBUG [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Received M-SEARCH from [IP]
+2026-08-02 13:43:24,650 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:43:26,287 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-02 13:43:29,690 DEBUG [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Received M-SEARCH from [IP]
+2026-08-02 13:43:29,691 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:43:29,792 DEBUG [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Received M-SEARCH from [IP]
+2026-08-02 13:43:29,792 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:43:34,726 DEBUG [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Received M-SEARCH from [IP]
+2026-08-02 13:43:34,726 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:43:34,828 DEBUG [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Received M-SEARCH from [IP]
+2026-08-02 13:43:34,828 INFO [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP response to [IP] for 'Bambuddy' (Location=[IP], USN=[SERIAL])
+2026-08-02 13:43:36,376 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-02 13:43:36,377 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -50dBm
+2026-08-02 13:43:37,973 DEBUG [backend.app.services.bambu_cloud] [411051d3] TOTP verify response: status=403, body={"error":"CSRF error: missing_cookie","reason":"missing_cookie"}
+2026-08-02 13:43:37,976 INFO [uvicorn.access] [-] [IP]:43512 - "POST /api/v1/cloud/verify HTTP/1.1" 200
+2026-08-02 13:43:38,356 DEBUG [backend.app.services.virtual_printer.ssdp_server] [7a21142c] Sent SSDP NOTIFY for Bambuddy (Location=[IP], USN=[SERIAL], bind=[IP])
