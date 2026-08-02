@@ -1,0 +1,200 @@
+2026-08-02 18:05:33,471 INFO [backend.app.services.camera] [-] Capturing camera frame bytes from [IP] using RTSP (model: X1C)
+2026-08-02 18:05:34,893 INFO [backend.app.services.camera] [-] Successfully captured camera frame bytes: 108820 bytes
+2026-08-02 18:05:34,894 INFO [backend.app.main] [-] [FINISH-PHOTO-MOMENT] captured RTSP frame (108820 bytes)
+2026-08-02 18:05:34,908 INFO [backend.app.services.camera] [-] Successfully captured camera frame bytes: 108820 bytes
+2026-08-02 18:05:34,908 INFO [backend.app.main] [-] [SNAPSHOT] Fresh camera frame: 108820 bytes
+2026-08-02 18:06:44,120 INFO [backend.app.services.bambu_mqtt] [-] [[SERIAL]] PRINT COMPLETE detected - state: FINISH, status: completed, file: /data/Metadata/plate_1.gcode, subtask: Body1, was_running: True, timelapse_during_print: False
+2026-08-02 18:06:44,121 INFO [backend.app.main] [-] [CALLBACK] on_print_complete started for printer 1
+2026-08-02 18:06:44,121 INFO [backend.app.main] [-] [TIMING] WebSocket send_print_complete: 0.000s elapsed
+2026-08-02 18:06:44,121 INFO [backend.app.main] [-] Print complete - filename: /data/Metadata/plate_1.gcode, subtask: Body1, status: completed
+2026-08-02 18:06:44,121 INFO [backend.app.main] [-] Looking for archive in _active_prints, keys to try: [(1, 'Body1.3mf'), (1, 'Body1.gcode.3mf'), (1, 'Body1'), (1, 'plate_1.gcode.3mf'), (1, 'plate_1.3mf')]...
+2026-08-02 18:06:44,121 INFO [backend.app.main] [-] Current _active_prints: [(1, 'Body1.gcode.3mf'), (1, '/data/Metadata/plate_1.gcode'), (1, 'Body1.3mf')]
+2026-08-02 18:06:44,121 INFO [backend.app.main] [-] Found archive 12 with key (1, 'Body1.3mf')
+2026-08-02 18:06:44,729 INFO [backend.app.services.bambu_ftp] [-] FTP connected successfully to [IP] (model=X1C, prot_c=False)
+2026-08-02 18:06:45,002 INFO [backend.app.services.bambu_ftp] [-] FTP connected successfully to [IP] (model=X1C, prot_c=False)
+2026-08-02 18:06:45,014 INFO [backend.app.main] [-] [TIMING] SD card cleanup: 0.893s elapsed
+2026-08-02 18:06:45,015 INFO [backend.app.main] [-] [TIMING] Queue item update: 0.894s elapsed
+2026-08-02 18:06:45,018 INFO [backend.app.services.usage_tracker] [-] [UsageTracker] on_print_complete: printer=1, archive=12, session=yes, ams_mapping=[3, -1, -1, -1, -1]
+2026-08-02 18:06:45,018 INFO [backend.app.services.usage_tracker] [-] [UsageTracker] PRINT COMPLETE printer 1: mapping=None, tray_now=255, last_loaded_tray=3
+2026-08-02 18:06:45,019 INFO [backend.app.services.usage_tracker] [-] [UsageTracker] 3MF: archive 12, plate_id=None, filament_usage=[{'slot_id': 1, 'used_g': 3.25, 'type': 'PETG', 'color': '#FFFFFF'}]
+2026-08-02 18:06:45,019 INFO [backend.app.services.usage_tracker] [-] [UsageTracker] 3MF: slot_to_tray=[3, -1, -1, -1, -1] (source: print_cmd)
+2026-08-02 18:06:45,019 INFO [backend.app.services.usage_tracker] [-] [UsageTracker] 3MF: slot_id=1 -> global_tray=3 -> AMS0-T3 (used_g=3.2, tray_now_override=None)
+2026-08-02 18:06:45,020 INFO [backend.app.services.usage_tracker] [-] [UsageTracker] 3MF: no spool assignment at printer 1 AMS0-T3
+2026-08-02 18:06:45,020 INFO [backend.app.services.usage_tracker] [-] [UsageTracker] AMS0-T0: not in print mapping/tray_change_log — skipping fallback for printer 1
+2026-08-02 18:06:45,020 INFO [backend.app.services.usage_tracker] [-] [UsageTracker] AMS0-T1: not in print mapping/tray_change_log — skipping fallback for printer 1
+2026-08-02 18:06:45,020 INFO [backend.app.services.usage_tracker] [-] [UsageTracker] AMS0-T2: not in print mapping/tray_change_log — skipping fallback for printer 1
+2026-08-02 18:06:45,020 INFO [backend.app.services.usage_tracker] [-] [UsageTracker] VT254: not in print mapping/tray_change_log — skipping fallback for printer 1
+2026-08-02 18:06:45,021 INFO [backend.app.services.spoolman_tracking] [-] [SPOOLMAN] No tracking data for print (printer=1, archive=12)
+2026-08-02 18:06:45,021 INFO [backend.app.main] [-] [TIMING] Spoolman usage report: 0.900s elapsed
+2026-08-02 18:06:45,021 INFO [backend.app.main] [-] [TIMING] Filament usage tracking: 0.900s elapsed
+2026-08-02 18:06:45,021 INFO [backend.app.main] [-] [TIMING] Archive lookup: 0.900s elapsed
+2026-08-02 18:06:45,021 INFO [backend.app.main] [-] [ARCHIVE] Updating archive 12 status...
+2026-08-02 18:06:45,023 INFO [backend.app.main] [-] [ARCHIVE] Archive 12 status updated to completed, failure_reason=None
+2026-08-02 18:06:45,023 INFO [backend.app.main] [-] [ARCHIVE] WebSocket notification sent for archive 12
+2026-08-02 18:06:45,023 INFO [backend.app.main] [-] [TIMING] Archive status update: 0.903s elapsed
+2026-08-02 18:06:45,025 INFO [backend.app.main] [-] [PRINT_LOG] Log entry written for archive 12
+2026-08-02 18:06:45,025 INFO [backend.app.main] [-] [TIMING] Print log entry: 0.904s elapsed
+2026-08-02 18:06:45,025 INFO [backend.app.main] [-] [TIMING] Background tasks scheduled (energy, photo): 0.904s elapsed
+2026-08-02 18:06:45,025 INFO [backend.app.main] [-] [TIMING] All background tasks scheduled: 0.904s elapsed
+2026-08-02 18:06:45,025 INFO [backend.app.main] [-] [CALLBACK] on_print_complete finished for printer 1, archive 12
+2026-08-02 18:06:45,025 INFO [backend.app.main] [-] [ENERGY-BG] Starting energy calculation for archive 12
+2026-08-02 18:06:45,026 INFO [backend.app.main] [-] [PHOTO-BG] Starting finish photo capture for archive 12
+2026-08-02 18:06:45,026 INFO [backend.app.main] [-] [AUTO-OFF-BG] Starting smart plug automation for printer 1
+2026-08-02 18:06:45,026 INFO [backend.app.main] [-] [MAINT-BG] Starting maintenance check for printer 1
+2026-08-02 18:06:45,027 INFO [backend.app.main] [-] [LAYER-TL] Stitching layer timelapse for printer 1
+2026-08-02 18:06:45,028 INFO [backend.app.main] [-] [AUTO-OFF-BG] Completed
+2026-08-02 18:06:45,029 INFO [backend.app.main] [-] [ENERGY-BG] No start kWh recorded for archive 12
+2026-08-02 18:06:45,031 INFO [backend.app.main] [-] [PHOTO-BG] Saved stage-22 pre-captured frame: finish_20260802_180645_4c6ef993.jpg (108820 bytes)
+2026-08-02 18:06:45,034 INFO [backend.app.main] [-] [PHOTO-BG] Saved: finish_20260802_180645_4c6ef993.jpg
+2026-08-02 18:06:45,034 INFO [backend.app.main] [-] [PHOTO-NOTIFY] Photo task returned: finish_20260802_180645_4c6ef993.jpg
+2026-08-02 18:06:45,034 INFO [backend.app.main] [-] [NOTIFY-BG] Starting notifications for printer 1, photo=finish_20260802_180645_4c6ef993.jpg
+2026-08-02 18:06:45,037 INFO [backend.app.main] [-] [NOTIFY-BG] Loaded finish photo bytes: 108820 bytes
+2026-08-02 18:06:45,037 INFO [backend.app.services.notification_service] [-] on_print_complete called for printer 1 ([PRINTER]), status=completed
+2026-08-02 18:06:45,038 INFO [backend.app.services.notification_service] [-] No notification providers configured for on_print_complete event on printer 1
+2026-08-02 18:06:45,038 INFO [backend.app.main] [-] [NOTIFY-BG] Completed
+2026-08-02 18:06:45,039 INFO [backend.app.main] [-] [MAINT-BG] Completed (no items need attention)
+2026-08-02 18:07:28,363 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-02 18:12:28,367 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-02 18:17:28,373 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-02 18:22:28,378 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-02 18:27:28,382 INFO [backend.app.main] [-] Sending temperature alarm for [PRINTER] AMS-A: 41.4°C > 35.0°C
+2026-08-02 18:27:28,383 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-02 18:32:28,388 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-02 18:37:28,392 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-02 18:42:28,397 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-02 18:47:28,402 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-02 18:52:28,406 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-02 18:57:28,414 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-02 19:02:28,418 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-02 19:07:28,422 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-02 19:12:28,426 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-02 19:15:49,266 INFO [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Captured ams_mapping from print command: [3, -1, -1, -1, -1]
+2026-08-02 19:15:49,598 INFO [backend.app.services.bambu_mqtt] [-] [[SERIAL]] PRINT START detected - file: /data/Metadata/plate_1.gcode, subtask: haak zwembad v1, is_new: True, is_file_change: False
+2026-08-02 19:15:49,599 INFO [backend.app.main] [-] [CALLBACK] on_print_start called for printer 1, data keys: ['filename', 'subtask_name', 'remaining_time', 'raw_data', 'ams_mapping']
+2026-08-02 19:15:49,603 INFO [backend.app.services.usage_tracker] [-] [UsageTracker] PRINT START printer 1: mapping=None, tray_now=255, last_loaded_tray=3
+2026-08-02 19:15:49,603 INFO [backend.app.services.usage_tracker] [-] [UsageTracker] PRINT START printer 1 AMS 0: T0(type=PETG, color=161616FF, now=?, tar=?), T1(type=PLA, color=898989FF, now=?, tar=?), T2(type=PA, color=161616FF, now=?, tar=?), T3(type=PETG, color=FFFFFFFF, now=?, tar=?)
+2026-08-02 19:15:49,604 INFO [backend.app.services.usage_tracker] [-] [UsageTracker] Captured start remain% for printer 1 (5 trays): {'0-0': 0, '0-1': 0, '0-2': 0, '0-3': 0, '255-0': 0}
+2026-08-02 19:15:49,605 INFO [backend.app.main] [-] [PLATE CHECK] printer_id=1, plate_detection_enabled=False
+2026-08-02 19:15:49,605 INFO [backend.app.main] [-] [CALLBACK] Print start detected - filename: /data/Metadata/plate_1.gcode, subtask: haak zwembad v1
+2026-08-02 19:15:49,606 INFO [backend.app.main] [-] Trying filenames: ['haak zwembad v1.gcode.3mf', 'haak zwembad v1.3mf', 'plate_1.gcode.3mf', 'plate_1.3mf', 'haak_zwembad_v1.gcode.3mf', 'haak_zwembad_v1.3mf']
+2026-08-02 19:15:50,009 INFO [backend.app.services.bambu_ftp] [-] FTP connected successfully to [IP] (model=X1C, prot_c=False)
+2026-08-02 19:15:50,705 INFO [backend.app.services.bambu_ftp] [-] Successfully downloaded /haak zwembad v1.gcode.3mf to /app/data/archive/temp/haak zwembad v1.gcode.3mf (101069 bytes)
+2026-08-02 19:15:50,705 INFO [backend.app.services.bambu_ftp] [-] FTP mode cached for [IP]: prot_p
+2026-08-02 19:15:50,712 INFO [backend.app.main] [-] Downloaded: /haak zwembad v1.gcode.3mf
+2026-08-02 19:15:50,759 INFO [backend.app.main] [-] Created archive 13 for haak zwembad v1.gcode.3mf
+2026-08-02 19:15:50,760 INFO [backend.app.main] [-] [ENERGY] No smart plug for printer 1 (archive 13)
+2026-08-02 19:15:50,761 INFO [backend.app.main] [-] [SNAPSHOT] Capturing fresh frame for printer 1
+2026-08-02 19:15:50,762 INFO [backend.app.services.camera] [-] Capturing camera frame bytes from [IP] using RTSP (model: X1C)
+2026-08-02 19:15:52,339 INFO [backend.app.services.camera] [-] Successfully captured camera frame bytes: 95757 bytes
+2026-08-02 19:15:52,339 INFO [backend.app.main] [-] [SNAPSHOT] Fresh camera frame: 95757 bytes
+2026-08-02 19:15:52,339 INFO [backend.app.services.notification_service] [-] on_print_start called for printer 1 ([PRINTER])
+2026-08-02 19:15:52,340 INFO [backend.app.services.notification_service] [-] No notification providers configured for print_start event on printer 1
+2026-08-02 19:15:52,341 INFO [backend.app.main] [-] Loaded 1 printable objects for printer 1
+2026-08-02 19:15:52,539 INFO [backend.app.services.bambu_ftp] [-] FTP connected successfully to [IP] (model=X1C, prot_c=False)
+2026-08-02 19:15:52,649 INFO [backend.app.main] [-] [TIMELAPSE] Baseline at print start: 129 video files for printer 1
+2026-08-02 19:17:28,432 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-02 19:17:33,597 INFO [backend.app.main] [-] [SNAPSHOT] Capturing fresh frame for printer 1
+2026-08-02 19:17:33,597 INFO [backend.app.services.camera] [-] Capturing camera frame bytes from [IP] using RTSP (model: X1C)
+2026-08-02 19:17:36,122 INFO [backend.app.services.camera] [-] Successfully captured camera frame bytes: 121855 bytes
+2026-08-02 19:17:36,122 INFO [backend.app.main] [-] [SNAPSHOT] Fresh camera frame: 121855 bytes
+2026-08-02 19:21:09,311 INFO [uvicorn.access] [-] [IP]:8243 - "POST /api/v1/printers/camera/stream-token HTTP/1.1" 200
+2026-08-02 19:21:09,373 INFO [uvicorn.access] [-] [IP]:54541 - "POST /api/v1/auth/ws-token HTTP/1.1" 200
+2026-08-02 19:21:09,414 INFO [backend.app.api.routes.websocket] [-] WebSocket client connecting (principal=<anonymous>)
+2026-08-02 19:21:09,414 INFO [backend.app.api.routes.websocket] [-] WebSocket client connected
+2026-08-02 19:21:09,414 INFO [backend.app.api.routes.websocket] [-] Sent initial status for 1 printers
+2026-08-02 19:21:09,449 INFO [backend.app.api.routes.cloud] [71f50128] get_filament_info called with 3 IDs: ['GFG99', 'GFL99', 'GFN99']
+2026-08-02 19:21:09,454 INFO [uvicorn.access] [-] [IP]:61926 - "POST /api/v1/cloud/filament-info HTTP/1.1" 200
+2026-08-02 19:21:09,455 INFO [backend.app.api.routes.printers] [ff6bd3ff] Cover: resolved plate 1 before download (subtask=haak zwembad v1)
+2026-08-02 19:21:09,455 INFO [backend.app.api.routes.printers] [ff6bd3ff] Cover using cached 3MF from /app/data/archive/temp/haak zwembad v1.gcode.3mf (avoided duplicate FTP)
+2026-08-02 19:21:09,455 INFO [backend.app.api.routes.printers] [ff6bd3ff] Downloaded file size: 101069 bytes
+2026-08-02 19:22:28,437 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-02 19:23:16,134 INFO [backend.app.services.mqtt_relay] [46622b8c] MQTT relay disabled
+2026-08-02 19:23:16,137 INFO [uvicorn.access] [-] [IP]:10130 - "PUT /api/v1/settings/ HTTP/1.1" 200
+2026-08-02 19:23:54,111 INFO [backend.app.main] [-] [SNAPSHOT] Capturing fresh frame for printer 1
+2026-08-02 19:23:54,112 INFO [backend.app.services.camera] [-] Capturing camera frame bytes from [IP] using RTSP (model: X1C)
+2026-08-02 19:23:55,882 INFO [backend.app.services.camera] [-] Successfully captured camera frame bytes: 133222 bytes
+2026-08-02 19:23:55,882 INFO [backend.app.main] [-] [SNAPSHOT] Fresh camera frame: 133222 bytes
+2026-08-02 19:24:35,512 INFO [backend.app.api.routes.support] [05483a68] Log level changed to DEBUG
+2026-08-02 19:24:35,512 INFO [backend.app.api.routes.bug_report] [05483a68] Bug report: enabled debug logging
+2026-08-02 19:24:35,512 DEBUG [backend.app.services.bambu_mqtt] [05483a68] [[SERIAL]] Requesting status update (pushall)
+2026-08-02 19:24:35,513 INFO [uvicorn.access] [-] [IP]:7745 - "POST /api/v1/bug-report/start-logging HTTP/1.1" 200
+2026-08-02 19:24:35,766 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'first_layer_inspector': True, 'halt_print_sensitivity': 'high', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-02 19:24:35,766 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-02 19:24:35,767 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: RUNNING, gcode_file: /data/Metadata/plate_1.gcode, subtask_name: haak zwembad v1
+2026-08-02 19:24:35,767 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] AMS dict fields: {'ams_exist_bits': '1', 'ams_exist_bits_raw': '1', 'insert_flag': True, 'power_on_flag': False, 'tray_exist_bits': 'f', 'tray_is_bbl_bits': 'f', 'tray_now': '3', 'tray_pre': '3', 'tray_read_done_bits': 'f', 'tray_reading_bits': '0', 'tray_tar': '3', 'version': 15977}
+2026-08-02 19:24:35,767 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] tray_now updated: 3
+2026-08-02 19:24:35,767 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Merged AMS data: 1 new units, 1 total
+2026-08-02 19:24:35,767 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_status: 768 (main=3, sub=0)
+2026-08-02 19:24:35,767 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-02 19:24:35,767 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper raw value: 40.0
+2026-08-02 19:24:35,767 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper direct value: 40.0°C (heater OFF)
+2026-08-02 19:24:35,767 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Chamber heating calculated: target=0.0, current=40.0, heating=False, respect_local=False
+2026-08-02 19:24:35,767 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Chamber temp updated to: 40.0, target: 0.0, heating: False
+2026-08-02 19:24:35,767 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-02 19:24:35,767 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ipcam field: {'agora_service': 'disable', 'ipcam_dev': '1', 'ipcam_record': 'enable', 'mode_bits': 2, 'resolution': '1080p', 'rtsp_url': 'rtsps://[IP]:322/streaming/live/1', 'timelapse': 'disable', 'tutk_server': 'disable'}
+2026-08-02 19:24:35,768 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -38dBm
+2026-08-02 19:24:35,768 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-02 19:24:35,768 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: RUNNING -> RUNNING, file: /data/Metadata/plate_1.gcode, subtask: haak zwembad v1
+2026-08-02 19:24:36,786 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'first_layer_inspector': True, 'halt_print_sensitivity': 'high', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-02 19:24:36,786 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-02 19:24:36,786 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: RUNNING, gcode_file: /data/Metadata/plate_1.gcode, subtask_name: haak zwembad v1
+2026-08-02 19:24:36,786 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-02 19:24:36,786 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper raw value: 40.0
+2026-08-02 19:24:36,786 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper direct value: 40.0°C (heater OFF)
+2026-08-02 19:24:36,786 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-02 19:24:36,786 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-02 19:24:36,786 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: RUNNING -> RUNNING, file: /data/Metadata/plate_1.gcode, subtask: haak zwembad v1
+2026-08-02 19:24:37,814 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'first_layer_inspector': True, 'halt_print_sensitivity': 'high', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-02 19:24:37,814 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-02 19:24:37,815 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: RUNNING, gcode_file: /data/Metadata/plate_1.gcode, subtask_name: haak zwembad v1
+2026-08-02 19:24:37,815 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-02 19:24:37,815 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper raw value: 40.0
+2026-08-02 19:24:37,815 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper direct value: 40.0°C (heater OFF)
+2026-08-02 19:24:37,815 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-02 19:24:37,815 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-02 19:24:37,815 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: RUNNING -> RUNNING, file: /data/Metadata/plate_1.gcode, subtask: haak zwembad v1
+2026-08-02 19:24:38,835 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'first_layer_inspector': True, 'halt_print_sensitivity': 'high', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-02 19:24:38,835 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-02 19:24:38,835 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: RUNNING, gcode_file: /data/Metadata/plate_1.gcode, subtask_name: haak zwembad v1
+2026-08-02 19:24:38,835 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-02 19:24:38,835 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper raw value: 40.0
+2026-08-02 19:24:38,835 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper direct value: 40.0°C (heater OFF)
+2026-08-02 19:24:38,835 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-02 19:24:38,835 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-02 19:24:38,835 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: RUNNING -> RUNNING, file: /data/Metadata/plate_1.gcode, subtask: haak zwembad v1
+2026-08-02 19:24:39,913 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'first_layer_inspector': True, 'halt_print_sensitivity': 'high', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-02 19:24:39,913 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-02 19:24:39,913 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: RUNNING, gcode_file: /data/Metadata/plate_1.gcode, subtask_name: haak zwembad v1
+2026-08-02 19:24:39,913 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-02 19:24:39,913 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper raw value: 40.0
+2026-08-02 19:24:39,913 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper direct value: 40.0°C (heater OFF)
+2026-08-02 19:24:39,913 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-02 19:24:39,913 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-02 19:24:39,914 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: RUNNING -> RUNNING, file: /data/Metadata/plate_1.gcode, subtask: haak zwembad v1
+2026-08-02 19:24:40,851 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'first_layer_inspector': True, 'halt_print_sensitivity': 'high', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-02 19:24:40,852 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-02 19:24:40,852 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: RUNNING, gcode_file: /data/Metadata/plate_1.gcode, subtask_name: haak zwembad v1
+2026-08-02 19:24:40,852 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-02 19:24:40,852 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper raw value: 40.0
+2026-08-02 19:24:40,852 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper direct value: 40.0°C (heater OFF)
+2026-08-02 19:24:40,852 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-02 19:24:40,852 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-02 19:24:40,853 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: RUNNING -> RUNNING, file: /data/Metadata/plate_1.gcode, subtask: haak zwembad v1
+2026-08-02 19:24:41,884 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'first_layer_inspector': True, 'halt_print_sensitivity': 'high', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-02 19:24:41,885 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-02 19:24:41,885 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: RUNNING, gcode_file: /data/Metadata/plate_1.gcode, subtask_name: haak zwembad v1
+2026-08-02 19:24:41,885 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-02 19:24:41,885 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper raw value: 40.0
+2026-08-02 19:24:41,885 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper direct value: 40.0°C (heater OFF)
+2026-08-02 19:24:41,885 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-02 19:24:41,885 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-02 19:24:41,885 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: RUNNING -> RUNNING, file: /data/Metadata/plate_1.gcode, subtask: haak zwembad v1
+2026-08-02 19:24:42,891 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'first_layer_inspector': True, 'halt_print_sensitivity': 'high', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-02 19:24:42,891 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-02 19:24:42,891 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: RUNNING, gcode_file: /data/Metadata/plate_1.gcode, subtask_name: haak zwembad v1
+2026-08-02 19:24:42,892 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-02 19:24:42,892 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper raw value: 40.0
+2026-08-02 19:24:42,892 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper direct value: 40.0°C (heater OFF)
+2026-08-02 19:24:42,892 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-02 19:24:42,892 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-02 19:24:42,892 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: RUNNING -> RUNNING, file: /data/Metadata/plate_1.gcode, subtask: haak zwembad v1
