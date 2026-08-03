@@ -1,0 +1,200 @@
+2026-08-03 15:51:56,725 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'cfg', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-03 15:51:56,725 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] xcam cfg bitmask: 8089015 (binary: 0b11110110110110110110111)
+2026-08-03 15:51:56,725 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: PAUSE, gcode_file: /data/Metadata/plate_3.gcode, subtask_name: Console_Plaque_Vol5_TurboGrafix
+2026-08-03 15:51:56,726 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 1, '128': 1, '1': 0}
+2026-08-03 15:51:56,727 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-03 15:51:56,728 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-03 15:51:56,728 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] print_error: 83918946 (0x05008062) -> short_code=0500_8062
+2026-08-03 15:51:56,728 DEBUG [backend.app.services.bambu_mqtt] [-] [20P, 05008062] HMS available actions: ['IGNORE_RESUME', 'PROBLEM_SOLVED_RESUME'] (job_id=1238335246)
+2026-08-03 15:51:56,728 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ipcam field: {'agora_service': 'disable', 'brtc_service': 'enable', 'bs_state': 0, 'cap_pic_enable': 'invalid', 'ipcam_dev': '1', 'ipcam_record': 'enable', 'laser_preview_res': 7, 'liveview_preview': True, 'mode_bits': 2, 'resolution': '1080p', 'rtsp_url': 'rtsps://[IP]:322/streaming/live/1', 'timelapse': 'disable', 'tl_external_free_kb': 91469376, 'tl_external_total_kb': 120112000, 'tl_internal_free_kb': 962560, 'tl_internal_total_kb': 962560, 'tl_store_hpd_type': 2, 'tl_store_path_type': 2, 'tutk_server': 'disable'}
+2026-08-03 15:51:56,729 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-03 15:51:56,729 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [2, 65535, 65535, 65535, 65535, 256, 32768]
+2026-08-03 15:51:56,730 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: PAUSE -> PAUSE, file: /data/Metadata/plate_3.gcode, subtask: Console_Plaque_Vol5_TurboGrafix
+2026-08-03 15:51:58,046 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'cfg': 8089015, 'first_layer_inspector': True, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-03 15:51:58,046 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'cfg', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-03 15:51:58,047 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] xcam cfg bitmask: 8089015 (binary: 0b11110110110110110110111)
+2026-08-03 15:51:58,047 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: PAUSE, gcode_file: /data/Metadata/plate_3.gcode, subtask_name: Console_Plaque_Vol5_TurboGrafix
+2026-08-03 15:51:58,047 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 1, '128': 1, '1': 0}
+2026-08-03 15:51:58,048 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-03 15:51:58,049 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-03 15:51:58,049 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] print_error: 83918946 (0x05008062) -> short_code=0500_8062
+2026-08-03 15:51:58,049 DEBUG [backend.app.services.bambu_mqtt] [-] [20P, 05008062] HMS available actions: ['IGNORE_RESUME', 'PROBLEM_SOLVED_RESUME'] (job_id=1238335246)
+2026-08-03 15:51:58,049 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ipcam field: {'agora_service': 'disable', 'brtc_service': 'enable', 'bs_state': 0, 'cap_pic_enable': 'invalid', 'ipcam_dev': '1', 'ipcam_record': 'enable', 'laser_preview_res': 7, 'liveview_preview': True, 'mode_bits': 2, 'resolution': '1080p', 'rtsp_url': 'rtsps://[IP]:322/streaming/live/1', 'timelapse': 'disable', 'tl_external_free_kb': 91468096, 'tl_external_total_kb': 120112000, 'tl_internal_free_kb': 962560, 'tl_internal_total_kb': 962560, 'tl_store_hpd_type': 2, 'tl_store_path_type': 2, 'tutk_server': 'disable'}
+2026-08-03 15:51:58,050 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-03 15:51:58,051 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [2, 65535, 65535, 65535, 65535, 256, 32768]
+2026-08-03 15:51:58,052 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: PAUSE -> PAUSE, file: /data/Metadata/plate_3.gcode, subtask: Console_Plaque_Vol5_TurboGrafix
+2026-08-03 15:51:58,897 INFO [backend.app.services.virtual_printer.mqtt_server] [f397f09d] MQTT publish to device/20P90A391800002/request: {"pushing":{"command":"pushall","push_target":1,"sequence_id":"20013","version":1}}...
+2026-08-03 15:51:58,897 INFO [backend.app.services.virtual_printer.mqtt_server] [f397f09d] MQTT pushing command: pushall
+2026-08-03 15:51:58,898 INFO [backend.app.services.virtual_printer.mqtt_server] [f397f09d] Sending status report in response to pushall
+2026-08-03 15:51:59,093 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'cfg': 8089015, 'first_layer_inspector': True, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-03 15:51:59,097 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'cfg', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-03 15:51:59,098 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] xcam cfg bitmask: 8089015 (binary: 0b11110110110110110110111)
+2026-08-03 15:51:59,101 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: PAUSE, gcode_file: /data/Metadata/plate_3.gcode, subtask_name: Console_Plaque_Vol5_TurboGrafix
+2026-08-03 15:51:59,102 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 1, '128': 1, '1': 0}
+2026-08-03 15:51:59,106 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-03 15:51:59,107 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-03 15:51:59,108 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] print_error: 83918946 (0x05008062) -> short_code=0500_8062
+2026-08-03 15:51:59,110 DEBUG [backend.app.services.bambu_mqtt] [-] [20P, 05008062] HMS available actions: ['IGNORE_RESUME', 'PROBLEM_SOLVED_RESUME'] (job_id=1238335246)
+2026-08-03 15:51:59,111 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-03 15:51:59,118 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [2, 65535, 65535, 65535, 65535, 256, 32768]
+2026-08-03 15:51:59,119 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: PAUSE -> PAUSE, file: /data/Metadata/plate_3.gcode, subtask: Console_Plaque_Vol5_TurboGrafix
+2026-08-03 15:52:00,385 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'cfg': 8089015, 'first_layer_inspector': True, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-03 15:52:00,386 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'cfg', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-03 15:52:00,386 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] xcam cfg bitmask: 8089015 (binary: 0b11110110110110110110111)
+2026-08-03 15:52:00,386 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: PAUSE, gcode_file: /data/Metadata/plate_3.gcode, subtask_name: Console_Plaque_Vol5_TurboGrafix
+2026-08-03 15:52:00,388 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 1, '128': 1, '1': 0}
+2026-08-03 15:52:00,388 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-03 15:52:00,390 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-03 15:52:00,391 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] print_error: 83918946 (0x05008062) -> short_code=0500_8062
+2026-08-03 15:52:00,392 DEBUG [backend.app.services.bambu_mqtt] [-] [20P, 05008062] HMS available actions: ['IGNORE_RESUME', 'PROBLEM_SOLVED_RESUME'] (job_id=1238335246)
+2026-08-03 15:52:00,392 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ipcam field: {'agora_service': 'disable', 'brtc_service': 'enable', 'bs_state': 0, 'cap_pic_enable': 'invalid', 'ipcam_dev': '1', 'ipcam_record': 'enable', 'laser_preview_res': 7, 'liveview_preview': True, 'mode_bits': 2, 'resolution': '1080p', 'rtsp_url': 'rtsps://[IP]:322/streaming/live/1', 'timelapse': 'disable', 'tl_external_free_kb': 91467072, 'tl_external_total_kb': 120112000, 'tl_internal_free_kb': 962560, 'tl_internal_total_kb': 962560, 'tl_store_hpd_type': 2, 'tl_store_path_type': 2, 'tutk_server': 'disable'}
+2026-08-03 15:52:00,393 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-03 15:52:00,394 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [2, 65535, 65535, 65535, 65535, 256, 32768]
+2026-08-03 15:52:00,396 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: PAUSE -> PAUSE, file: /data/Metadata/plate_3.gcode, subtask: Console_Plaque_Vol5_TurboGrafix
+2026-08-03 15:52:01,457 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'cfg': 8089015, 'first_layer_inspector': True, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-03 15:52:01,458 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'cfg', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-03 15:52:01,458 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] xcam cfg bitmask: 8089015 (binary: 0b11110110110110110110111)
+2026-08-03 15:52:01,459 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: PAUSE, gcode_file: /data/Metadata/plate_3.gcode, subtask_name: Console_Plaque_Vol5_TurboGrafix
+2026-08-03 15:52:01,459 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 1, '128': 1, '1': 0}
+2026-08-03 15:52:01,460 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-03 15:52:01,460 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-03 15:52:01,461 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] print_error: 83918946 (0x05008062) -> short_code=0500_8062
+2026-08-03 15:52:01,462 DEBUG [backend.app.services.bambu_mqtt] [-] [20P, 05008062] HMS available actions: ['IGNORE_RESUME', 'PROBLEM_SOLVED_RESUME'] (job_id=1238335246)
+2026-08-03 15:52:01,463 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-03 15:52:01,464 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [2, 65535, 65535, 65535, 65535, 256, 32768]
+2026-08-03 15:52:01,464 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: PAUSE -> PAUSE, file: /data/Metadata/plate_3.gcode, subtask: Console_Plaque_Vol5_TurboGrafix
+2026-08-03 15:52:02,794 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'cfg': 8089015, 'first_layer_inspector': True, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-03 15:52:02,795 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'cfg', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-03 15:52:02,795 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] xcam cfg bitmask: 8089015 (binary: 0b11110110110110110110111)
+2026-08-03 15:52:02,795 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: PAUSE, gcode_file: /data/Metadata/plate_3.gcode, subtask_name: Console_Plaque_Vol5_TurboGrafix
+2026-08-03 15:52:02,796 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 1, '128': 1, '1': 0}
+2026-08-03 15:52:02,797 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-03 15:52:02,798 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-03 15:52:02,799 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] print_error: 83918946 (0x05008062) -> short_code=0500_8062
+2026-08-03 15:52:02,799 DEBUG [backend.app.services.bambu_mqtt] [-] [20P, 05008062] HMS available actions: ['IGNORE_RESUME', 'PROBLEM_SOLVED_RESUME'] (job_id=1238335246)
+2026-08-03 15:52:02,799 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ipcam field: {'agora_service': 'disable', 'brtc_service': 'enable', 'bs_state': 0, 'cap_pic_enable': 'invalid', 'ipcam_dev': '1', 'ipcam_record': 'enable', 'laser_preview_res': 7, 'liveview_preview': True, 'mode_bits': 2, 'resolution': '1080p', 'rtsp_url': 'rtsps://[IP]:322/streaming/live/1', 'timelapse': 'disable', 'tl_external_free_kb': 91466048, 'tl_external_total_kb': 120112000, 'tl_internal_free_kb': 962560, 'tl_internal_total_kb': 962560, 'tl_store_hpd_type': 2, 'tl_store_path_type': 2, 'tutk_server': 'disable'}
+2026-08-03 15:52:02,800 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-03 15:52:02,800 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [2, 65535, 65535, 65535, 65535, 256, 32768]
+2026-08-03 15:52:02,801 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: PAUSE -> PAUSE, file: /data/Metadata/plate_3.gcode, subtask: Console_Plaque_Vol5_TurboGrafix
+2026-08-03 15:52:03,724 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-03 15:52:03,725 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -25dBm
+2026-08-03 15:52:03,841 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'cfg': 8089015, 'first_layer_inspector': True, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-03 15:52:03,842 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'cfg', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-03 15:52:03,842 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] xcam cfg bitmask: 8089015 (binary: 0b11110110110110110110111)
+2026-08-03 15:52:03,842 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: PAUSE, gcode_file: /data/Metadata/plate_3.gcode, subtask_name: Console_Plaque_Vol5_TurboGrafix
+2026-08-03 15:52:03,843 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 1, '128': 1, '1': 0}
+2026-08-03 15:52:03,843 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-03 15:52:03,844 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-03 15:52:03,846 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] print_error: 83918946 (0x05008062) -> short_code=0500_8062
+2026-08-03 15:52:03,847 DEBUG [backend.app.services.bambu_mqtt] [-] [20P, 05008062] HMS available actions: ['IGNORE_RESUME', 'PROBLEM_SOLVED_RESUME'] (job_id=1238335246)
+2026-08-03 15:52:03,847 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ipcam field: {'agora_service': 'disable', 'brtc_service': 'enable', 'bs_state': 0, 'cap_pic_enable': 'invalid', 'ipcam_dev': '1', 'ipcam_record': 'enable', 'laser_preview_res': 7, 'liveview_preview': True, 'mode_bits': 2, 'resolution': '1080p', 'rtsp_url': 'rtsps://[IP]:322/streaming/live/1', 'timelapse': 'disable', 'tl_external_free_kb': 91464768, 'tl_external_total_kb': 120112000, 'tl_internal_free_kb': 962560, 'tl_internal_total_kb': 962560, 'tl_store_hpd_type': 2, 'tl_store_path_type': 2, 'tutk_server': 'disable'}
+2026-08-03 15:52:03,847 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-03 15:52:03,848 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [2, 65535, 65535, 65535, 65535, 256, 32768]
+2026-08-03 15:52:03,848 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: PAUSE -> PAUSE, file: /data/Metadata/plate_3.gcode, subtask: Console_Plaque_Vol5_TurboGrafix
+2026-08-03 15:52:04,895 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'cfg': 8089015, 'first_layer_inspector': True, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-03 15:52:04,897 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'cfg', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-03 15:52:04,897 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] xcam cfg bitmask: 8089015 (binary: 0b11110110110110110110111)
+2026-08-03 15:52:04,897 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: PAUSE, gcode_file: /data/Metadata/plate_3.gcode, subtask_name: Console_Plaque_Vol5_TurboGrafix
+2026-08-03 15:52:04,899 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 1, '128': 1, '1': 0}
+2026-08-03 15:52:04,900 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-03 15:52:04,903 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-03 15:52:04,903 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] print_error: 83918946 (0x05008062) -> short_code=0500_8062
+2026-08-03 15:52:04,904 DEBUG [backend.app.services.bambu_mqtt] [-] [20P, 05008062] HMS available actions: ['IGNORE_RESUME', 'PROBLEM_SOLVED_RESUME'] (job_id=1238335246)
+2026-08-03 15:52:04,904 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-03 15:52:04,904 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [2, 65535, 65535, 65535, 65535, 256, 32768]
+2026-08-03 15:52:04,906 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: PAUSE -> PAUSE, file: /data/Metadata/plate_3.gcode, subtask: Console_Plaque_Vol5_TurboGrafix
+2026-08-03 15:52:05,773 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-03 15:52:05,774 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -26dBm
+2026-08-03 15:52:05,969 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'cfg': 8089015, 'first_layer_inspector': True, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-03 15:52:05,969 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'cfg', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-03 15:52:05,970 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] xcam cfg bitmask: 8089015 (binary: 0b11110110110110110110111)
+2026-08-03 15:52:05,970 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: PAUSE, gcode_file: /data/Metadata/plate_3.gcode, subtask_name: Console_Plaque_Vol5_TurboGrafix
+2026-08-03 15:52:05,971 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 1, '128': 1, '1': 0}
+2026-08-03 15:52:05,971 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-03 15:52:05,972 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-03 15:52:05,972 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] print_error: 83918946 (0x05008062) -> short_code=0500_8062
+2026-08-03 15:52:05,973 DEBUG [backend.app.services.bambu_mqtt] [-] [20P, 05008062] HMS available actions: ['IGNORE_RESUME', 'PROBLEM_SOLVED_RESUME'] (job_id=1238335246)
+2026-08-03 15:52:05,973 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ipcam field: {'agora_service': 'disable', 'brtc_service': 'enable', 'bs_state': 0, 'cap_pic_enable': 'invalid', 'ipcam_dev': '1', 'ipcam_record': 'enable', 'laser_preview_res': 7, 'liveview_preview': True, 'mode_bits': 2, 'resolution': '1080p', 'rtsp_url': 'rtsps://[IP]:322/streaming/live/1', 'timelapse': 'disable', 'tl_external_free_kb': 91463744, 'tl_external_total_kb': 120112000, 'tl_internal_free_kb': 962560, 'tl_internal_total_kb': 962560, 'tl_store_hpd_type': 2, 'tl_store_path_type': 2, 'tutk_server': 'disable'}
+2026-08-03 15:52:05,974 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-03 15:52:05,974 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [2, 65535, 65535, 65535, 65535, 256, 32768]
+2026-08-03 15:52:05,974 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: PAUSE -> PAUSE, file: /data/Metadata/plate_3.gcode, subtask: Console_Plaque_Vol5_TurboGrafix
+2026-08-03 15:52:07,037 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'cfg': 8089015, 'first_layer_inspector': True, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-03 15:52:07,038 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'cfg', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-03 15:52:07,038 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] xcam cfg bitmask: 8089015 (binary: 0b11110110110110110110111)
+2026-08-03 15:52:07,039 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: PAUSE, gcode_file: /data/Metadata/plate_3.gcode, subtask_name: Console_Plaque_Vol5_TurboGrafix
+2026-08-03 15:52:07,039 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 1, '128': 1, '1': 0}
+2026-08-03 15:52:07,040 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-03 15:52:07,041 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-03 15:52:07,042 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] print_error: 83918946 (0x05008062) -> short_code=0500_8062
+2026-08-03 15:52:07,042 DEBUG [backend.app.services.bambu_mqtt] [-] [20P, 05008062] HMS available actions: ['IGNORE_RESUME', 'PROBLEM_SOLVED_RESUME'] (job_id=1238335246)
+2026-08-03 15:52:07,042 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-03 15:52:07,043 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [2, 65535, 65535, 65535, 65535, 256, 32768]
+2026-08-03 15:52:07,044 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: PAUSE -> PAUSE, file: /data/Metadata/plate_3.gcode, subtask: Console_Plaque_Vol5_TurboGrafix
+2026-08-03 15:52:07,125 DEBUG [backend.app.api.routes.printers] [df4be560] API returning ams_mapping: [], ams_extruder_map: {'0': 0}
+2026-08-03 15:52:07,125 DEBUG [backend.app.api.routes.printers] [df4be560] Using tray_now directly as global ID: 255
+2026-08-03 15:52:07,823 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-03 15:52:07,824 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -25dBm
+2026-08-03 15:52:08,306 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'cfg': 8089015, 'first_layer_inspector': True, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-03 15:52:08,306 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'cfg', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-03 15:52:08,307 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] xcam cfg bitmask: 8089015 (binary: 0b11110110110110110110111)
+2026-08-03 15:52:08,307 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: PAUSE, gcode_file: /data/Metadata/plate_3.gcode, subtask_name: Console_Plaque_Vol5_TurboGrafix
+2026-08-03 15:52:08,308 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 1, '128': 1, '1': 0}
+2026-08-03 15:52:08,308 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-03 15:52:08,309 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-03 15:52:08,310 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] print_error: 83918946 (0x05008062) -> short_code=0500_8062
+2026-08-03 15:52:08,310 DEBUG [backend.app.services.bambu_mqtt] [-] [20P, 05008062] HMS available actions: ['IGNORE_RESUME', 'PROBLEM_SOLVED_RESUME'] (job_id=1238335246)
+2026-08-03 15:52:08,310 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ipcam field: {'agora_service': 'disable', 'brtc_service': 'enable', 'bs_state': 0, 'cap_pic_enable': 'invalid', 'ipcam_dev': '1', 'ipcam_record': 'enable', 'laser_preview_res': 7, 'liveview_preview': True, 'mode_bits': 2, 'resolution': '1080p', 'rtsp_url': 'rtsps://[IP]:322/streaming/live/1', 'timelapse': 'disable', 'tl_external_free_kb': 91462720, 'tl_external_total_kb': 120112000, 'tl_internal_free_kb': 962560, 'tl_internal_total_kb': 962560, 'tl_store_hpd_type': 2, 'tl_store_path_type': 2, 'tutk_server': 'disable'}
+2026-08-03 15:52:08,311 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-03 15:52:08,311 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [2, 65535, 65535, 65535, 65535, 256, 32768]
+2026-08-03 15:52:08,312 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: PAUSE -> PAUSE, file: /data/Metadata/plate_3.gcode, subtask: Console_Plaque_Vol5_TurboGrafix
+2026-08-03 15:52:09,398 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'cfg': 8089015, 'first_layer_inspector': True, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-03 15:52:09,399 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'cfg', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-03 15:52:09,399 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] xcam cfg bitmask: 8089015 (binary: 0b11110110110110110110111)
+2026-08-03 15:52:09,399 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: PAUSE, gcode_file: /data/Metadata/plate_3.gcode, subtask_name: Console_Plaque_Vol5_TurboGrafix
+2026-08-03 15:52:09,400 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] AMS dict fields: {'ams_exist_bits': '13', 'ams_exist_bits_raw': '13', 'cali_id': 255, 'cali_stat': 0, 'cfs': [], 'insert_flag': True, 'power_on_flag': False, 'tray_exist_bits': '1001f', 'tray_hall_out_bits': '0', 'tray_is_bbl_bits': '1001f', 'tray_now': '255', 'tray_pre': '255', 'tray_read_done_bits': '1001f', 'tray_reading_bits': '0', 'tray_tar': '255', 'unbind_ams_stat': 0, 'version': 286}
+2026-08-03 15:52:09,400 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 1, '128': 1, '1': 0}
+2026-08-03 15:52:09,401 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-03 15:52:09,401 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-03 15:52:09,402 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] print_error: 83918946 (0x05008062) -> short_code=0500_8062
+2026-08-03 15:52:09,402 DEBUG [backend.app.services.bambu_mqtt] [-] [20P, 05008062] HMS available actions: ['IGNORE_RESUME', 'PROBLEM_SOLVED_RESUME'] (job_id=1238335246)
+2026-08-03 15:52:09,403 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-03 15:52:09,403 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [2, 65535, 65535, 65535, 65535, 256, 32768]
+2026-08-03 15:52:09,404 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: PAUSE -> PAUSE, file: /data/Metadata/plate_3.gcode, subtask: Console_Plaque_Vol5_TurboGrafix
+2026-08-03 15:52:10,423 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'cfg': 8089015, 'first_layer_inspector': True, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-03 15:52:10,424 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'cfg', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-03 15:52:10,424 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] xcam cfg bitmask: 8089015 (binary: 0b11110110110110110110111)
+2026-08-03 15:52:10,424 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: PAUSE, gcode_file: /data/Metadata/plate_3.gcode, subtask_name: Console_Plaque_Vol5_TurboGrafix
+2026-08-03 15:52:10,425 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 1, '128': 1, '1': 0}
+2026-08-03 15:52:10,426 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-03 15:52:10,426 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-03 15:52:10,427 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] print_error: 83918946 (0x05008062) -> short_code=0500_8062
+2026-08-03 15:52:10,427 DEBUG [backend.app.services.bambu_mqtt] [-] [20P, 05008062] HMS available actions: ['IGNORE_RESUME', 'PROBLEM_SOLVED_RESUME'] (job_id=1238335246)
+2026-08-03 15:52:10,427 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ipcam field: {'agora_service': 'disable', 'brtc_service': 'enable', 'bs_state': 0, 'cap_pic_enable': 'invalid', 'ipcam_dev': '1', 'ipcam_record': 'enable', 'laser_preview_res': 7, 'liveview_preview': True, 'mode_bits': 2, 'resolution': '1080p', 'rtsp_url': 'rtsps://[IP]:322/streaming/live/1', 'timelapse': 'disable', 'tl_external_free_kb': 91461440, 'tl_external_total_kb': 120112000, 'tl_internal_free_kb': 962560, 'tl_internal_total_kb': 962560, 'tl_store_hpd_type': 2, 'tl_store_path_type': 2, 'tutk_server': 'disable'}
+2026-08-03 15:52:10,427 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-03 15:52:10,428 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [2, 65535, 65535, 65535, 65535, 256, 32768]
+2026-08-03 15:52:10,428 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: PAUSE -> PAUSE, file: /data/Metadata/plate_3.gcode, subtask: Console_Plaque_Vol5_TurboGrafix
+2026-08-03 15:52:11,508 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'cfg': 8089015, 'first_layer_inspector': True, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-03 15:52:11,509 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'cfg', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-03 15:52:11,509 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] xcam cfg bitmask: 8089015 (binary: 0b11110110110110110110111)
+2026-08-03 15:52:11,509 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: PAUSE, gcode_file: /data/Metadata/plate_3.gcode, subtask_name: Console_Plaque_Vol5_TurboGrafix
+2026-08-03 15:52:11,510 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 1, '128': 1, '1': 0}
+2026-08-03 15:52:11,510 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-03 15:52:11,511 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-03 15:52:11,512 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] print_error: 83918946 (0x05008062) -> short_code=0500_8062
+2026-08-03 15:52:11,512 DEBUG [backend.app.services.bambu_mqtt] [-] [20P, 05008062] HMS available actions: ['IGNORE_RESUME', 'PROBLEM_SOLVED_RESUME'] (job_id=1238335246)
+2026-08-03 15:52:11,512 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-03 15:52:11,513 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [2, 65535, 65535, 65535, 65535, 256, 32768]
+2026-08-03 15:52:11,513 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: PAUSE -> PAUSE, file: /data/Metadata/plate_3.gcode, subtask: Console_Plaque_Vol5_TurboGrafix
+2026-08-03 15:52:12,557 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'cfg': 8089015, 'first_layer_inspector': True, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-03 15:52:12,557 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'cfg', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-03 15:52:12,558 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] xcam cfg bitmask: 8089015 (binary: 0b11110110110110110110111)
+2026-08-03 15:52:12,558 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: PAUSE, gcode_file: /data/Metadata/plate_3.gcode, subtask_name: Console_Plaque_Vol5_TurboGrafix
+2026-08-03 15:52:12,559 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 1, '128': 1, '1': 0}
+2026-08-03 15:52:12,559 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-03 15:52:12,560 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-03 15:52:12,560 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] print_error: 83918946 (0x05008062) -> short_code=0500_8062
+2026-08-03 15:52:12,560 DEBUG [backend.app.services.bambu_mqtt] [-] [20P, 05008062] HMS available actions: ['IGNORE_RESUME', 'PROBLEM_SOLVED_RESUME'] (job_id=1238335246)
+2026-08-03 15:52:12,561 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ipcam field: {'agora_service': 'disable', 'brtc_service': 'enable', 'bs_state': 0, 'cap_pic_enable': 'invalid', 'ipcam_dev': '1', 'ipcam_record': 'enable', 'laser_preview_res': 7, 'liveview_preview': True, 'mode_bits': 2, 'resolution': '1080p', 'rtsp_url': 'rtsps://[IP]:322/streaming/live/1', 'timelapse': 'disable', 'tl_external_free_kb': 91460416, 'tl_external_total_kb': 120112000, 'tl_internal_free_kb': 962560, 'tl_internal_total_kb': 962560, 'tl_store_hpd_type': 2, 'tl_store_path_type': 2, 'tutk_server': 'disable'}
+2026-08-03 15:52:12,561 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-03 15:52:12,562 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [2, 65535, 65535, 65535, 65535, 256, 32768]
+2026-08-03 15:52:12,563 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: PAUSE -> PAUSE, file: /data/Metadata/plate_3.gcode, subtask: Console_Plaque_Vol5_TurboGrafix
