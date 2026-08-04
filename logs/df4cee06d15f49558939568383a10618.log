@@ -1,0 +1,200 @@
+2026-08-04 02:01:01,707 INFO [backend.app.main] [-] [TIMING] SD card cleanup: 2.210s elapsed
+2026-08-04 02:01:01,808 INFO [backend.app.main] [-] Updated queue item 73 status to completed
+2026-08-04 02:01:01,979 INFO [backend.app.main] [-] [TIMING] Queue item update: 2.482s elapsed
+2026-08-04 02:01:02,025 INFO [backend.app.services.usage_tracker] [-] [UsageTracker] on_print_complete: printer=2, archive=87, session=yes, ams_mapping=[-1, 6, -1, -1, -1, 3, -1, -1, -1, 2]
+2026-08-04 02:01:02,026 INFO [backend.app.services.usage_tracker] [-] [UsageTracker] PRINT COMPLETE printer 2: mapping=[65535, 258, 65535, 65535, 65535, 3, 65535, 65535, 65535, 2], tray_now=255, last_loaded_tray=6
+2026-08-04 02:01:02,029 INFO [backend.app.services.usage_tracker] [-] [UsageTracker] 3MF: archive 87, plate_id=9, filament_usage=[{'slot_id': 2, 'used_g': 4.95, 'type': 'PLA', 'color': '#C12E1F'}, {'slot_id': 6, 'used_g': 86.93, 'type': 'PLA', 'color': '#E3E5E5'}, {'slot_id': 10, 'used_g': 16.77, 'type': 'PLA', 'color': '#0A2989'}]
+2026-08-04 02:01:02,031 INFO [backend.app.services.usage_tracker] [-] [UsageTracker] 3MF: slot_to_tray=[-1, 6, -1, -1, -1, 3, -1, -1, -1, 2] (source: print_cmd)
+2026-08-04 02:01:02,031 INFO [backend.app.services.usage_tracker] [-] [UsageTracker] 3MF: slot_id=2 -> global_tray=6 -> AMS1-T2 (used_g=5.0, tray_now_override=None)
+2026-08-04 02:01:02,049 INFO [backend.app.services.usage_tracker] [-] [UsageTracker] Spool 2 consumed 5.0g (3MF, print_cmd_map) on printer 2 AMS1-T2 (completed)
+2026-08-04 02:01:02,052 INFO [backend.app.services.usage_tracker] [-] [UsageTracker] 3MF: slot_id=6 -> global_tray=3 -> AMS0-T3 (used_g=86.9, tray_now_override=None)
+2026-08-04 02:01:02,252 INFO [backend.app.services.usage_tracker] [-] [UsageTracker] Spool 33 consumed 86.9g (3MF, print_cmd_map) on printer 2 AMS0-T3 (completed)
+2026-08-04 02:01:02,252 INFO [backend.app.services.usage_tracker] [-] [UsageTracker] 3MF: slot_id=10 -> global_tray=2 -> AMS0-T2 (used_g=16.8, tray_now_override=None)
+2026-08-04 02:01:02,343 INFO [backend.app.services.usage_tracker] [-] [UsageTracker] Spool 8 consumed 16.8g (3MF, print_cmd_map) on printer 2 AMS0-T2 (completed)
+2026-08-04 02:01:02,344 INFO [backend.app.services.usage_tracker] [-] [UsageTracker] AMS0-T0: not in print mapping/tray_change_log — skipping fallback for printer 2
+2026-08-04 02:01:02,344 INFO [backend.app.services.usage_tracker] [-] [UsageTracker] AMS0-T1: not in print mapping/tray_change_log — skipping fallback for printer 2
+2026-08-04 02:01:02,344 INFO [backend.app.services.usage_tracker] [-] [UsageTracker] AMS1-T0: not in print mapping/tray_change_log — skipping fallback for printer 2
+2026-08-04 02:01:02,344 INFO [backend.app.services.usage_tracker] [-] [UsageTracker] AMS1-T1: not in print mapping/tray_change_log — skipping fallback for printer 2
+2026-08-04 02:01:02,346 INFO [backend.app.services.usage_tracker] [-] [UsageTracker] AMS128-T0: not in print mapping/tray_change_log — skipping fallback for printer 2
+2026-08-04 02:01:02,346 INFO [backend.app.services.usage_tracker] [-] [UsageTracker] VT254: not in print mapping/tray_change_log — skipping fallback for printer 2
+2026-08-04 02:01:02,492 INFO [backend.app.main] [-] [TIMING] Usage tracker: 2.995s elapsed
+2026-08-04 02:01:02,526 INFO [backend.app.services.spoolman_tracking] [-] [SPOOLMAN] No tracking data for print (printer=2, archive=87)
+2026-08-04 02:01:02,548 INFO [backend.app.main] [-] [TIMING] Spoolman usage report: 3.051s elapsed
+2026-08-04 02:01:02,548 INFO [backend.app.main] [-] [TIMING] Filament usage tracking: 3.052s elapsed
+2026-08-04 02:01:02,548 INFO [backend.app.main] [-] [TIMING] Archive lookup: 3.052s elapsed
+2026-08-04 02:01:02,548 INFO [backend.app.main] [-] [ARCHIVE] Updating archive 87 status...
+2026-08-04 02:01:02,623 INFO [backend.app.main] [-] [ARCHIVE] Archive 87 status updated to completed, failure_reason=None
+2026-08-04 02:01:02,624 INFO [backend.app.main] [-] [ARCHIVE] WebSocket notification sent for archive 87
+2026-08-04 02:01:02,624 INFO [backend.app.main] [-] [TIMING] Archive status update: 3.128s elapsed
+2026-08-04 02:01:02,665 INFO [backend.app.main] [-] [PRINT_LOG] Log entry written for archive 87
+2026-08-04 02:01:02,666 INFO [backend.app.main] [-] [TIMING] Print log entry: 3.170s elapsed
+2026-08-04 02:01:02,667 INFO [backend.app.main] [-] [TIMING] Background tasks scheduled (energy, photo): 3.170s elapsed
+2026-08-04 02:01:02,667 INFO [backend.app.main] [-] [TIMING] All background tasks scheduled: 3.171s elapsed
+2026-08-04 02:01:02,667 INFO [backend.app.main] [-] [TIMELAPSE] Timelapse was active during print, scheduling auto-scan for archive 87
+2026-08-04 02:01:02,668 INFO [backend.app.main] [-] [TIMING] Timelapse scan scheduled: 3.171s elapsed
+2026-08-04 02:01:02,668 INFO [backend.app.main] [-] [CALLBACK] on_print_complete finished for printer 2, archive 87
+2026-08-04 02:01:02,669 INFO [backend.app.main] [-] [ENERGY-BG] Starting energy calculation for archive 87
+2026-08-04 02:01:02,678 INFO [backend.app.main] [-] [PHOTO-BG] Starting finish photo capture for archive 87
+2026-08-04 02:01:02,680 INFO [backend.app.main] [-] [AUTO-OFF-BG] Starting smart plug automation for printer 2
+2026-08-04 02:01:02,682 INFO [backend.app.main] [-] [MAINT-BG] Starting maintenance check for printer 2
+2026-08-04 02:01:02,684 INFO [backend.app.main] [-] [LAYER-TL] Stitching layer timelapse for printer 2
+2026-08-04 02:01:02,699 INFO [backend.app.main] [-] [AUTO-OFF-BG] Completed
+2026-08-04 02:01:02,830 INFO [backend.app.main] [-] [TIMELAPSE] Using print-start baseline: 0 existing video files for archive 87
+2026-08-04 02:01:03,003 INFO [backend.app.main] [-] [MAINT-BG] Completed (no items need attention)
+2026-08-04 02:01:03,006 INFO [backend.app.main] [-] [ENERGY-BG] Energy response: {'power': 37.2, 'voltage': None, 'current': None, 'today': 0.292, 'total': 4.796, 'yesterday': None, 'factor': None, 'apparent_power': None, 'reactive_power': None}
+2026-08-04 02:01:03,007 INFO [backend.app.main] [-] [ENERGY-BG] Per-print energy: 0.55 kWh
+2026-08-04 02:01:03,093 WARNING [backend.app.services.obico_detection] [-] ML API call failed for printer 2: ReadTimeout
+2026-08-04 02:01:03,252 INFO [backend.app.main] [-] [ENERGY-BG] Saved: 0.55 kWh, cost=0.165
+2026-08-04 02:01:08,552 INFO [backend.app.services.bambu_ftp] [-] FTP connected successfully to [IP] (model=X2D, prot_c=False)
+2026-08-04 02:01:08,805 INFO [backend.app.main] [-] [TIMELAPSE] Attempt 1: Found 1 video files in /timelapse
+2026-08-04 02:01:08,806 INFO [backend.app.main] [-] [TIMELAPSE]   - video_2026-08-04_13-17-48_4.mp4
+2026-08-04 02:01:08,807 INFO [backend.app.main] [-] [TIMELAPSE] Attempt 1: New file detected: video_2026-08-04_13-17-48_4.mp4 (downloading for archive 87)
+2026-08-04 02:01:09,577 INFO [backend.app.services.bambu_ftp] [-] FTP connected successfully to [IP] (model=X2D, prot_c=False)
+2026-08-04 02:01:10,894 INFO [backend.app.services.bambu_ftp] [-] FTP connected successfully to [IP] (model=X2D, prot_c=False)
+2026-08-04 02:01:10,985 INFO [backend.app.main] [-] [TIMELAPSE] Successfully attached timelapse to archive 87
+2026-08-04 02:01:11,763 INFO [backend.app.services.bambu_ftp] [-] FTP connected successfully to [IP] (model=X2D, prot_c=False)
+2026-08-04 02:01:11,801 INFO [backend.app.services.bambu_ftp] [-] [TIMELAPSE] Deleted /timelapse/video_2026-08-04_13-17-48_4.mp4 from printer [PRINTER] after archiving
+2026-08-04 02:01:15,159 INFO [backend.app.services.virtual_printer.mqtt_server] [f397f09d] [Virtual X2D] 1Hz status push: 60 pushes/min to [IP]:60699
+2026-08-04 02:01:20,819 INFO [backend.app.main] [-] [PHOTO-BG] Extracted finish photo from timelapse video_2026-08-04_13-17-48_4.mp4 for archive 87
+2026-08-04 02:01:20,951 INFO [backend.app.main] [-] [PHOTO-BG] Saved: finish_20260804_020111_7d230caf.jpg
+2026-08-04 02:01:20,955 INFO [backend.app.main] [-] [PHOTO-NOTIFY] Photo task returned: finish_20260804_020111_7d230caf.jpg
+2026-08-04 02:01:20,957 INFO [backend.app.main] [-] [NOTIFY-BG] Starting notifications for printer 2, photo=finish_20260804_020111_7d230caf.jpg
+2026-08-04 02:01:21,140 INFO [backend.app.main] [-] [NOTIFY-BG] Loaded finish photo bytes: 205300 bytes
+2026-08-04 02:01:21,172 INFO [backend.app.services.notification_service] [-] on_print_complete called for printer 2 ([PRINTER]), status=completed
+2026-08-04 02:01:21,358 INFO [backend.app.services.notification_service] [-] Found 1 providers for on_print_complete: ['Discord']
+2026-08-04 02:01:23,043 INFO [backend.app.services.notification_service] [-] Sent notification via Discord
+2026-08-04 02:01:23,068 INFO [backend.app.main] [-] [NOTIFY-BG] Completed
+2026-08-04 02:02:16,615 INFO [backend.app.services.virtual_printer.mqtt_server] [f397f09d] [Virtual X2D] 1Hz status push: 60 pushes/min to [IP]:60699
+2026-08-04 02:03:09,018 INFO [uvicorn.access] [-] [IP]:55666 - "POST /api/v1/printers/2/fan-speed?fan=aux2&speed=50 HTTP/1.1" 200
+2026-08-04 02:03:17,227 INFO [backend.app.services.virtual_printer.mqtt_server] [f397f09d] [Virtual X2D] 1Hz status push: 60 pushes/min to [IP]:60699
+2026-08-04 02:03:23,498 INFO [uvicorn.access] [-] [IP]:53334 - "POST /api/v1/printers/2/fan-speed?fan=aux2&speed=0 HTTP/1.1" 200
+2026-08-04 02:03:43,540 INFO [backend.app.api.routes.support] [b14fbc5d] Log level changed to DEBUG
+2026-08-04 02:03:43,540 INFO [backend.app.api.routes.bug_report] [b14fbc5d] Bug report: enabled debug logging
+2026-08-04 02:03:43,541 DEBUG [backend.app.services.bambu_mqtt] [b14fbc5d] [[SERIAL]] Requesting status update (pushall)
+2026-08-04 02:03:43,542 WARNING [backend.app.services.bambu_mqtt] [b14fbc5d] [[SERIAL]] request_status_update: not connected
+2026-08-04 02:03:43,544 INFO [uvicorn.access] [-] [IP]:0 - "POST /api/v1/bug-report/start-logging HTTP/1.1" 200
+2026-08-04 02:03:44,302 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': False, 'cfg': 8088999, 'first_layer_inspector': True, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-04 02:03:44,304 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'cfg', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-04 02:03:44,305 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] xcam cfg bitmask: 8088999 (binary: 0b11110110110110110100111)
+2026-08-04 02:03:44,305 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: FINISH, gcode_file: /data/Metadata/plate_9.gcode, subtask_name: Console_Plaque_Vol7_Sega_Master_System
+2026-08-04 02:03:44,306 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] AMS dict fields: {'ams_exist_bits': '13', 'ams_exist_bits_raw': '13', 'cali_id': 255, 'cali_stat': 0, 'cfs': [2, 3, 4], 'insert_flag': True, 'power_on_flag': False, 'tray_exist_bits': '6f', 'tray_hall_out_bits': '0', 'tray_is_bbl_bits': '6f', 'tray_now': '255', 'tray_pre': '255', 'tray_read_done_bits': '6f', 'tray_reading_bits': '0', 'tray_tar': '255', 'unbind_ams_stat': 0, 'version': 3818}
+2026-08-04 02:03:44,307 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] tray_now updated: 255
+2026-08-04 02:03:44,308 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Merged AMS data: 3 new units, 3 total
+2026-08-04 02:03:44,309 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] AMS 0 info=0x11002103 -> extruder 1
+2026-08-04 02:03:44,310 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] AMS 1 info=0x10001003 -> extruder 0
+2026-08-04 02:03:44,310 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] AMS 128 info=0x11942124 -> extruder 1
+2026-08-04 02:03:44,311 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 1, '128': 1, '1': 0}
+2026-08-04 02:03:44,312 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_status: 0 (main=0, sub=0)
+2026-08-04 02:03:44,313 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-04 02:03:44,314 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] device.extruder.state=2 (switch_state bits 12-14: 0)
+2026-08-04 02:03:44,314 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] info.temp direct: 30°C (heater OFF)
+2026-08-04 02:03:44,316 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ctc_info keys: ['temp']
+2026-08-04 02:03:44,322 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Chamber heating calculated: target=0.0, current=30.0, heating=False, respect_local=False
+2026-08-04 02:03:44,322 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Chamber temp updated to: 30.0, target: 0.0, heating: False
+2026-08-04 02:03:44,323 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-04 02:03:44,324 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ipcam field: {'agora_service': 'disable', 'brtc_service': 'enable', 'bs_state': 0, 'cap_pic_enable': 'invalid', 'ipcam_dev': '1', 'ipcam_record': 'enable', 'laser_preview_res': 7, 'liveview_preview': True, 'mode_bits': 2, 'resolution': '1080p', 'rtsp_url': 'rtsps://[IP]:322/streaming/live/1', 'timelapse': 'disable', 'tl_external_free_kb': 78463104, 'tl_external_total_kb': 120112000, 'tl_internal_free_kb': 962560, 'tl_internal_total_kb': 962560, 'tl_store_hpd_type': 2, 'tl_store_path_type': 2, 'tutk_server': 'disable'}
+2026-08-04 02:03:44,325 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -48dBm
+2026-08-04 02:03:44,326 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-04 02:03:44,327 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [65535, 258, 65535, 65535, 65535, 3, 65535, 65535, 65535, 2]
+2026-08-04 02:03:44,344 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: FINISH -> FINISH, file: /data/Metadata/plate_9.gcode, subtask: Console_Plaque_Vol7_Sega_Master_System
+2026-08-04 02:03:45,337 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': False, 'cfg': 8088999, 'first_layer_inspector': True, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-04 02:03:45,339 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'cfg', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-04 02:03:45,341 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] xcam cfg bitmask: 8088999 (binary: 0b11110110110110110100111)
+2026-08-04 02:03:45,341 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: FINISH, gcode_file: /data/Metadata/plate_9.gcode, subtask_name: Console_Plaque_Vol7_Sega_Master_System
+2026-08-04 02:03:45,342 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] AMS dict fields: {'ams_exist_bits': '13', 'ams_exist_bits_raw': '13', 'cali_id': 255, 'cali_stat': 0, 'cfs': [2, 3, 4], 'insert_flag': True, 'power_on_flag': False, 'tray_exist_bits': '6f', 'tray_hall_out_bits': '0', 'tray_is_bbl_bits': '6f', 'tray_now': '255', 'tray_pre': '255', 'tray_read_done_bits': '6f', 'tray_reading_bits': '0', 'tray_tar': '255', 'unbind_ams_stat': 0, 'version': 3819}
+2026-08-04 02:03:45,343 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 1, '128': 1, '1': 0}
+2026-08-04 02:03:45,345 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-04 02:03:45,346 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-04 02:03:45,347 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-04 02:03:45,348 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [65535, 258, 65535, 65535, 65535, 3, 65535, 65535, 65535, 2]
+2026-08-04 02:03:45,350 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: FINISH -> FINISH, file: /data/Metadata/plate_9.gcode, subtask: Console_Plaque_Vol7_Sega_Master_System
+2026-08-04 02:03:46,696 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': False, 'cfg': 8088999, 'first_layer_inspector': True, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-04 02:03:46,698 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'cfg', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-04 02:03:46,699 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] xcam cfg bitmask: 8088999 (binary: 0b11110110110110110100111)
+2026-08-04 02:03:46,699 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: FINISH, gcode_file: /data/Metadata/plate_9.gcode, subtask_name: Console_Plaque_Vol7_Sega_Master_System
+2026-08-04 02:03:46,701 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 1, '128': 1, '1': 0}
+2026-08-04 02:03:46,702 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-04 02:03:46,730 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-04 02:03:46,731 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-04 02:03:46,732 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [65535, 258, 65535, 65535, 65535, 3, 65535, 65535, 65535, 2]
+2026-08-04 02:03:46,732 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: FINISH -> FINISH, file: /data/Metadata/plate_9.gcode, subtask: Console_Plaque_Vol7_Sega_Master_System
+2026-08-04 02:03:47,460 DEBUG [backend.app.services.virtual_printer.ssdp_server] [f397f09d] Sent SSDP NOTIFY for Virtual X2D (Location=[IP], USN=20P90A391800002, bind=[IP])
+2026-08-04 02:03:47,805 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': False, 'cfg': 8088999, 'first_layer_inspector': True, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-04 02:03:47,806 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'cfg', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-04 02:03:47,807 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] xcam cfg bitmask: 8088999 (binary: 0b11110110110110110100111)
+2026-08-04 02:03:47,809 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: FINISH, gcode_file: /data/Metadata/plate_9.gcode, subtask_name: Console_Plaque_Vol7_Sega_Master_System
+2026-08-04 02:03:47,821 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] AMS dict fields: {'ams_exist_bits': '13', 'ams_exist_bits_raw': '13', 'cali_id': 255, 'cali_stat': 0, 'cfs': [2, 3, 4], 'insert_flag': True, 'power_on_flag': False, 'tray_exist_bits': '6f', 'tray_hall_out_bits': '0', 'tray_is_bbl_bits': '6f', 'tray_now': '255', 'tray_pre': '255', 'tray_read_done_bits': '6f', 'tray_reading_bits': '0', 'tray_tar': '255', 'unbind_ams_stat': 0, 'version': 3820}
+2026-08-04 02:03:47,834 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 1, '128': 1, '1': 0}
+2026-08-04 02:03:47,835 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-04 02:03:47,836 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-04 02:03:47,836 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-04 02:03:47,837 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [65535, 258, 65535, 65535, 65535, 3, 65535, 65535, 65535, 2]
+2026-08-04 02:03:47,837 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: FINISH -> FINISH, file: /data/Metadata/plate_9.gcode, subtask: Console_Plaque_Vol7_Sega_Master_System
+2026-08-04 02:03:48,271 DEBUG [backend.app.services.virtual_printer.ssdp_server] [-] Sent SSDP NOTIFY for Virtual P1S (Location=[IP], USN=[SERIAL], bind=[IP])
+2026-08-04 02:03:49,113 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': False, 'cfg': 8088999, 'first_layer_inspector': True, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-04 02:03:49,114 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'cfg', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-04 02:03:49,115 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] xcam cfg bitmask: 8088999 (binary: 0b11110110110110110100111)
+2026-08-04 02:03:49,116 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: FINISH, gcode_file: /data/Metadata/plate_9.gcode, subtask_name: Console_Plaque_Vol7_Sega_Master_System
+2026-08-04 02:03:49,121 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] AMS dict fields: {'ams_exist_bits': '13', 'ams_exist_bits_raw': '13', 'cali_id': 255, 'cali_stat': 0, 'cfs': [2, 3, 4], 'insert_flag': True, 'power_on_flag': False, 'tray_exist_bits': '6f', 'tray_hall_out_bits': '0', 'tray_is_bbl_bits': '6f', 'tray_now': '255', 'tray_pre': '255', 'tray_read_done_bits': '6f', 'tray_reading_bits': '0', 'tray_tar': '255', 'unbind_ams_stat': 0, 'version': 3821}
+2026-08-04 02:03:49,124 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 1, '128': 1, '1': 0}
+2026-08-04 02:03:49,124 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-04 02:03:49,137 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-04 02:03:49,152 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-04 02:03:49,153 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [65535, 258, 65535, 65535, 65535, 3, 65535, 65535, 65535, 2]
+2026-08-04 02:03:49,154 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: FINISH -> FINISH, file: /data/Metadata/plate_9.gcode, subtask: Console_Plaque_Vol7_Sega_Master_System
+2026-08-04 02:03:49,732 DEBUG [backend.app.api.routes.printers] [151d6709] API returning ams_mapping: [], ams_extruder_map: {'0': 0}
+2026-08-04 02:03:49,733 DEBUG [backend.app.api.routes.printers] [151d6709] Using tray_now directly as global ID: 255
+2026-08-04 02:03:50,159 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': False, 'cfg': 8088999, 'first_layer_inspector': True, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-04 02:03:50,159 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'cfg', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-04 02:03:50,160 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] xcam cfg bitmask: 8088999 (binary: 0b11110110110110110100111)
+2026-08-04 02:03:50,160 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: FINISH, gcode_file: /data/Metadata/plate_9.gcode, subtask_name: Console_Plaque_Vol7_Sega_Master_System
+2026-08-04 02:03:50,161 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 1, '128': 1, '1': 0}
+2026-08-04 02:03:50,163 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-04 02:03:50,171 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-04 02:03:50,172 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-04 02:03:50,172 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [65535, 258, 65535, 65535, 65535, 3, 65535, 65535, 65535, 2]
+2026-08-04 02:03:50,173 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: FINISH -> FINISH, file: /data/Metadata/plate_9.gcode, subtask: Console_Plaque_Vol7_Sega_Master_System
+2026-08-04 02:03:51,447 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': False, 'cfg': 8088999, 'first_layer_inspector': True, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-04 02:03:51,448 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'cfg', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-04 02:03:51,449 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] xcam cfg bitmask: 8088999 (binary: 0b11110110110110110100111)
+2026-08-04 02:03:51,450 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: FINISH, gcode_file: /data/Metadata/plate_9.gcode, subtask_name: Console_Plaque_Vol7_Sega_Master_System
+2026-08-04 02:03:51,450 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] AMS dict fields: {'ams_exist_bits': '13', 'ams_exist_bits_raw': '13', 'cali_id': 255, 'cali_stat': 0, 'cfs': [2, 3, 4], 'insert_flag': True, 'power_on_flag': False, 'tray_exist_bits': '6f', 'tray_hall_out_bits': '0', 'tray_is_bbl_bits': '6f', 'tray_now': '255', 'tray_pre': '255', 'tray_read_done_bits': '6f', 'tray_reading_bits': '0', 'tray_tar': '255', 'unbind_ams_stat': 0, 'version': 3823}
+2026-08-04 02:03:51,452 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 1, '128': 1, '1': 0}
+2026-08-04 02:03:51,453 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-04 02:03:51,455 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-04 02:03:51,456 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-04 02:03:51,457 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [65535, 258, 65535, 65535, 65535, 3, 65535, 65535, 65535, 2]
+2026-08-04 02:03:51,458 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: FINISH -> FINISH, file: /data/Metadata/plate_9.gcode, subtask: Console_Plaque_Vol7_Sega_Master_System
+2026-08-04 02:03:52,510 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': False, 'cfg': 8088999, 'first_layer_inspector': True, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-04 02:03:52,510 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'cfg', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-04 02:03:52,511 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] xcam cfg bitmask: 8088999 (binary: 0b11110110110110110100111)
+2026-08-04 02:03:52,511 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: FINISH, gcode_file: /data/Metadata/plate_9.gcode, subtask_name: Console_Plaque_Vol7_Sega_Master_System
+2026-08-04 02:03:52,512 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 1, '128': 1, '1': 0}
+2026-08-04 02:03:52,512 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-04 02:03:52,513 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-04 02:03:52,513 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-04 02:03:52,514 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [65535, 258, 65535, 65535, 65535, 3, 65535, 65535, 65535, 2]
+2026-08-04 02:03:52,514 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: FINISH -> FINISH, file: /data/Metadata/plate_9.gcode, subtask: Console_Plaque_Vol7_Sega_Master_System
+2026-08-04 02:03:53,843 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': False, 'cfg': 8088999, 'first_layer_inspector': True, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-04 02:03:53,846 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'cfg', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-04 02:03:53,847 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] xcam cfg bitmask: 8088999 (binary: 0b11110110110110110100111)
+2026-08-04 02:03:53,847 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: FINISH, gcode_file: /data/Metadata/plate_9.gcode, subtask_name: Console_Plaque_Vol7_Sega_Master_System
+2026-08-04 02:03:53,848 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] AMS dict fields: {'ams_exist_bits': '13', 'ams_exist_bits_raw': '13', 'cali_id': 255, 'cali_stat': 0, 'cfs': [2, 3, 4], 'insert_flag': True, 'power_on_flag': False, 'tray_exist_bits': '6f', 'tray_hall_out_bits': '0', 'tray_is_bbl_bits': '6f', 'tray_now': '255', 'tray_pre': '255', 'tray_read_done_bits': '6f', 'tray_reading_bits': '0', 'tray_tar': '255', 'unbind_ams_stat': 0, 'version': 3824}
+2026-08-04 02:03:53,849 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 1, '128': 1, '1': 0}
+2026-08-04 02:03:53,859 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-04 02:03:53,861 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-04 02:03:53,862 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-04 02:03:53,863 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [65535, 258, 65535, 65535, 65535, 3, 65535, 65535, 65535, 2]
+2026-08-04 02:03:53,864 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: FINISH -> FINISH, file: /data/Metadata/plate_9.gcode, subtask: Console_Plaque_Vol7_Sega_Master_System
+2026-08-04 02:03:53,874 DEBUG [backend.app.main] [-] [[PRINTER]] Runtime tracking: not connected
+2026-08-04 02:03:54,907 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': False, 'cfg': 8088999, 'first_layer_inspector': True, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-04 02:03:54,907 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'cfg', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-04 02:03:54,908 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] xcam cfg bitmask: 8088999 (binary: 0b11110110110110110100111)
+2026-08-04 02:03:54,908 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: FINISH, gcode_file: /data/Metadata/plate_9.gcode, subtask_name: Console_Plaque_Vol7_Sega_Master_System
+2026-08-04 02:03:54,909 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] AMS dict fields: {'ams_exist_bits': '13', 'ams_exist_bits_raw': '13', 'cali_id': 255, 'cali_stat': 0, 'cfs': [2, 3, 4], 'insert_flag': True, 'power_on_flag': False, 'tray_exist_bits': '6f', 'tray_hall_out_bits': '0', 'tray_is_bbl_bits': '6f', 'tray_now': '255', 'tray_pre': '255', 'tray_read_done_bits': '6f', 'tray_reading_bits': '0', 'tray_tar': '255', 'unbind_ams_stat': 0, 'version': 3825}
+2026-08-04 02:03:54,910 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 1, '128': 1, '1': 0}
+2026-08-04 02:03:54,910 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-04 02:03:54,911 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-04 02:03:54,911 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-04 02:03:54,912 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [65535, 258, 65535, 65535, 65535, 3, 65535, 65535, 65535, 2]
+2026-08-04 02:03:54,912 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: FINISH -> FINISH, file: /data/Metadata/plate_9.gcode, subtask: Console_Plaque_Vol7_Sega_Master_System
