@@ -1,0 +1,200 @@
+2026-08-04 23:42:15,827 WARNING [backend.app.api.routes.camera] [d0d49cc6] RTSP stream ended for [IP] (stream_id=1-fanout-4a7c360b), will reconnect
+2026-08-04 23:42:15,854 INFO [backend.app.api.routes.camera] [d0d49cc6] RTSP reconnecting (16/30) for [IP] (stream_id=1-fanout-4a7c360b)
+2026-08-04 23:42:18,188 WARNING [backend.app.api.routes.camera] [d0d49cc6] ffmpeg stderr (stream_id=1-fanout-4a7c360b): [in#0 @ [SERIAL]] Failed reading RTSP data: End of file
+[in#0 @ [SERIAL]] Error opening input: Invalid data found when processing input
+Error opening input file rtsp://[CREDENTIALS]@[IP]:57131/streaming/live/1.
+Error opening input files: Invalid data found when processing input
+2026-08-04 23:42:18,188 WARNING [backend.app.api.routes.camera] [d0d49cc6] RTSP stream ended for [IP] (stream_id=1-fanout-4a7c360b), will reconnect
+2026-08-04 23:42:18,190 INFO [backend.app.api.routes.camera] [d0d49cc6] RTSP reconnecting (17/30) for [IP] (stream_id=1-fanout-4a7c360b)
+2026-08-04 23:42:20,481 WARNING [backend.app.api.routes.camera] [d0d49cc6] ffmpeg stderr (stream_id=1-fanout-4a7c360b): [in#0 @ [SERIAL]] Failed reading RTSP data: End of file
+[in#0 @ [SERIAL]] Error opening input: Invalid data found when processing input
+Error opening input file rtsp://[CREDENTIALS]@[IP]:57131/streaming/live/1.
+Error opening input files: Invalid data found when processing input
+2026-08-04 23:42:20,482 WARNING [backend.app.api.routes.camera] [d0d49cc6] RTSP stream ended for [IP] (stream_id=1-fanout-4a7c360b), will reconnect
+2026-08-04 23:42:20,483 INFO [backend.app.api.routes.camera] [d0d49cc6] RTSP reconnecting (18/30) for [IP] (stream_id=1-fanout-4a7c360b)
+2026-08-04 23:42:22,766 WARNING [backend.app.api.routes.camera] [d0d49cc6] ffmpeg stderr (stream_id=1-fanout-4a7c360b): [in#0 @ [SERIAL]] Failed reading RTSP data: End of file
+[in#0 @ [SERIAL]] Error opening input: Invalid data found when processing input
+Error opening input file rtsp://[CREDENTIALS]@[IP]:57131/streaming/live/1.
+Error opening input files: Invalid data found when processing input
+2026-08-04 23:42:22,767 WARNING [backend.app.api.routes.camera] [d0d49cc6] RTSP stream ended for [IP] (stream_id=1-fanout-4a7c360b), will reconnect
+2026-08-04 23:42:22,768 INFO [backend.app.api.routes.camera] [d0d49cc6] RTSP reconnecting (19/30) for [IP] (stream_id=1-fanout-4a7c360b)
+2026-08-04 23:42:25,043 WARNING [backend.app.api.routes.camera] [d0d49cc6] ffmpeg stderr (stream_id=1-fanout-4a7c360b): [in#0 @ [SERIAL]] Failed reading RTSP data: End of file
+[in#0 @ [SERIAL]] Error opening input: Invalid data found when processing input
+Error opening input file rtsp://[CREDENTIALS]@[IP]:57131/streaming/live/1.
+Error opening input files: Invalid data found when processing input
+2026-08-04 23:42:25,043 WARNING [backend.app.api.routes.camera] [d0d49cc6] RTSP stream ended for [IP] (stream_id=1-fanout-4a7c360b), will reconnect
+2026-08-04 23:42:25,044 INFO [backend.app.api.routes.camera] [d0d49cc6] RTSP reconnecting (20/30) for [IP] (stream_id=1-fanout-4a7c360b)
+2026-08-04 23:42:27,348 WARNING [backend.app.api.routes.camera] [d0d49cc6] ffmpeg stderr (stream_id=1-fanout-4a7c360b): [in#0 @ [SERIAL]] Failed reading RTSP data: End of file
+[in#0 @ [SERIAL]] Error opening input: Invalid data found when processing input
+Error opening input file rtsp://[CREDENTIALS]@[IP]:57131/streaming/live/1.
+Error opening input files: Invalid data found when processing input
+2026-08-04 23:42:27,348 WARNING [backend.app.api.routes.camera] [d0d49cc6] RTSP stream ended for [IP] (stream_id=1-fanout-4a7c360b), will reconnect
+2026-08-04 23:42:27,350 INFO [backend.app.api.routes.camera] [d0d49cc6] RTSP reconnecting (21/30) for [IP] (stream_id=1-fanout-4a7c360b)
+2026-08-04 23:42:29,647 WARNING [backend.app.api.routes.camera] [d0d49cc6] ffmpeg stderr (stream_id=1-fanout-4a7c360b): [in#0 @ [SERIAL]] Failed reading RTSP data: End of file
+[in#0 @ [SERIAL]] Error opening input: Invalid data found when processing input
+Error opening input file rtsp://[CREDENTIALS]@[IP]:57131/streaming/live/1.
+Error opening input files: Invalid data found when processing input
+2026-08-04 23:42:29,647 WARNING [backend.app.api.routes.camera] [d0d49cc6] RTSP stream ended for [IP] (stream_id=1-fanout-4a7c360b), will reconnect
+2026-08-04 23:42:29,649 INFO [backend.app.api.routes.camera] [d0d49cc6] RTSP reconnecting (22/30) for [IP] (stream_id=1-fanout-4a7c360b)
+2026-08-04 23:42:31,944 WARNING [backend.app.api.routes.camera] [d0d49cc6] ffmpeg stderr (stream_id=1-fanout-4a7c360b): [in#0 @ [SERIAL]] Failed reading RTSP data: End of file
+[in#0 @ [SERIAL]] Error opening input: Invalid data found when processing input
+Error opening input file rtsp://[CREDENTIALS]@[IP]:57131/streaming/live/1.
+Error opening input files: Invalid data found when processing input
+2026-08-04 23:42:31,945 WARNING [backend.app.api.routes.camera] [d0d49cc6] RTSP stream ended for [IP] (stream_id=1-fanout-4a7c360b), will reconnect
+2026-08-04 23:42:31,946 INFO [backend.app.api.routes.camera] [d0d49cc6] RTSP reconnecting (23/30) for [IP] (stream_id=1-fanout-4a7c360b)
+2026-08-04 23:42:34,255 WARNING [backend.app.api.routes.camera] [d0d49cc6] ffmpeg stderr (stream_id=1-fanout-4a7c360b): [in#0 @ [SERIAL]] Failed reading RTSP data: End of file
+[in#0 @ [SERIAL]] Error opening input: Invalid data found when processing input
+Error opening input file rtsp://[CREDENTIALS]@[IP]:57131/streaming/live/1.
+Error opening input files: Invalid data found when processing input
+2026-08-04 23:42:34,256 WARNING [backend.app.api.routes.camera] [d0d49cc6] RTSP stream ended for [IP] (stream_id=1-fanout-4a7c360b), will reconnect
+2026-08-04 23:42:34,257 INFO [backend.app.api.routes.camera] [d0d49cc6] RTSP reconnecting (24/30) for [IP] (stream_id=1-fanout-4a7c360b)
+2026-08-04 23:42:36,541 WARNING [backend.app.api.routes.camera] [d0d49cc6] ffmpeg stderr (stream_id=1-fanout-4a7c360b): [in#0 @ [SERIAL]] Failed reading RTSP data: End of file
+[in#0 @ [SERIAL]] Error opening input: Invalid data found when processing input
+Error opening input file rtsp://[CREDENTIALS]@[IP]:57131/streaming/live/1.
+Error opening input files: Invalid data found when processing input
+2026-08-04 23:42:36,541 WARNING [backend.app.api.routes.camera] [d0d49cc6] RTSP stream ended for [IP] (stream_id=1-fanout-4a7c360b), will reconnect
+2026-08-04 23:42:36,542 INFO [backend.app.api.routes.camera] [d0d49cc6] RTSP reconnecting (25/30) for [IP] (stream_id=1-fanout-4a7c360b)
+2026-08-04 23:42:38,864 WARNING [backend.app.api.routes.camera] [d0d49cc6] ffmpeg stderr (stream_id=1-fanout-4a7c360b): [in#0 @ [SERIAL]] Failed reading RTSP data: End of file
+[in#0 @ [SERIAL]] Error opening input: Invalid data found when processing input
+Error opening input file rtsp://[CREDENTIALS]@[IP]:57131/streaming/live/1.
+Error opening input files: Invalid data found when processing input
+2026-08-04 23:42:38,865 WARNING [backend.app.api.routes.camera] [d0d49cc6] RTSP stream ended for [IP] (stream_id=1-fanout-4a7c360b), will reconnect
+2026-08-04 23:42:38,866 INFO [backend.app.api.routes.camera] [d0d49cc6] RTSP reconnecting (26/30) for [IP] (stream_id=1-fanout-4a7c360b)
+2026-08-04 23:42:41,147 WARNING [backend.app.api.routes.camera] [d0d49cc6] ffmpeg stderr (stream_id=1-fanout-4a7c360b): [in#0 @ [SERIAL]] Failed reading RTSP data: End of file
+[in#0 @ [SERIAL]] Error opening input: Invalid data found when processing input
+Error opening input file rtsp://[CREDENTIALS]@[IP]:57131/streaming/live/1.
+Error opening input files: Invalid data found when processing input
+2026-08-04 23:42:41,148 WARNING [backend.app.api.routes.camera] [d0d49cc6] RTSP stream ended for [IP] (stream_id=1-fanout-4a7c360b), will reconnect
+2026-08-04 23:42:41,149 INFO [backend.app.api.routes.camera] [d0d49cc6] RTSP reconnecting (27/30) for [IP] (stream_id=1-fanout-4a7c360b)
+2026-08-04 23:42:43,447 WARNING [backend.app.api.routes.camera] [d0d49cc6] ffmpeg stderr (stream_id=1-fanout-4a7c360b): [in#0 @ [SERIAL]] Failed reading RTSP data: End of file
+[in#0 @ [SERIAL]] Error opening input: Invalid data found when processing input
+Error opening input file rtsp://[CREDENTIALS]@[IP]:57131/streaming/live/1.
+Error opening input files: Invalid data found when processing input
+2026-08-04 23:42:43,447 WARNING [backend.app.api.routes.camera] [d0d49cc6] RTSP stream ended for [IP] (stream_id=1-fanout-4a7c360b), will reconnect
+2026-08-04 23:42:43,449 INFO [backend.app.api.routes.camera] [d0d49cc6] RTSP reconnecting (28/30) for [IP] (stream_id=1-fanout-4a7c360b)
+2026-08-04 23:42:45,795 WARNING [backend.app.api.routes.camera] [d0d49cc6] ffmpeg stderr (stream_id=1-fanout-4a7c360b): [in#0 @ [SERIAL]] Failed reading RTSP data: End of file
+[in#0 @ [SERIAL]] Error opening input: Invalid data found when processing input
+Error opening input file rtsp://[CREDENTIALS]@[IP]:57131/streaming/live/1.
+Error opening input files: Invalid data found when processing input
+2026-08-04 23:42:45,795 WARNING [backend.app.api.routes.camera] [d0d49cc6] RTSP stream ended for [IP] (stream_id=1-fanout-4a7c360b), will reconnect
+2026-08-04 23:42:45,800 INFO [backend.app.api.routes.camera] [d0d49cc6] RTSP reconnecting (29/30) for [IP] (stream_id=1-fanout-4a7c360b)
+2026-08-04 23:42:48,101 WARNING [backend.app.api.routes.camera] [d0d49cc6] ffmpeg stderr (stream_id=1-fanout-4a7c360b): [in#0 @ [SERIAL]] Failed reading RTSP data: End of file
+[in#0 @ [SERIAL]] Error opening input: Invalid data found when processing input
+Error opening input file rtsp://[CREDENTIALS]@[IP]:57131/streaming/live/1.
+Error opening input files: Invalid data found when processing input
+2026-08-04 23:42:48,101 WARNING [backend.app.api.routes.camera] [d0d49cc6] RTSP stream ended for [IP] (stream_id=1-fanout-4a7c360b), will reconnect
+2026-08-04 23:42:48,103 INFO [backend.app.api.routes.camera] [d0d49cc6] RTSP reconnecting (30/30) for [IP] (stream_id=1-fanout-4a7c360b)
+2026-08-04 23:42:50,449 WARNING [backend.app.api.routes.camera] [d0d49cc6] ffmpeg stderr (stream_id=1-fanout-4a7c360b): [in#0 @ [SERIAL]] Failed reading RTSP data: End of file
+[in#0 @ [SERIAL]] Error opening input: Invalid data found when processing input
+Error opening input file rtsp://[CREDENTIALS]@[IP]:57131/streaming/live/1.
+Error opening input files: Invalid data found when processing input
+2026-08-04 23:42:50,449 WARNING [backend.app.api.routes.camera] [d0d49cc6] RTSP stream ended for [IP] (stream_id=1-fanout-4a7c360b), will reconnect
+2026-08-04 23:42:50,454 ERROR [backend.app.api.routes.camera] [d0d49cc6] RTSP max reconnects (30) reached for [IP] (stream_id=1-fanout-4a7c360b)
+2026-08-04 23:42:50,457 INFO [backend.app.api.routes.camera] [d0d49cc6] Camera viewer detached from printer-1 (subscribers=0)
+2026-08-04 23:43:32,665 INFO [backend.app.main] [-] Recorded 2 AMS sensor history entries
+2026-08-04 23:45:04,135 INFO [backend.app.api.routes.cloud] [f5a424ec] get_filament_info called with 5 IDs: ['GFL95', 'Pde561cf', 'GFL05', 'GFA00', 'GFU99']
+2026-08-04 23:45:04,165 INFO [uvicorn.access] [-] [IP]:57492 - "POST /api/v1/printers/camera/stream-token HTTP/1.1" 200
+2026-08-04 23:45:05,128 INFO [uvicorn.access] [-] [IP]:57494 - "POST /api/v1/cloud/filament-info HTTP/1.1" 200
+2026-08-04 23:45:57,369 INFO [backend.app.services.bambu_mqtt] [ef602555] [[SERIAL]] Sent clear HMS errors command
+2026-08-04 23:45:57,371 INFO [uvicorn.access] [-] [IP]:57541 - "POST /api/v1/printers/1/hms/clear HTTP/1.1" 200
+2026-08-04 23:46:09,431 INFO [backend.app.services.camera] [2ce3db30] Capturing camera frame bytes from [IP] using RTSP (model: X1C)
+2026-08-04 23:46:11,562 ERROR [backend.app.services.camera] [2ce3db30] ffmpeg frame bytes capture failed (code 3199971767): ffmpeg version N-125881-g946272b79a-20260801 Copyright (c) 2000-2026 the FFmpeg developers
+
+  built with gcc 15.2.0 (crosstool-NG 1.28.0.23_185f348)
+
+  configuration: --prefix=/ffbuild/prefix --pkg-co
+2026-08-04 23:48:32,687 INFO [backend.app.main] [-] Recorded 2 AMS sensor history entries
+2026-08-04 23:52:57,155 INFO [backend.app.api.routes.cloud] [bd419630] get_filament_info called with 5 IDs: ['GFL95', 'Pde561cf', 'GFL05', 'GFA00', 'GFU99']
+2026-08-04 23:52:58,128 INFO [uvicorn.access] [-] [IP]:58037 - "POST /api/v1/cloud/filament-info HTTP/1.1" 200
+2026-08-04 23:53:32,717 INFO [backend.app.main] [-] Recorded 2 AMS sensor history entries
+2026-08-04 23:58:32,735 INFO [backend.app.main] [-] Recorded 2 AMS sensor history entries
+2026-08-05 00:03:32,750 INFO [backend.app.main] [-] Recorded 2 AMS sensor history entries
+2026-08-05 00:06:49,086 INFO [backend.app.api.routes.support] [b3710b4e] Log level changed to DEBUG
+2026-08-05 00:06:49,087 INFO [backend.app.api.routes.bug_report] [b3710b4e] Bug report: enabled debug logging
+2026-08-05 00:06:49,087 DEBUG [backend.app.services.bambu_mqtt] [b3710b4e] [[SERIAL]] Requesting status update (pushall)
+2026-08-05 00:06:49,089 INFO [uvicorn.access] [-] [IP]:59118 - "POST /api/v1/bug-report/start-logging HTTP/1.1" 200
+2026-08-05 00:06:49,436 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'first_layer_inspector': False, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-05 00:06:49,437 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-05 00:06:49,438 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: FINISH, gcode_file: /data/Metadata/plate_3.gcode, subtask_name: Cinderwing3D Tiny Cowboy Crab Colors_Tiny Cowboy Crab 60%
+2026-08-05 00:06:49,438 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] AMS dict fields: {'ams_exist_bits': '11', 'ams_exist_bits_raw': '11', 'cali_id': 0, 'cali_stat': 0, 'insert_flag': True, 'power_on_flag': False, 'tray_exist_bits': '1000f', 'tray_is_bbl_bits': '1000f', 'tray_now': '255', 'tray_pre': '255', 'tray_read_done_bits': '1000f', 'tray_reading_bits': '0', 'tray_tar': '255', 'unbind_ams_stat': 0, 'version': 29101}
+2026-08-05 00:06:49,439 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] tray_now updated: 255
+2026-08-05 00:06:49,440 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Merged AMS data: 2 new units, 2 total
+2026-08-05 00:06:49,440 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] AMS 0 info=0x1001 -> extruder 0
+2026-08-05 00:06:49,440 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] AMS 128 info=0x2004 -> extruder 0
+2026-08-05 00:06:49,441 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0, '128': 0}
+2026-08-05 00:06:49,441 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_status: 0 (main=0, sub=0)
+2026-08-05 00:06:49,441 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 00:06:49,441 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] device.extruder.state=1 (switch_state bits 12-14: 0)
+2026-08-05 00:06:49,442 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] info.temp direct: 29°C (heater OFF)
+2026-08-05 00:06:49,442 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ctc_info keys: ['temp']
+2026-08-05 00:06:49,442 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Chamber heating calculated: target=0.0, current=29.0, heating=False, respect_local=False
+2026-08-05 00:06:49,443 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Chamber temp updated to: 29.0, target: 0.0, heating: False
+2026-08-05 00:06:49,444 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: [{'attr': 83887360, 'code': 65543}]
+2026-08-05 00:06:49,444 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ipcam field: {'agora_service': 'disable', 'brtc_service': 'enable', 'bs_state': 0, 'ipcam_dev': '1', 'ipcam_record': 'enable', 'laser_preview_res': 7, 'mode_bits': 2, 'resolution': '1080p', 'rtsp_url': 'disable', 'timelapse': 'disable', 'tl_store_hpd_type': 2, 'tl_store_path_type': 2, 'tutk_server': 'disable'}
+2026-08-05 00:06:49,445 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -54dBm
+2026-08-05 00:06:49,445 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-05 00:06:49,445 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [1, 3, 0, 32768]
+2026-08-05 00:06:49,446 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: FINISH -> FINISH, file: /data/Metadata/plate_3.gcode, subtask: Cinderwing3D Tiny Cowboy Crab Colors_Tiny Cowboy Crab 60%
+2026-08-05 00:06:50,513 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'first_layer_inspector': False, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-05 00:06:50,513 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-05 00:06:50,513 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: FINISH, gcode_file: /data/Metadata/plate_3.gcode, subtask_name: Cinderwing3D Tiny Cowboy Crab Colors_Tiny Cowboy Crab 60%
+2026-08-05 00:06:50,513 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0, '128': 0}
+2026-08-05 00:06:50,514 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 00:06:50,514 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: [{'attr': 83887360, 'code': 65543}]
+2026-08-05 00:06:50,515 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-05 00:06:50,517 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [1, 3, 0, 32768]
+2026-08-05 00:06:50,517 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: FINISH -> FINISH, file: /data/Metadata/plate_3.gcode, subtask: Cinderwing3D Tiny Cowboy Crab Colors_Tiny Cowboy Crab 60%
+2026-08-05 00:06:51,701 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'first_layer_inspector': False, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-05 00:06:51,701 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-05 00:06:51,701 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: FINISH, gcode_file: /data/Metadata/plate_3.gcode, subtask_name: Cinderwing3D Tiny Cowboy Crab Colors_Tiny Cowboy Crab 60%
+2026-08-05 00:06:51,702 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0, '128': 0}
+2026-08-05 00:06:51,702 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 00:06:51,702 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: [{'attr': 83887360, 'code': 65543}]
+2026-08-05 00:06:51,702 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-05 00:06:51,703 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [1, 3, 0, 32768]
+2026-08-05 00:06:51,703 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: FINISH -> FINISH, file: /data/Metadata/plate_3.gcode, subtask: Cinderwing3D Tiny Cowboy Crab Colors_Tiny Cowboy Crab 60%
+2026-08-05 00:06:52,815 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'first_layer_inspector': False, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-05 00:06:52,815 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-05 00:06:52,815 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: FINISH, gcode_file: /data/Metadata/plate_3.gcode, subtask_name: Cinderwing3D Tiny Cowboy Crab Colors_Tiny Cowboy Crab 60%
+2026-08-05 00:06:52,815 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0, '128': 0}
+2026-08-05 00:06:52,816 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 00:06:52,816 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: [{'attr': 83887360, 'code': 65543}]
+2026-08-05 00:06:52,816 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-05 00:06:52,816 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [1, 3, 0, 32768]
+2026-08-05 00:06:52,817 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: FINISH -> FINISH, file: /data/Metadata/plate_3.gcode, subtask: Cinderwing3D Tiny Cowboy Crab Colors_Tiny Cowboy Crab 60%
+2026-08-05 00:06:53,905 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'first_layer_inspector': False, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-05 00:06:53,905 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-05 00:06:53,905 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: FINISH, gcode_file: /data/Metadata/plate_3.gcode, subtask_name: Cinderwing3D Tiny Cowboy Crab Colors_Tiny Cowboy Crab 60%
+2026-08-05 00:06:53,905 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0, '128': 0}
+2026-08-05 00:06:53,906 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 00:06:53,906 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: [{'attr': 83887360, 'code': 65543}]
+2026-08-05 00:06:53,907 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-05 00:06:53,908 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [1, 3, 0, 32768]
+2026-08-05 00:06:53,908 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: FINISH -> FINISH, file: /data/Metadata/plate_3.gcode, subtask: Cinderwing3D Tiny Cowboy Crab Colors_Tiny Cowboy Crab 60%
+2026-08-05 00:06:55,003 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'first_layer_inspector': False, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-05 00:06:55,003 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-05 00:06:55,003 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: FINISH, gcode_file: /data/Metadata/plate_3.gcode, subtask_name: Cinderwing3D Tiny Cowboy Crab Colors_Tiny Cowboy Crab 60%
+2026-08-05 00:06:55,003 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0, '128': 0}
+2026-08-05 00:06:55,004 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 00:06:55,004 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: [{'attr': 83887360, 'code': 65543}]
+2026-08-05 00:06:55,004 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-05 00:06:55,004 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [1, 3, 0, 32768]
+2026-08-05 00:06:55,012 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: FINISH -> FINISH, file: /data/Metadata/plate_3.gcode, subtask: Cinderwing3D Tiny Cowboy Crab Colors_Tiny Cowboy Crab 60%
+2026-08-05 00:06:56,108 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'first_layer_inspector': False, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-05 00:06:56,108 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-05 00:06:56,108 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: FINISH, gcode_file: /data/Metadata/plate_3.gcode, subtask_name: Cinderwing3D Tiny Cowboy Crab Colors_Tiny Cowboy Crab 60%
+2026-08-05 00:06:56,109 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0, '128': 0}
+2026-08-05 00:06:56,109 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 00:06:56,110 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: [{'attr': 83887360, 'code': 65543}]
+2026-08-05 00:06:56,111 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-05 00:06:56,111 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [1, 3, 0, 32768]
+2026-08-05 00:06:56,112 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: FINISH -> FINISH, file: /data/Metadata/plate_3.gcode, subtask: Cinderwing3D Tiny Cowboy Crab Colors_Tiny Cowboy Crab 60%
+2026-08-05 00:06:57,181 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'first_layer_inspector': False, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-05 00:06:57,182 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-05 00:06:57,182 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: FINISH, gcode_file: /data/Metadata/plate_3.gcode, subtask_name: Cinderwing3D Tiny Cowboy Crab Colors_Tiny Cowboy Crab 60%
+2026-08-05 00:06:57,182 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0, '128': 0}
+2026-08-05 00:06:57,182 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 00:06:57,183 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: [{'attr': 83887360, 'code': 65543}]
+2026-08-05 00:06:57,184 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-05 00:06:57,184 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [1, 3, 0, 32768]
+2026-08-05 00:06:57,185 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: FINISH -> FINISH, file: /data/Metadata/plate_3.gcode, subtask: Cinderwing3D Tiny Cowboy Crab Colors_Tiny Cowboy Crab 60%
