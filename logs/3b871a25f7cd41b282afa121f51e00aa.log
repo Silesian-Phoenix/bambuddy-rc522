@@ -1,0 +1,200 @@
+2026-08-04 13:45:51,163 INFO [uvicorn.access] [-] [IP]:53428 - "POST /api/v1/printers/1/refresh-status HTTP/1.1" 200
+2026-08-04 13:46:23,356 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-04 13:46:35,962 INFO [uvicorn.access] [-] [IP]:34556 - "PATCH /api/v1/archives/29 HTTP/1.1" 200
+2026-08-04 13:46:45,751 INFO [uvicorn.access] [-] [IP]:56902 - "DELETE /api/v1/archives/26 HTTP/1.1" 200
+2026-08-04 13:46:49,014 INFO [uvicorn.access] [-] [IP]:49568 - "DELETE /api/v1/archives/27 HTTP/1.1" 200
+2026-08-04 13:46:51,638 INFO [uvicorn.access] [-] [IP]:49396 - "DELETE /api/v1/archives/28 HTTP/1.1" 200
+2026-08-04 13:47:26,137 INFO [backend.app.services.bambu_mqtt] [c2924680] [[SERIAL]] Requesting K-profiles for nozzle_diameter=0.4 (attempt 1/3)
+2026-08-04 13:47:26,149 INFO [backend.app.services.bambu_mqtt] [-] [[SERIAL]] K-profile response: nozzle=0.4, seq_id=24, 0 profiles, expected=0.4
+2026-08-04 13:47:26,149 INFO [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Got 0 K-profiles for nozzle=0.4
+2026-08-04 13:47:26,149 INFO [backend.app.services.bambu_mqtt] [c2924680] [[SERIAL]] Got 0 K-profiles for nozzle=0.4 on attempt 1
+2026-08-04 13:47:48,524 INFO [backend.app.main] [-] [SNAPSHOT] Capturing fresh frame for printer 1
+2026-08-04 13:47:48,525 INFO [backend.app.services.camera] [-] Capturing camera frame bytes from [IP] using chamber image protocol (model: A1)
+2026-08-04 13:47:51,316 INFO [backend.app.main] [-] [SNAPSHOT] Fresh camera frame: 228855 bytes
+2026-08-04 13:49:04,056 INFO [backend.app.services.virtual_printer.tcp_proxy] [-] FTP proxy: client connected from [IP]:63514
+2026-08-04 13:49:04,056 INFO [backend.app.services.virtual_printer.manager] [-] [VP Bambuddy A1] Proxy FTP: connected: [IP]:63514
+2026-08-04 13:49:04,072 INFO [backend.app.services.virtual_printer.tcp_proxy] [-] FTP proxy: connected to printer [IP]:990
+2026-08-04 13:49:04,868 INFO [backend.app.services.virtual_printer.tcp_proxy] [-] Aux-2024 proxy: client connected from [IP]:63515
+2026-08-04 13:49:04,869 INFO [backend.app.services.virtual_printer.manager] [-] [VP Bambuddy A1] Proxy Aux-2024: connected: [IP]:63515
+2026-08-04 13:49:04,872 INFO [backend.app.services.virtual_printer.tcp_proxy] [-] Aux-2024 proxy: connected to printer [IP]:2024
+2026-08-04 13:49:05,681 INFO [backend.app.services.virtual_printer.tcp_proxy] [-] Aux-2024 proxy: client [IP]:63515 disconnected
+2026-08-04 13:49:05,681 INFO [backend.app.services.virtual_printer.manager] [-] [VP Bambuddy A1] Proxy Aux-2024: disconnected: [IP]:63515
+2026-08-04 13:49:05,750 INFO [backend.app.services.virtual_printer.tcp_proxy] [-] FTP proxy: client [IP]:63514 disconnected
+2026-08-04 13:49:05,750 INFO [backend.app.services.virtual_printer.manager] [-] [VP Bambuddy A1] Proxy FTP: disconnected: [IP]:63514
+2026-08-04 13:49:05,751 INFO [backend.app.services.virtual_printer.tcp_proxy] [-] FTP proxy: client connected from [IP]:63519
+2026-08-04 13:49:05,752 INFO [backend.app.services.virtual_printer.manager] [-] [VP Bambuddy A1] Proxy FTP: connected: [IP]:63519
+2026-08-04 13:49:05,756 INFO [backend.app.services.virtual_printer.tcp_proxy] [-] FTP proxy: connected to printer [IP]:990
+2026-08-04 13:49:06,555 INFO [backend.app.services.virtual_printer.tcp_proxy] [-] Aux-2024 proxy: client connected from [IP]:63521
+2026-08-04 13:49:06,555 INFO [backend.app.services.virtual_printer.manager] [-] [VP Bambuddy A1] Proxy Aux-2024: connected: [IP]:63521
+2026-08-04 13:49:06,559 INFO [backend.app.services.virtual_printer.tcp_proxy] [-] Aux-2024 proxy: connected to printer [IP]:2024
+2026-08-04 13:49:09,637 INFO [backend.app.services.virtual_printer.tcp_proxy] [-] Aux-2024 proxy: client [IP]:63521 disconnected
+2026-08-04 13:49:09,637 INFO [backend.app.services.virtual_printer.manager] [-] [VP Bambuddy A1] Proxy Aux-2024: disconnected: [IP]:63521
+2026-08-04 13:49:10,492 INFO [backend.app.services.virtual_printer.tcp_proxy] [-] FTP proxy: client [IP]:63519 disconnected
+2026-08-04 13:49:10,492 INFO [backend.app.services.virtual_printer.manager] [-] [VP Bambuddy A1] Proxy FTP: disconnected: [IP]:63519
+2026-08-04 13:49:17,609 INFO [backend.app.services.bambu_mqtt] [-] [[SERIAL]] PRINT START detected - file: Gaspoot v4 969 naar 933.gcode.3mf, subtask: Gaspoot v4 969 naar 933, is_new: True, is_file_change: False
+2026-08-04 13:49:17,610 INFO [backend.app.main] [-] [CALLBACK] on_print_start called for printer 1, data keys: ['filename', 'subtask_name', 'remaining_time', 'raw_data', 'ams_mapping']
+2026-08-04 13:49:17,616 INFO [backend.app.services.usage_tracker] [-] [UsageTracker] PRINT START printer 1: mapping=None, tray_now=255, last_loaded_tray=1
+2026-08-04 13:49:17,616 INFO [backend.app.services.usage_tracker] [-] [UsageTracker] PRINT START printer 1: mapping-related keys: {'ams_extruder_map': {'0': 0}}
+2026-08-04 13:49:17,616 INFO [backend.app.services.usage_tracker] [-] [UsageTracker] PRINT START printer 1 AMS 0: T0(type=PLA, color=8E9089FF, now=?, tar=?), T1(type=PLA, color=000000FF, now=?, tar=?), T2(type=PLA, color=FFFFFFFF, now=?, tar=?), T3(type=PLA, color=84754EFF, now=?, tar=?)
+2026-08-04 13:49:17,617 INFO [backend.app.services.usage_tracker] [-] [UsageTracker] Snapshotted 4 spool assignments for printer 1: {'0-0': 7, '0-1': 2, '0-2': 5, '0-3': 9}
+2026-08-04 13:49:17,618 INFO [backend.app.services.usage_tracker] [-] [UsageTracker] Captured start remain% for printer 1 (5 trays): {'0-0': 0, '0-1': 0, '0-2': 0, '0-3': 0, '255-0': 0}
+2026-08-04 13:49:17,621 INFO [backend.app.main] [-] [PLATE CHECK] printer_id=1, plate_detection_enabled=True
+2026-08-04 13:49:17,621 INFO [backend.app.main] [-] [PLATE CHECK] ENTERING plate detection code for printer 1
+2026-08-04 13:49:17,621 INFO [backend.app.main] [-] [PLATE CHECK] Running plate detection for printer 1
+2026-08-04 13:49:17,622 INFO [backend.app.services.camera] [-] Capturing camera frame bytes from [IP] using chamber image protocol (model: A1)
+2026-08-04 13:49:20,648 INFO [backend.app.services.camera] [-] Saved camera frame to: /tmp/tmp5lbe2aku.jpg
+2026-08-04 13:49:20,694 WARNING [backend.app.main] [-] [PLATE CHECK] Objects detected on plate for printer 1! Confidence: 100%, Diff: 33.5%
+2026-08-04 13:49:20,694 INFO [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Sent pause print command
+2026-08-04 13:49:20,694 INFO [backend.app.main] [-] [PLATE CHECK] Print paused for printer 1
+2026-08-04 13:49:20,713 INFO [backend.app.api.routes.printers] [fe2738a0] Trying to download cover for 'Gaspoot v4 969 naar 933' from [IP] (trying 16 paths)
+2026-08-04 13:49:20,990 INFO [backend.app.services.notification_service] [-] Sent notification via Pushover Notifications
+2026-08-04 13:49:20,991 INFO [backend.app.main] [-] [CALLBACK] Print start detected - filename: Gaspoot v4 969 naar 933.gcode.3mf, subtask: Gaspoot v4 969 naar 933
+2026-08-04 13:49:20,992 INFO [backend.app.main] [-] Trying filenames: ['Gaspoot v4 969 naar 933.gcode.3mf', 'Gaspoot v4 969 naar 933.3mf', 'Gaspoot_v4_969_naar_933.gcode.3mf', 'Gaspoot_v4_969_naar_933.3mf']
+2026-08-04 13:49:22,240 INFO [backend.app.services.bambu_ftp] [-] FTP connected successfully to [IP] (model=A1, prot_c=False)
+2026-08-04 13:49:22,381 INFO [backend.app.services.bambu_ftp] [-] FTP connected successfully to [IP] (model=A1, prot_c=False)
+2026-08-04 13:49:31,332 INFO [backend.app.services.bambu_ftp] [-] Successfully downloaded /Gaspoot v4 969 naar 933.gcode.3mf to /app/data/archive/temp/cover_1_Gaspoot v4 969 naar 933.gcode.3mf (671011 bytes)
+2026-08-04 13:49:31,349 INFO [backend.app.api.routes.printers] [fe2738a0] Downloaded file size: 671011 bytes
+2026-08-04 13:49:31,349 INFO [backend.app.api.routes.printers] [fe2738a0] Cover: detected plate 1 from 3MF contents
+2026-08-04 13:49:31,473 INFO [backend.app.services.bambu_ftp] [-] Successfully downloaded /Gaspoot v4 969 naar 933.gcode.3mf to /app/data/archive/temp/Gaspoot v4 969 naar 933.gcode.3mf (671011 bytes)
+2026-08-04 13:49:31,473 INFO [backend.app.services.bambu_ftp] [-] FTP mode cached for [IP]: prot_p
+2026-08-04 13:49:31,479 INFO [backend.app.main] [-] Downloaded: /Gaspoot v4 969 naar 933.gcode.3mf
+2026-08-04 13:49:31,500 INFO [backend.app.main] [-] Created archive 30 for Gaspoot v4 969 naar 933.gcode.3mf
+2026-08-04 13:49:31,501 INFO [backend.app.main] [-] [ENERGY] No smart plug for printer 1 (archive 30)
+2026-08-04 13:49:31,504 INFO [backend.app.main] [-] [SNAPSHOT] Capturing fresh frame for printer 1
+2026-08-04 13:49:31,504 INFO [backend.app.services.camera] [-] Capturing camera frame bytes from [IP] using chamber image protocol (model: A1)
+2026-08-04 13:49:34,304 INFO [backend.app.main] [-] [SNAPSHOT] Fresh camera frame: 228652 bytes
+2026-08-04 13:49:34,304 INFO [backend.app.services.notification_service] [-] on_print_start called for printer 1 ([PRINTER])
+2026-08-04 13:49:34,306 INFO [backend.app.services.notification_service] [-] Found 1 providers for print_start: ['Pushover Notifications']
+2026-08-04 13:49:35,914 INFO [backend.app.services.notification_service] [-] Sent notification via Pushover Notifications
+2026-08-04 13:49:35,915 INFO [backend.app.main] [-] Loaded 2 printable objects for printer 1
+2026-08-04 13:49:36,696 INFO [backend.app.services.bambu_ftp] [-] FTP connected successfully to [IP] (model=A1, prot_c=False)
+2026-08-04 13:49:37,592 INFO [backend.app.services.bambu_ftp] [-] FTP connected successfully to [IP] (model=A1, prot_c=False)
+2026-08-04 13:49:37,604 INFO [backend.app.services.bambu_ftp] [-] FTP list_files failed for /timelapse/video: 550 
+2026-08-04 13:49:38,420 INFO [backend.app.services.bambu_ftp] [-] FTP connected successfully to [IP] (model=A1, prot_c=False)
+2026-08-04 13:49:38,550 INFO [backend.app.services.bambu_ftp] [-] FTP list_files failed for /record: 550 
+2026-08-04 13:49:39,359 INFO [backend.app.services.bambu_ftp] [-] FTP connected successfully to [IP] (model=A1, prot_c=False)
+2026-08-04 13:49:39,371 INFO [backend.app.services.bambu_ftp] [-] FTP list_files failed for /recording: 550 
+2026-08-04 13:49:39,381 INFO [backend.app.main] [-] [TIMELAPSE] Baseline at print start: 0 video files for printer 1
+2026-08-04 13:51:23,362 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-04 13:54:56,664 INFO [backend.app.api.routes.websocket] [-] WebSocket client disconnected normally
+2026-08-04 13:56:23,379 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-04 14:01:23,386 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-04 14:05:57,245 INFO [backend.app.main] [-] [SNAPSHOT] Capturing fresh frame for printer 1
+2026-08-04 14:05:57,245 INFO [backend.app.services.camera] [-] Capturing camera frame bytes from [IP] using chamber image protocol (model: A1)
+2026-08-04 14:05:59,702 INFO [backend.app.main] [-] [SNAPSHOT] Fresh camera frame: 150071 bytes
+2026-08-04 14:06:23,392 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-04 14:11:23,403 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-04 14:16:23,409 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-04 14:21:23,414 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-04 14:21:59,863 INFO [backend.app.main] [-] [SNAPSHOT] Capturing fresh frame for printer 1
+2026-08-04 14:21:59,864 INFO [backend.app.services.camera] [-] Capturing camera frame bytes from [IP] using chamber image protocol (model: A1)
+2026-08-04 14:22:02,449 INFO [backend.app.main] [-] [SNAPSHOT] Fresh camera frame: 145638 bytes
+2026-08-04 14:26:23,421 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-04 14:31:23,435 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-04 14:36:23,443 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-04 14:38:11,586 INFO [backend.app.main] [-] [SNAPSHOT] Capturing fresh frame for printer 1
+2026-08-04 14:38:11,587 INFO [backend.app.services.camera] [-] Capturing camera frame bytes from [IP] using chamber image protocol (model: A1)
+2026-08-04 14:38:14,145 INFO [backend.app.main] [-] [SNAPSHOT] Fresh camera frame: 154658 bytes
+2026-08-04 14:41:23,449 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-04 14:46:23,455 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-04 14:51:23,461 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-04 14:52:52,187 INFO [backend.app.services.bambu_mqtt] [-] [[SERIAL]] FINISH PHOTO MOMENT (last-layer) — layer=143/143, timelapse_active=False
+2026-08-04 14:52:52,188 INFO [backend.app.main] [-] [FINISH-PHOTO-MOMENT] printer=1 trigger=last_layer timelapse_active=False
+2026-08-04 14:52:52,191 INFO [backend.app.services.camera] [-] Capturing camera frame bytes from [IP] using chamber image protocol (model: A1)
+2026-08-04 14:52:54,732 INFO [backend.app.main] [-] [FINISH-PHOTO-MOMENT] captured RTSP frame (159756 bytes)
+2026-08-04 14:55:19,892 INFO [backend.app.services.bambu_mqtt] [-] [[SERIAL]] PRINT COMPLETE detected - state: FINISH, status: completed, file: Gaspoot v4 969 naar 933.gcode.3mf, subtask: Gaspoot v4 969 naar 933, was_running: True, timelapse_during_print: False
+2026-08-04 14:55:19,892 INFO [backend.app.main] [-] [CALLBACK] on_print_complete started for printer 1
+2026-08-04 14:55:19,893 INFO [backend.app.main] [-] [TIMING] WebSocket send_print_complete: 0.001s elapsed
+2026-08-04 14:55:19,893 INFO [backend.app.main] [-] Print complete - filename: Gaspoot v4 969 naar 933.gcode.3mf, subtask: Gaspoot v4 969 naar 933, status: completed
+2026-08-04 14:55:19,893 INFO [backend.app.main] [-] Looking for archive in _active_prints, keys to try: [(1, 'Gaspoot v4 969 naar 933.3mf'), (1, 'Gaspoot v4 969 naar 933.gcode.3mf'), (1, 'Gaspoot v4 969 naar 933'), (1, 'Gaspoot v4 969 naar 933.gcode.3mf'), (1, 'Gaspoot v4 969 naar 933.gcode.3mf')]...
+2026-08-04 14:55:19,893 INFO [backend.app.main] [-] Current _active_prints: [(1, 'Gaspoot v4 969 naar 933.gcode.3mf'), (1, 'Gaspoot v4 969 naar 933.3mf')]
+2026-08-04 14:55:19,893 INFO [backend.app.main] [-] Found archive 30 with key (1, 'Gaspoot v4 969 naar 933.3mf')
+2026-08-04 14:55:20,722 INFO [backend.app.services.bambu_ftp] [-] FTP connected successfully to [IP] (model=A1, prot_c=False)
+2026-08-04 14:55:21,544 INFO [backend.app.services.bambu_ftp] [-] FTP connected successfully to [IP] (model=A1, prot_c=False)
+2026-08-04 14:55:22,367 INFO [backend.app.services.bambu_ftp] [-] FTP connected successfully to [IP] (model=A1, prot_c=False)
+2026-08-04 14:55:22,390 INFO [backend.app.main] [-] [TIMING] SD card cleanup: 2.498s elapsed
+2026-08-04 14:55:22,392 INFO [backend.app.main] [-] [TIMING] Queue item update: 2.500s elapsed
+2026-08-04 14:55:22,397 INFO [backend.app.services.usage_tracker] [-] [UsageTracker] on_print_complete: printer=1, archive=30, session=yes, ams_mapping=None
+2026-08-04 14:55:22,397 INFO [backend.app.services.usage_tracker] [-] [UsageTracker] PRINT COMPLETE printer 1: mapping=None, tray_now=255, last_loaded_tray=1
+2026-08-04 14:55:22,399 INFO [backend.app.services.usage_tracker] [-] [UsageTracker] 3MF: archive 30, plate_id=None, filament_usage=[{'slot_id': 5, 'used_g': 36.75, 'type': 'PLA', 'color': '#FFFFFF'}]
+2026-08-04 14:55:22,400 INFO [backend.app.services.usage_tracker] [-] [UsageTracker] Color-matched slot_to_tray: [-1, -1, -1, -1, 2]
+2026-08-04 14:55:22,400 INFO [backend.app.services.usage_tracker] [-] [UsageTracker] 3MF: slot_to_tray=[-1, -1, -1, -1, 2] (source: color_match)
+2026-08-04 14:55:22,400 INFO [backend.app.services.usage_tracker] [-] [UsageTracker] 3MF: slot_id=5 -> global_tray=2 -> AMS0-T2 (used_g=36.8, tray_now_override=None)
+2026-08-04 14:55:22,403 INFO [backend.app.services.usage_tracker] [-] [UsageTracker] Spool 5 consumed 36.8g (3MF, color_match_map) on printer 1 AMS0-T2 (completed)
+2026-08-04 14:55:22,403 INFO [backend.app.services.usage_tracker] [-] [UsageTracker] AMS0-T0: not in print mapping/tray_change_log — skipping fallback for printer 1
+2026-08-04 14:55:22,403 INFO [backend.app.services.usage_tracker] [-] [UsageTracker] AMS0-T1: not in print mapping/tray_change_log — skipping fallback for printer 1
+2026-08-04 14:55:22,403 INFO [backend.app.services.usage_tracker] [-] [UsageTracker] AMS0-T3: not in print mapping/tray_change_log — skipping fallback for printer 1
+2026-08-04 14:55:22,403 INFO [backend.app.services.usage_tracker] [-] [UsageTracker] VT254: not in print mapping/tray_change_log — skipping fallback for printer 1
+2026-08-04 14:55:22,409 INFO [backend.app.main] [-] [TIMING] Usage tracker: 2.516s elapsed
+2026-08-04 14:55:22,410 INFO [backend.app.services.spoolman_tracking] [-] [SPOOLMAN] No tracking data for print (printer=1, archive=30)
+2026-08-04 14:55:22,410 INFO [backend.app.main] [-] [TIMING] Spoolman usage report: 2.518s elapsed
+2026-08-04 14:55:22,411 INFO [backend.app.main] [-] [TIMING] Filament usage tracking: 2.518s elapsed
+2026-08-04 14:55:22,411 INFO [backend.app.main] [-] [TIMING] Archive lookup: 2.518s elapsed
+2026-08-04 14:55:22,411 INFO [backend.app.main] [-] [ARCHIVE] Updating archive 30 status...
+2026-08-04 14:55:22,414 INFO [backend.app.main] [-] [ARCHIVE] Archive 30 status updated to completed, failure_reason=None
+2026-08-04 14:55:22,415 INFO [backend.app.main] [-] [ARCHIVE] WebSocket notification sent for archive 30
+2026-08-04 14:55:22,415 INFO [backend.app.main] [-] [TIMING] Archive status update: 2.522s elapsed
+2026-08-04 14:55:22,418 INFO [backend.app.main] [-] [PRINT_LOG] Log entry written for archive 30
+2026-08-04 14:55:22,418 INFO [backend.app.main] [-] [TIMING] Print log entry: 2.526s elapsed
+2026-08-04 14:55:22,418 INFO [backend.app.main] [-] [TIMING] Background tasks scheduled (energy, photo): 2.526s elapsed
+2026-08-04 14:55:22,418 INFO [backend.app.main] [-] [TIMING] All background tasks scheduled: 2.526s elapsed
+2026-08-04 14:55:22,419 INFO [backend.app.main] [-] [CALLBACK] on_print_complete finished for printer 1, archive 30
+2026-08-04 14:55:22,419 INFO [backend.app.main] [-] [ENERGY-BG] Starting energy calculation for archive 30
+2026-08-04 14:55:22,419 INFO [backend.app.main] [-] [PHOTO-BG] Starting finish photo capture for archive 30
+2026-08-04 14:55:22,420 INFO [backend.app.main] [-] [AUTO-OFF-BG] Starting smart plug automation for printer 1
+2026-08-04 14:55:22,420 INFO [backend.app.main] [-] [MAINT-BG] Starting maintenance check for printer 1
+2026-08-04 14:55:22,421 INFO [backend.app.main] [-] [LAYER-TL] Stitching layer timelapse for printer 1
+2026-08-04 14:55:22,422 INFO [backend.app.main] [-] [AUTO-OFF-BG] Completed
+2026-08-04 14:55:22,424 INFO [backend.app.main] [-] [ENERGY-BG] No start kWh recorded for archive 30
+2026-08-04 14:55:22,428 INFO [backend.app.main] [-] [PHOTO-BG] Saved stage-22 pre-captured frame: finish_20260804_145522_7f042a81.jpg (159756 bytes)
+2026-08-04 14:55:22,430 INFO [backend.app.main] [-] [PHOTO-BG] Saved: finish_20260804_145522_7f042a81.jpg
+2026-08-04 14:55:22,431 INFO [backend.app.main] [-] [PHOTO-NOTIFY] Photo task returned: finish_20260804_145522_7f042a81.jpg
+2026-08-04 14:55:22,431 INFO [backend.app.main] [-] [NOTIFY-BG] Starting notifications for printer 1, photo=finish_20260804_145522_7f042a81.jpg
+2026-08-04 14:55:22,437 INFO [backend.app.main] [-] [NOTIFY-BG] Loaded finish photo bytes: 159756 bytes
+2026-08-04 14:55:22,437 INFO [backend.app.services.notification_service] [-] on_print_complete called for printer 1 ([PRINTER]), status=completed
+2026-08-04 14:55:22,439 INFO [backend.app.services.notification_service] [-] Found 1 providers for on_print_complete: ['Pushover Notifications']
+2026-08-04 14:55:22,443 INFO [backend.app.services.notification_service] [-] No notification providers configured for maintenance_due event on printer 1
+2026-08-04 14:55:22,443 INFO [backend.app.main] [-] [MAINT-BG] Sent notification: 1 items need attention
+2026-08-04 14:55:23,162 INFO [backend.app.services.notification_service] [-] Sent notification via Pushover Notifications
+2026-08-04 14:55:23,163 INFO [backend.app.main] [-] [NOTIFY-BG] Completed
+2026-08-04 14:56:23,467 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-04 14:57:15,199 INFO [backend.app.services.virtual_printer.tcp_proxy] [-] FileTransfer proxy: client connected from [IP]:56423
+2026-08-04 14:57:15,199 INFO [backend.app.services.virtual_printer.manager] [-] [VP Bambuddy A1] Proxy FileTransfer: connected: [IP]:56423
+2026-08-04 14:57:15,204 INFO [backend.app.services.virtual_printer.tcp_proxy] [-] FileTransfer proxy: connected to printer [IP]:6000
+2026-08-04 14:57:20,436 INFO [uvicorn.access] [-] [IP]:56640 - "POST /api/v1/printers/camera/stream-token HTTP/1.1" 200
+2026-08-04 14:57:20,503 INFO [uvicorn.access] [-] [IP]:56670 - "POST /api/v1/auth/ws-token HTTP/1.1" 200
+2026-08-04 14:57:20,546 INFO [backend.app.api.routes.websocket] [-] WebSocket client connecting (principal=<anonymous>)
+2026-08-04 14:57:20,547 INFO [backend.app.api.routes.websocket] [-] WebSocket client connected
+2026-08-04 14:57:20,547 INFO [backend.app.api.routes.websocket] [-] Sent initial status for 1 printers
+2026-08-04 14:57:20,592 INFO [backend.app.api.routes.cloud] [a2dcd6cb] get_filament_info called with 1 IDs: ['GFA00']
+2026-08-04 14:57:20,605 INFO [uvicorn.access] [-] [IP]:56644 - "POST /api/v1/cloud/filament-info HTTP/1.1" 200
+2026-08-04 14:57:23,903 INFO [backend.app.services.virtual_printer.tcp_proxy] [-] FileTransfer proxy: client [IP]:56423 disconnected
+2026-08-04 14:57:23,904 INFO [backend.app.services.virtual_printer.manager] [-] [VP Bambuddy A1] Proxy FileTransfer: disconnected: [IP]:56423
+2026-08-04 14:57:24,591 INFO [backend.app.services.virtual_printer.tcp_proxy] [-] MQTT proxy: client [IP]:65368 disconnected
+2026-08-04 14:57:24,591 INFO [backend.app.services.virtual_printer.manager] [-] [VP Bambuddy A1] Proxy MQTT: disconnected: [IP]:65368
+2026-08-04 14:59:20,725 INFO [backend.app.api.routes.support] [e8d5949a] Log level changed to DEBUG
+2026-08-04 14:59:20,725 INFO [backend.app.api.routes.bug_report] [e8d5949a] Bug report: enabled debug logging
+2026-08-04 14:59:20,725 DEBUG [backend.app.services.bambu_mqtt] [e8d5949a] [[SERIAL]] Requesting status update (pushall)
+2026-08-04 14:59:20,726 INFO [uvicorn.access] [-] [IP]:58226 - "POST /api/v1/bug-report/start-logging HTTP/1.1" 200
+2026-08-04 14:59:20,758 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'buildplate_marker_detector': True}
+2026-08-04 14:59:20,758 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['buildplate_marker_detector']
+2026-08-04 14:59:20,759 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: FINISH, gcode_file: , subtask_name: Gaspoot v4 969 naar 933
+2026-08-04 14:59:20,759 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] AMS dict fields: {'ams_exist_bits': '1', 'tray_exist_bits': 'f', 'tray_is_bbl_bits': 'f', 'tray_tar': '255', 'tray_now': '255', 'tray_pre': '255', 'tray_read_done_bits': 'f', 'tray_reading_bits': '0', 'version': 12, 'insert_flag': True, 'power_on_flag': True}
+2026-08-04 14:59:20,759 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] tray_now updated: 255
+2026-08-04 14:59:20,759 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Merged AMS data: 1 new units, 1 total
+2026-08-04 14:59:20,759 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] AMS 0 info=0x1002 -> extruder 0
+2026-08-04 14:59:20,759 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0}
+2026-08-04 14:59:20,759 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_status: 0 (main=0, sub=0)
+2026-08-04 14:59:20,759 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-04 14:59:20,759 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper raw value: 5.0
+2026-08-04 14:59:20,760 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper direct value: 5.0°C (heater OFF)
+2026-08-04 14:59:20,760 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Chamber heating calculated: target=0.0, current=5.0, heating=False, respect_local=False
+2026-08-04 14:59:20,760 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Chamber temp updated to: 5.0, target: 0.0, heating: False
+2026-08-04 14:59:20,760 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-04 14:59:20,760 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ipcam field: {'ipcam_dev': '1', 'ipcam_record': 'disable', 'timelapse': 'disable', 'resolution': '1080p', 'tutk_server': 'disable', 'mode_bits': 3}
+2026-08-04 14:59:20,761 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -53dBm
+2026-08-04 14:59:20,761 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'node': 'chamber_light', 'mode': 'on'}]
+2026-08-04 14:59:20,761 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: FINISH -> FINISH, file: , subtask: Gaspoot v4 969 naar 933
+2026-08-04 14:59:22,787 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-04 14:59:22,787 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -52dBm
+2026-08-04 14:59:24,805 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
