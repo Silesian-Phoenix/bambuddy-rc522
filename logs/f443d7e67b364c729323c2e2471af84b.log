@@ -1,0 +1,200 @@
+2026-08-05 21:21:45,147 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper direct value: 5.0°C (heater OFF)
+2026-08-05 21:21:45,148 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Chamber heating calculated: target=0.0, current=5.0, heating=False, respect_local=False
+2026-08-05 21:21:45,148 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Chamber temp updated to: 5.0, target: 0.0, heating: False
+2026-08-05 21:21:45,148 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-05 21:21:45,148 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] print_error: 83902468 (0x05004004) -> short_code=0500_4004
+2026-08-05 21:21:45,149 DEBUG [backend.app.services.bambu_mqtt] [-] [030, 05004004] HMS available actions: [] (job_id=1407522071)
+2026-08-05 21:21:45,149 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ipcam field: {'ipcam_dev': '1', 'ipcam_record': 'enable', 'timelapse': 'disable', 'resolution': '1080p', 'tutk_server': 'disable', 'mode_bits': 3}
+2026-08-05 21:21:45,149 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -62dBm
+2026-08-05 21:21:45,149 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'node': 'chamber_light', 'mode': 'off'}]
+2026-08-05 21:21:45,149 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: RUNNING -> RUNNING, file: Mini_Unitario.3mf, subtask: Mini_Unitario
+2026-08-05 21:21:45,179 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'buildplate_marker_detector': True}
+2026-08-05 21:21:45,180 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['buildplate_marker_detector']
+2026-08-05 21:21:45,180 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: RUNNING, gcode_file: Mini_Unitario.3mf, subtask_name: Mini_Unitario
+2026-08-05 21:21:45,180 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] AMS dict fields: {'ams_exist_bits': '0', 'tray_exist_bits': '0', 'tray_is_bbl_bits': '0', 'tray_tar': '254', 'tray_now': '254', 'tray_pre': '254', 'tray_read_done_bits': '0', 'tray_reading_bits': '0', 'version': 2, 'insert_flag': True, 'power_on_flag': False}
+2026-08-05 21:21:45,180 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] tray_now updated: 254
+2026-08-05 21:21:45,180 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Merged AMS data: 0 new units, 0 total
+2026-08-05 21:21:45,181 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_status: 1280 (main=5, sub=0)
+2026-08-05 21:21:45,181 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:45,181 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper raw value: 5.0
+2026-08-05 21:21:45,181 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper direct value: 5.0°C (heater OFF)
+2026-08-05 21:21:45,182 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Chamber heating calculated: target=0.0, current=5.0, heating=False, respect_local=False
+2026-08-05 21:21:45,182 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Chamber temp updated to: 5.0, target: 0.0, heating: False
+2026-08-05 21:21:45,182 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-05 21:21:45,182 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] print_error: 83902468 (0x05004004) -> short_code=0500_4004
+2026-08-05 21:21:45,183 DEBUG [backend.app.services.bambu_mqtt] [-] [030, 05004004] HMS available actions: [] (job_id=1407661313)
+2026-08-05 21:21:45,183 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ipcam field: {'ipcam_dev': '1', 'ipcam_record': 'enable', 'timelapse': 'disable', 'resolution': '1080p', 'tutk_server': 'disable', 'mode_bits': 3}
+2026-08-05 21:21:45,183 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -61dBm
+2026-08-05 21:21:45,183 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'node': 'chamber_light', 'mode': 'off'}]
+2026-08-05 21:21:45,184 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: RUNNING -> RUNNING, file: Mini_Unitario.3mf, subtask: Mini_Unitario
+2026-08-05 21:21:45,248 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'buildplate_marker_detector': True}
+2026-08-05 21:21:45,248 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['buildplate_marker_detector']
+2026-08-05 21:21:45,249 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: RUNNING, gcode_file: a1_rifle.3mf, subtask_name: a1_rifle
+2026-08-05 21:21:45,249 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] AMS dict fields: {'ams_exist_bits': '1', 'tray_exist_bits': '9', 'tray_is_bbl_bits': '9', 'tray_tar': '0', 'tray_now': '0', 'tray_pre': '0', 'tray_read_done_bits': '9', 'tray_reading_bits': '0', 'version': 12, 'insert_flag': True, 'power_on_flag': False}
+2026-08-05 21:21:45,249 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] tray_now updated: 0
+2026-08-05 21:21:45,249 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Merged AMS data: 1 new units, 1 total
+2026-08-05 21:21:45,249 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] AMS 0 info=0x1001 -> extruder 0
+2026-08-05 21:21:45,249 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0}
+2026-08-05 21:21:45,250 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_status: 768 (main=3, sub=0)
+2026-08-05 21:21:45,250 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:45,250 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper raw value: 5.0
+2026-08-05 21:21:45,250 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper direct value: 5.0°C (heater OFF)
+2026-08-05 21:21:45,250 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Chamber heating calculated: target=0.0, current=5.0, heating=False, respect_local=False
+2026-08-05 21:21:45,251 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Chamber temp updated to: 5.0, target: 0.0, heating: False
+2026-08-05 21:21:45,251 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: [{'attr': 83887104, 'code': 65604, 'action': 0, 'timestamp': 1785935008}]
+2026-08-05 21:21:45,251 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] print_error: 83902468 (0x05004004) -> short_code=0500_4004
+2026-08-05 21:21:45,251 DEBUG [backend.app.services.bambu_mqtt] [-] [039, 05004004] HMS available actions: [] (job_id=1407816630)
+2026-08-05 21:21:45,251 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ipcam field: {'ipcam_dev': '1', 'ipcam_record': 'enable', 'timelapse': 'disable', 'resolution': '1080p', 'tutk_server': 'disable', 'mode_bits': 3}
+2026-08-05 21:21:45,251 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -69dBm
+2026-08-05 21:21:45,251 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'node': 'chamber_light', 'mode': 'off'}]
+2026-08-05 21:21:45,252 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: RUNNING -> RUNNING, file: a1_rifle.3mf, subtask: a1_rifle
+2026-08-05 21:21:45,460 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'buildplate_marker_detector': False}
+2026-08-05 21:21:45,461 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['buildplate_marker_detector']
+2026-08-05 21:21:45,461 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: RUNNING, gcode_file: a1_tampinhas.3mf, subtask_name: a1_tampinhas
+2026-08-05 21:21:45,461 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] AMS dict fields: {'ams_exist_bits': '1', 'tray_exist_bits': 'f', 'tray_is_bbl_bits': 'f', 'tray_tar': '1', 'tray_now': '1', 'tray_pre': '1', 'tray_read_done_bits': 'f', 'tray_reading_bits': '0', 'version': 89, 'insert_flag': True, 'power_on_flag': False}
+2026-08-05 21:21:45,462 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] tray_now updated: 1
+2026-08-05 21:21:45,462 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Merged AMS data: 1 new units, 1 total
+2026-08-05 21:21:45,462 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] AMS 0 info=0x1002 -> extruder 0
+2026-08-05 21:21:45,462 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0}
+2026-08-05 21:21:45,463 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_status: 768 (main=3, sub=0)
+2026-08-05 21:21:45,463 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:45,463 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper raw value: 5.0
+2026-08-05 21:21:45,463 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper direct value: 5.0°C (heater OFF)
+2026-08-05 21:21:45,463 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Chamber heating calculated: target=0.0, current=5.0, heating=False, respect_local=False
+2026-08-05 21:21:45,464 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Chamber temp updated to: 5.0, target: 0.0, heating: False
+2026-08-05 21:21:45,464 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-05 21:21:45,464 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] print_error: 83902468 (0x05004004) -> short_code=0500_4004
+2026-08-05 21:21:45,464 DEBUG [backend.app.services.bambu_mqtt] [-] [039, 05004004] HMS available actions: [] (job_id=1415983191)
+2026-08-05 21:21:45,465 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ipcam field: {'ipcam_dev': '1', 'ipcam_record': 'enable', 'timelapse': 'disable', 'resolution': '1080p', 'tutk_server': 'disable', 'mode_bits': 3}
+2026-08-05 21:21:45,465 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -60dBm
+2026-08-05 21:21:45,465 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'node': 'chamber_light', 'mode': 'off'}]
+2026-08-05 21:21:45,465 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: RUNNING -> RUNNING, file: a1_tampinhas.3mf, subtask: a1_tampinhas
+2026-08-05 21:21:45,573 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'buildplate_marker_detector': True}
+2026-08-05 21:21:45,573 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['buildplate_marker_detector']
+2026-08-05 21:21:45,573 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: RUNNING, gcode_file: Mini_Unitario.3mf, subtask_name: Mini_Unitario
+2026-08-05 21:21:45,573 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] AMS dict fields: {'ams_exist_bits': '0', 'tray_exist_bits': '0', 'tray_is_bbl_bits': '0', 'tray_tar': '254', 'tray_now': '254', 'tray_pre': '254', 'tray_read_done_bits': '0', 'tray_reading_bits': '0', 'version': 4, 'insert_flag': True, 'power_on_flag': False}
+2026-08-05 21:21:45,574 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] tray_now updated: 254
+2026-08-05 21:21:45,574 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Merged AMS data: 0 new units, 0 total
+2026-08-05 21:21:45,574 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_status: 1280 (main=5, sub=0)
+2026-08-05 21:21:45,574 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:45,574 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper raw value: 5.0
+2026-08-05 21:21:45,574 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper direct value: 5.0°C (heater OFF)
+2026-08-05 21:21:45,575 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Chamber heating calculated: target=0.0, current=5.0, heating=False, respect_local=False
+2026-08-05 21:21:45,575 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Chamber temp updated to: 5.0, target: 0.0, heating: False
+2026-08-05 21:21:45,575 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-05 21:21:45,575 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] print_error: 83902468 (0x05004004) -> short_code=0500_4004
+2026-08-05 21:21:45,575 DEBUG [backend.app.services.bambu_mqtt] [-] [030, 05004004] HMS available actions: [] (job_id=1407612927)
+2026-08-05 21:21:45,575 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ipcam field: {'ipcam_dev': '1', 'ipcam_record': 'enable', 'timelapse': 'disable', 'resolution': '1080p', 'tutk_server': 'disable', 'mode_bits': 3}
+2026-08-05 21:21:45,576 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'node': 'chamber_light', 'mode': 'off'}]
+2026-08-05 21:21:45,576 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: RUNNING -> RUNNING, file: Mini_Unitario.3mf, subtask: Mini_Unitario
+2026-08-05 21:21:45,784 DEBUG [backend.app.api.routes.printers] [62578dbf] API returning ams_mapping: [], ams_extruder_map: {'0': 0}
+2026-08-05 21:21:45,784 DEBUG [backend.app.api.routes.printers] [62578dbf] Using tray_now directly as global ID: 1
+2026-08-05 21:21:46,462 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:46,462 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -65dBm
+2026-08-05 21:21:46,556 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:46,646 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:46,646 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -69dBm
+2026-08-05 21:21:46,745 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:46,745 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -63dBm
+2026-08-05 21:21:46,759 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:46,759 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -61dBm
+2026-08-05 21:21:46,824 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:46,833 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:46,833 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -62dBm
+2026-08-05 21:21:46,856 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:46,857 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -59dBm
+2026-08-05 21:21:46,958 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:46,958 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -65dBm
+2026-08-05 21:21:47,004 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:47,004 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -57dBm
+2026-08-05 21:21:47,092 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:47,093 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -60dBm
+2026-08-05 21:21:47,137 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:47,138 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -63dBm
+2026-08-05 21:21:47,246 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:47,247 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -63dBm
+2026-08-05 21:21:47,492 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:47,493 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -59dBm
+2026-08-05 21:21:47,514 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:48,470 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:48,471 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -63dBm
+2026-08-05 21:21:48,509 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:48,509 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -62dBm
+2026-08-05 21:21:48,668 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:48,669 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -66dBm
+2026-08-05 21:21:48,789 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:48,789 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -63dBm
+2026-08-05 21:21:48,830 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:48,830 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -65dBm
+2026-08-05 21:21:48,898 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:48,899 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -57dBm
+2026-08-05 21:21:48,970 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:48,974 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:48,974 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -66dBm
+2026-08-05 21:21:49,021 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:49,022 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -58dBm
+2026-08-05 21:21:49,108 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:49,109 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -63dBm
+2026-08-05 21:21:49,159 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:49,159 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -64dBm
+2026-08-05 21:21:49,269 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:49,269 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -66dBm
+2026-08-05 21:21:49,537 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:49,537 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -60dBm
+2026-08-05 21:21:49,542 DEBUG [backend.app.main] [-] Recorded 54 printer sensor history entries
+2026-08-05 21:21:50,481 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:50,503 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:50,527 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:50,528 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -63dBm
+2026-08-05 21:21:50,605 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:50,606 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -58dBm
+2026-08-05 21:21:50,700 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:50,700 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -67dBm
+2026-08-05 21:21:50,778 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:50,779 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -65dBm
+2026-08-05 21:21:50,798 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:50,798 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -65dBm
+2026-08-05 21:21:50,874 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:50,875 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -60dBm
+2026-08-05 21:21:50,906 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:50,906 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -59dBm
+2026-08-05 21:21:50,983 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:51,045 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:51,126 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:51,126 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -60dBm
+2026-08-05 21:21:51,172 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:51,172 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -61dBm
+2026-08-05 21:21:51,292 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:51,293 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -67dBm
+2026-08-05 21:21:51,855 DEBUG [backend.app.api.routes.printers] [25ed0e14] API returning ams_mapping: [], ams_extruder_map: {'0': 0}
+2026-08-05 21:21:51,856 DEBUG [backend.app.api.routes.printers] [25ed0e14] Using tray_now directly as global ID: 3
+2026-08-05 21:21:52,529 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:52,530 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -60dBm
+2026-08-05 21:21:52,540 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:52,540 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -64dBm
+2026-08-05 21:21:52,630 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:52,630 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -59dBm
+2026-08-05 21:21:52,716 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:52,717 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -63dBm
+2026-08-05 21:21:52,788 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:52,821 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:52,857 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:52,858 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -68dBm
+2026-08-05 21:21:52,900 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:52,901 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -61dBm
+2026-08-05 21:21:52,996 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:52,997 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -65dBm
+2026-08-05 21:21:53,012 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:53,013 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -65dBm
+2026-08-05 21:21:53,053 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:53,054 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -57dBm
+2026-08-05 21:21:53,149 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:53,150 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -63dBm
+2026-08-05 21:21:53,192 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:53,217 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:53,217 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -64dBm
+2026-08-05 21:21:53,314 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:53,315 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -66dBm
+2026-08-05 21:21:53,595 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:53,614 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-05 21:21:53,615 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -62dBm
