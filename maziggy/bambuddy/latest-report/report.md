@@ -1,5 +1,5 @@
 % Statistics for maziggy/bambuddy
-% Generated for [maziggy/bambuddy](https://github.com/maziggy/bambuddy) with [jgehrcke/github-repo-stats](https://github.com/jgehrcke/github-repo-stats) at 2026-08-06 00:02 UTC.
+% Generated for [maziggy/bambuddy](https://github.com/maziggy/bambuddy) with [jgehrcke/github-repo-stats](https://github.com/jgehrcke/github-repo-stats) at 2026-08-06 05:39 UTC.
 
 
 ## Views
@@ -90,7 +90,7 @@ Top 15 referrers: 01: `bambuddy.cool`, 02: `hackaday.com`, 03: `Google`, 04: `gi
 
 <div id="chart_paths_top_n_alltime" class="full-width-chart"></div>
 
-Top 15 paths: 01: `/`, 02: `/issues`, 03: `/releases`, 04: `/releases/tag/v0.2.4.9`, 05: `/releases/tag/v0.2.4.7`, 06: `/releases/tag/v0.2.4.8`, 07: `/blob/main/docs/images/proxy-mode-diagram.png`, 08: `/releases/tag/v0.2.4.4`, 09: `/releases/tag/v0.2.4.5`, 10: `/releases/tag/v1.2.5`, 11: `/releases/tag/v0.2.4.6`, 12: `/releases/tag/v1.2.5.1`, 13: `/pulls`, 14: `/releases/tag/v0.2.4`, 15: `/releases/tag/v0.2.4.3`
+Top 15 paths: 01: `/`, 02: `/issues`, 03: `/releases`, 04: `/releases/tag/v0.2.4.9`, 05: `/releases/tag/v0.2.4.7`, 06: `/releases/tag/v0.2.4.8`, 07: `/blob/main/docs/images/proxy-mode-diagram.png`, 08: `/releases/tag/v0.2.4.4`, 09: `/releases/tag/v0.2.4.5`, 10: `/releases/tag/v1.2.5`, 11: `/releases/tag/v0.2.4.6`, 12: `/releases/tag/v1.2.5.1`, 13: `/pulls`, 14: `/releases/tag/v0.2.4.3`, 15: `/releases/tag/v0.2.4`
 
 
 <script type="text/javascript">
