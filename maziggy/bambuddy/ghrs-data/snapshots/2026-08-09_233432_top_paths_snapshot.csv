@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/maziggy/bambuddy,3578,1828
+/maziggy/bambuddy/issues,841,262
+/maziggy/bambuddy/releases,530,324
+/maziggy/bambuddy/pulls,282,136
+/maziggy/bambuddy/releases/tag/v1.2.5.2,183,146
+/maziggy/bambuddy/releases/tag/v1.2.5.1,182,156
+/maziggy/bambuddy/pull/2666,161,130
+/maziggy/bambuddy/blob/main/docker-compose.yml,99,70
+/maziggy/bambuddy/blob/main/slicer-api/README.md,90,56
+/maziggy/bambuddy/blob/main/docs/images/proxy-mode-diagram.png,85,82
