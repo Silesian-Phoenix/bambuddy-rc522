@@ -1,0 +1,200 @@
+2026-08-10 23:58:28,713 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] Starting FTP-Data-50083 TCP proxy: [IP]:50083 → [IP]:50083
+2026-08-10 23:58:28,713 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] Starting FTP-Data-50084 TCP proxy: [IP]:50084 → [IP]:50084
+2026-08-10 23:58:28,713 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] Starting FTP-Data-50085 TCP proxy: [IP]:50085 → [IP]:50085
+2026-08-10 23:58:28,713 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] Starting FTP-Data-50086 TCP proxy: [IP]:50086 → [IP]:50086
+2026-08-10 23:58:28,713 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] Starting FTP-Data-50087 TCP proxy: [IP]:50087 → [IP]:50087
+2026-08-10 23:58:28,713 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] Starting FTP-Data-50088 TCP proxy: [IP]:50088 → [IP]:50088
+2026-08-10 23:58:28,713 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] Starting FTP-Data-50089 TCP proxy: [IP]:50089 → [IP]:50089
+2026-08-10 23:58:28,713 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] Starting FTP-Data-50090 TCP proxy: [IP]:50090 → [IP]:50090
+2026-08-10 23:58:28,713 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] Starting FTP-Data-50091 TCP proxy: [IP]:50091 → [IP]:50091
+2026-08-10 23:58:28,713 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] Starting FTP-Data-50092 TCP proxy: [IP]:50092 → [IP]:50092
+2026-08-10 23:58:28,713 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] Starting FTP-Data-50093 TCP proxy: [IP]:50093 → [IP]:50093
+2026-08-10 23:58:28,714 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] Starting FTP-Data-50094 TCP proxy: [IP]:50094 → [IP]:50094
+2026-08-10 23:58:28,714 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] Starting FTP-Data-50095 TCP proxy: [IP]:50095 → [IP]:50095
+2026-08-10 23:58:28,714 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] Starting FTP-Data-50096 TCP proxy: [IP]:50096 → [IP]:50096
+2026-08-10 23:58:28,714 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] Starting FTP-Data-50097 TCP proxy: [IP]:50097 → [IP]:50097
+2026-08-10 23:58:28,714 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] Starting FTP-Data-50098 TCP proxy: [IP]:50098 → [IP]:50098
+2026-08-10 23:58:28,714 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] Starting FTP-Data-50099 TCP proxy: [IP]:50099 → [IP]:50099
+2026-08-10 23:58:28,714 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] Starting FTP-Data-50100 TCP proxy: [IP]:50100 → [IP]:50100
+2026-08-10 23:58:28,749 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP TCP proxy listening on port 990
+2026-08-10 23:58:28,750 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] MQTT TLS proxy listening on port 8883
+2026-08-10 23:58:28,750 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FileTransfer TCP proxy listening on port 6000
+2026-08-10 23:58:28,750 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] RTSP TCP proxy listening on port 322
+2026-08-10 23:58:28,750 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] Aux-2024 TCP proxy listening on port 2024
+2026-08-10 23:58:28,750 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] Aux-2025 TCP proxy listening on port 2025
+2026-08-10 23:58:28,750 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] Aux-2026 TCP proxy listening on port 2026
+2026-08-10 23:58:28,750 INFO [backend.app.services.virtual_printer.bind_server] [c0d72830] Bind server listening on [IP]:3000 (plain)
+2026-08-10 23:58:28,750 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50000 TCP proxy listening on port 50000
+2026-08-10 23:58:28,750 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50001 TCP proxy listening on port 50001
+2026-08-10 23:58:28,750 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50002 TCP proxy listening on port 50002
+2026-08-10 23:58:28,750 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50003 TCP proxy listening on port 50003
+2026-08-10 23:58:28,750 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50004 TCP proxy listening on port 50004
+2026-08-10 23:58:28,750 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50005 TCP proxy listening on port 50005
+2026-08-10 23:58:28,750 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50006 TCP proxy listening on port 50006
+2026-08-10 23:58:28,751 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50007 TCP proxy listening on port 50007
+2026-08-10 23:58:28,751 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50008 TCP proxy listening on port 50008
+2026-08-10 23:58:28,751 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50009 TCP proxy listening on port 50009
+2026-08-10 23:58:28,751 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50010 TCP proxy listening on port 50010
+2026-08-10 23:58:28,751 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50011 TCP proxy listening on port 50011
+2026-08-10 23:58:28,751 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50012 TCP proxy listening on port 50012
+2026-08-10 23:58:28,751 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50013 TCP proxy listening on port 50013
+2026-08-10 23:58:28,751 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50014 TCP proxy listening on port 50014
+2026-08-10 23:58:28,751 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50015 TCP proxy listening on port 50015
+2026-08-10 23:58:28,751 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50016 TCP proxy listening on port 50016
+2026-08-10 23:58:28,751 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50017 TCP proxy listening on port 50017
+2026-08-10 23:58:28,751 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50018 TCP proxy listening on port 50018
+2026-08-10 23:58:28,751 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50019 TCP proxy listening on port 50019
+2026-08-10 23:58:28,751 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50020 TCP proxy listening on port 50020
+2026-08-10 23:58:28,751 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50021 TCP proxy listening on port 50021
+2026-08-10 23:58:28,751 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50022 TCP proxy listening on port 50022
+2026-08-10 23:58:28,751 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50023 TCP proxy listening on port 50023
+2026-08-10 23:58:28,752 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50024 TCP proxy listening on port 50024
+2026-08-10 23:58:28,752 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50025 TCP proxy listening on port 50025
+2026-08-10 23:58:28,752 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50026 TCP proxy listening on port 50026
+2026-08-10 23:58:28,752 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50027 TCP proxy listening on port 50027
+2026-08-10 23:58:28,752 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50028 TCP proxy listening on port 50028
+2026-08-10 23:58:28,752 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50029 TCP proxy listening on port 50029
+2026-08-10 23:58:28,752 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50030 TCP proxy listening on port 50030
+2026-08-10 23:58:28,752 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50031 TCP proxy listening on port 50031
+2026-08-10 23:58:28,752 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50032 TCP proxy listening on port 50032
+2026-08-10 23:58:28,752 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50033 TCP proxy listening on port 50033
+2026-08-10 23:58:28,752 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50034 TCP proxy listening on port 50034
+2026-08-10 23:58:28,752 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50035 TCP proxy listening on port 50035
+2026-08-10 23:58:28,752 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50036 TCP proxy listening on port 50036
+2026-08-10 23:58:28,752 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50037 TCP proxy listening on port 50037
+2026-08-10 23:58:28,752 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50038 TCP proxy listening on port 50038
+2026-08-10 23:58:28,752 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50039 TCP proxy listening on port 50039
+2026-08-10 23:58:28,752 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50040 TCP proxy listening on port 50040
+2026-08-10 23:58:28,752 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50041 TCP proxy listening on port 50041
+2026-08-10 23:58:28,753 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50042 TCP proxy listening on port 50042
+2026-08-10 23:58:28,753 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50043 TCP proxy listening on port 50043
+2026-08-10 23:58:28,753 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50044 TCP proxy listening on port 50044
+2026-08-10 23:58:28,753 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50045 TCP proxy listening on port 50045
+2026-08-10 23:58:28,753 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50046 TCP proxy listening on port 50046
+2026-08-10 23:58:28,753 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50047 TCP proxy listening on port 50047
+2026-08-10 23:58:28,753 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50048 TCP proxy listening on port 50048
+2026-08-10 23:58:28,753 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50049 TCP proxy listening on port 50049
+2026-08-10 23:58:28,753 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50050 TCP proxy listening on port 50050
+2026-08-10 23:58:28,753 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50051 TCP proxy listening on port 50051
+2026-08-10 23:58:28,753 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50052 TCP proxy listening on port 50052
+2026-08-10 23:58:28,753 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50053 TCP proxy listening on port 50053
+2026-08-10 23:58:28,753 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50054 TCP proxy listening on port 50054
+2026-08-10 23:58:28,753 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50055 TCP proxy listening on port 50055
+2026-08-10 23:58:28,753 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50056 TCP proxy listening on port 50056
+2026-08-10 23:58:28,753 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50057 TCP proxy listening on port 50057
+2026-08-10 23:58:28,753 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50058 TCP proxy listening on port 50058
+2026-08-10 23:58:28,753 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50059 TCP proxy listening on port 50059
+2026-08-10 23:58:28,753 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50060 TCP proxy listening on port 50060
+2026-08-10 23:58:28,753 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50061 TCP proxy listening on port 50061
+2026-08-10 23:58:28,754 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50062 TCP proxy listening on port 50062
+2026-08-10 23:58:28,754 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50063 TCP proxy listening on port 50063
+2026-08-10 23:58:28,754 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50064 TCP proxy listening on port 50064
+2026-08-10 23:58:28,754 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50065 TCP proxy listening on port 50065
+2026-08-10 23:58:28,754 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50066 TCP proxy listening on port 50066
+2026-08-10 23:58:28,754 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50067 TCP proxy listening on port 50067
+2026-08-10 23:58:28,754 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50068 TCP proxy listening on port 50068
+2026-08-10 23:58:28,754 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50069 TCP proxy listening on port 50069
+2026-08-10 23:58:28,754 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50070 TCP proxy listening on port 50070
+2026-08-10 23:58:28,754 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50071 TCP proxy listening on port 50071
+2026-08-10 23:58:28,754 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50072 TCP proxy listening on port 50072
+2026-08-10 23:58:28,754 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50073 TCP proxy listening on port 50073
+2026-08-10 23:58:28,754 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50074 TCP proxy listening on port 50074
+2026-08-10 23:58:28,754 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50075 TCP proxy listening on port 50075
+2026-08-10 23:58:28,754 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50076 TCP proxy listening on port 50076
+2026-08-10 23:58:28,754 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50077 TCP proxy listening on port 50077
+2026-08-10 23:58:28,754 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50078 TCP proxy listening on port 50078
+2026-08-10 23:58:28,754 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50079 TCP proxy listening on port 50079
+2026-08-10 23:58:28,755 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50080 TCP proxy listening on port 50080
+2026-08-10 23:58:28,755 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50081 TCP proxy listening on port 50081
+2026-08-10 23:58:28,755 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50082 TCP proxy listening on port 50082
+2026-08-10 23:58:28,755 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50083 TCP proxy listening on port 50083
+2026-08-10 23:58:28,755 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50084 TCP proxy listening on port 50084
+2026-08-10 23:58:28,755 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50085 TCP proxy listening on port 50085
+2026-08-10 23:58:28,755 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50086 TCP proxy listening on port 50086
+2026-08-10 23:58:28,755 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50087 TCP proxy listening on port 50087
+2026-08-10 23:58:28,755 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50088 TCP proxy listening on port 50088
+2026-08-10 23:58:28,755 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50089 TCP proxy listening on port 50089
+2026-08-10 23:58:28,755 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50090 TCP proxy listening on port 50090
+2026-08-10 23:58:28,755 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50091 TCP proxy listening on port 50091
+2026-08-10 23:58:28,755 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50092 TCP proxy listening on port 50092
+2026-08-10 23:58:28,755 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50093 TCP proxy listening on port 50093
+2026-08-10 23:58:28,755 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50094 TCP proxy listening on port 50094
+2026-08-10 23:58:28,755 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50095 TCP proxy listening on port 50095
+2026-08-10 23:58:28,755 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50096 TCP proxy listening on port 50096
+2026-08-10 23:58:28,756 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50097 TCP proxy listening on port 50097
+2026-08-10 23:58:28,756 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50098 TCP proxy listening on port 50098
+2026-08-10 23:58:28,756 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50099 TCP proxy listening on port 50099
+2026-08-10 23:58:28,756 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] FTP-Data-50100 TCP proxy listening on port 50100
+2026-08-10 23:58:28,758 INFO [backend.app.services.virtual_printer.bind_server] [c0d72830] Bind server listening on [IP]:3002 (TLS)
+2026-08-10 23:58:28,760 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] Proxy diagnostic: probing un-proxied ports [21, 80, 443] on [IP]
+2026-08-10 23:58:28,760 INFO [backend.app.services.virtual_printer.tcp_proxy] [c0d72830] Slicer proxy started for [IP] (transparent TCP + MQTT TLS, 101 FTP data ports)
+2026-08-10 23:58:28,761 INFO [uvicorn.access] [-] [IP]:54256 - "PUT /api/v1/virtual-printers/1 HTTP/1.1" 200
+2026-08-10 23:58:48,961 INFO [backend.app.main] [-] [SNAPSHOT] Using buffered frame for printer 1: 190857 bytes
+2026-08-10 23:59:19,648 INFO [backend.app.main] [-] [SNAPSHOT] Using buffered frame for printer 1: 206073 bytes
+2026-08-10 23:59:46,192 INFO [backend.app.main] [-] [SNAPSHOT] Using buffered frame for printer 1: 253417 bytes
+2026-08-11 00:00:00,092 INFO [backend.app.services.smart_plug_manager] [-] Captured 1 energy snapshot(s)
+2026-08-11 00:00:13,586 INFO [backend.app.main] [-] [SNAPSHOT] Using buffered frame for printer 1: 225817 bytes
+2026-08-11 00:00:39,872 INFO [backend.app.main] [-] [SNAPSHOT] Using buffered frame for printer 1: 214320 bytes
+2026-08-11 00:01:08,674 INFO [backend.app.main] [-] [SNAPSHOT] Using buffered frame for printer 1: 249259 bytes
+2026-08-11 00:01:09,021 INFO [backend.app.main] [-] Recorded 2 AMS sensor history entries
+2026-08-11 00:01:38,711 INFO [backend.app.main] [-] [SNAPSHOT] Using buffered frame for printer 1: 207095 bytes
+2026-08-11 00:01:55,757 INFO [backend.app.api.routes.support] [bd5c4c2f] Log level changed to DEBUG
+2026-08-11 00:01:55,757 INFO [backend.app.api.routes.bug_report] [bd5c4c2f] Bug report: enabled debug logging
+2026-08-11 00:01:55,757 DEBUG [backend.app.services.bambu_mqtt] [bd5c4c2f] [[SERIAL]] Requesting status update (pushall)
+2026-08-11 00:01:55,757 INFO [uvicorn.access] [-] [IP]:37950 - "POST /api/v1/bug-report/start-logging HTTP/1.1" 200
+2026-08-11 00:01:57,031 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'cfg': 1797559, 'first_layer_inspector': True, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-11 00:01:57,031 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'cfg', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-11 00:01:57,031 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] xcam cfg bitmask: 1797559 (binary: 0b110110110110110110111)
+2026-08-11 00:01:57,031 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: RUNNING, gcode_file: /data/Metadata/plate_1.gcode, subtask_name: toothpaste%20squeezer%20v4
+2026-08-11 00:01:57,031 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] AMS dict fields: {'ams_exist_bits': '3', 'ams_exist_bits_raw': '3', 'cali_id': 255, 'cali_stat': 0, 'cfs': [2, 3, 4, 5, 7], 'insert_flag': True, 'power_on_flag': False, 'tray_exist_bits': 'ff', 'tray_hall_out_bits': '4', 'tray_is_bbl_bits': 'ff', 'tray_now': '2', 'tray_pre': '2', 'tray_read_done_bits': 'ff', 'tray_reading_bits': '0', 'tray_tar': '2', 'unbind_ams_stat': 0, 'version': 139}
+2026-08-11 00:01:57,031 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] tray_now updated: 2
+2026-08-11 00:01:57,031 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Merged AMS data: 2 new units, 2 total
+2026-08-11 00:01:57,031 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_status: 768 (main=3, sub=0)
+2026-08-11 00:01:57,031 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-11 00:01:57,031 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] EOP-PROBE open — layer=82.0/82.0 percent=99.0 remaining=0.0
+2026-08-11 00:01:57,031 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] EOP-PROBE 1: {'gcode_state': 'RUNNING', 'state': 4, 'print_error': 0, 'stg_cur': 0, 'stg': [79, 29, 13, 74, 72, 4, 54, 39, 8, 14, 1, 3], 'stg_cd': 0, 'mc_print_stage': '2', 'mc_print_sub_stage': 0, 'mc_action': 0, 'mc_stage': 2, 'print_real_action': 0, 'print_gcode_action': 0, 'spd_lvl': 2, 'mc_percent': 99, 'mc_remaining_time': 0, 'layer_num': 82, 'total_layer_num': 82, 'home_flag': -1067100737, 'prepare_per': 100}
+2026-08-11 00:01:57,031 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] device.extruder.state=2 (switch_state bits 12-14: 0)
+2026-08-11 00:01:57,031 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] info.temp direct: 33°C (heater OFF)
+2026-08-11 00:01:57,032 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ctc_info keys: ['temp']
+2026-08-11 00:01:57,032 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Chamber heating calculated: target=0.0, current=33.0, heating=False, respect_local=False
+2026-08-11 00:01:57,032 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Chamber temp updated to: 33.0, target: 0.0, heating: False
+2026-08-11 00:01:57,032 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-11 00:01:57,032 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ipcam field: {'agora_service': 'disable', 'brtc_service': 'enable', 'bs_state': 0, 'cap_pic_enable': 'invalid', 'ipcam_dev': '1', 'ipcam_record': 'enable', 'laser_preview_res': 6, 'mode_bits': 2, 'resolution': '1080p', 'rtsp_url': 'rtsps://[IP]:322/streaming/live/1', 'timelapse': 'enable', 'tl_store_hpd_type': 2, 'tl_store_path_type': 2, 'tutk_server': 'disable'}
+2026-08-11 00:01:57,032 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Timelapse detected during print (from ipcam)
+2026-08-11 00:01:57,032 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -34dBm
+2026-08-11 00:01:57,032 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}, {'mode': 'on', 'node': 'chamber_light2'}]
+2026-08-11 00:01:57,032 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [2]
+2026-08-11 00:01:57,032 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: RUNNING -> RUNNING, file: /data/Metadata/plate_1.gcode, subtask: toothpaste%20squeezer%20v4
+2026-08-11 00:01:58,209 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'cfg': 1797559, 'first_layer_inspector': True, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-11 00:01:58,209 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'cfg', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-11 00:01:58,209 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] xcam cfg bitmask: 1797559 (binary: 0b110110110110110110111)
+2026-08-11 00:01:58,209 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: RUNNING, gcode_file: /data/Metadata/plate_1.gcode, subtask_name: toothpaste%20squeezer%20v4
+2026-08-11 00:01:58,209 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-11 00:01:58,210 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-11 00:01:58,210 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Timelapse detected during print (from ipcam)
+2026-08-11 00:01:58,210 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}, {'mode': 'on', 'node': 'chamber_light2'}]
+2026-08-11 00:01:58,210 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [2]
+2026-08-11 00:01:58,210 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: RUNNING -> RUNNING, file: /data/Metadata/plate_1.gcode, subtask: toothpaste%20squeezer%20v4
+2026-08-11 00:01:58,561 DEBUG [backend.app.main] [-] [[PRINTER]] Runtime tracking: added 30s, total=2910s (0.81h)
+2026-08-11 00:01:58,563 DEBUG [backend.app.main] [-] Updated runtime for 1 printer(s)
+2026-08-11 00:01:59,103 DEBUG [backend.app.services.virtual_printer.ssdp_server] [c0d72830] Sent SSDP NOTIFY for H2C (Proxy) (Location=[IP], USN=[SERIAL], bind=[IP])
+2026-08-11 00:01:59,407 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'cfg': 1797559, 'first_layer_inspector': True, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-11 00:01:59,407 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'cfg', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-11 00:01:59,407 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] xcam cfg bitmask: 1797559 (binary: 0b110110110110110110111)
+2026-08-11 00:01:59,407 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: RUNNING, gcode_file: /data/Metadata/plate_1.gcode, subtask_name: toothpaste%20squeezer%20v4
+2026-08-11 00:01:59,407 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-11 00:01:59,407 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-11 00:01:59,407 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Timelapse detected during print (from ipcam)
+2026-08-11 00:01:59,407 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}, {'mode': 'on', 'node': 'chamber_light2'}]
+2026-08-11 00:01:59,408 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [2]
+2026-08-11 00:01:59,408 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: RUNNING -> RUNNING, file: /data/Metadata/plate_1.gcode, subtask: toothpaste%20squeezer%20v4
+2026-08-11 00:02:00,595 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'cfg': 1797559, 'first_layer_inspector': True, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-11 00:02:00,595 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'cfg', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-11 00:02:00,595 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] xcam cfg bitmask: 1797559 (binary: 0b110110110110110110111)
+2026-08-11 00:02:00,595 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: RUNNING, gcode_file: /data/Metadata/plate_1.gcode, subtask_name: toothpaste%20squeezer%20v4
+2026-08-11 00:02:00,595 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-11 00:02:00,595 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-11 00:02:00,595 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Timelapse detected during print (from ipcam)
+2026-08-11 00:02:00,596 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}, {'mode': 'on', 'node': 'chamber_light2'}]
+2026-08-11 00:02:00,596 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [2]
+2026-08-11 00:02:00,596 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: RUNNING -> RUNNING, file: /data/Metadata/plate_1.gcode, subtask: toothpaste%20squeezer%20v4
