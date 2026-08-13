@@ -1,0 +1,200 @@
+2026-08-13 21:47:43,593 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'first_layer_inspector': True, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-13 21:47:43,593 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-13 21:47:43,593 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: RUNNING, gcode_file: /data/Metadata/plate_2.gcode, subtask_name: Dessous_de_verre_Lord_of_the_rings_et_rangement_
+2026-08-13 21:47:43,594 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0, '1': 0}
+2026-08-13 21:47:43,594 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-13 21:47:43,594 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-13 21:47:43,594 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-13 21:47:43,594 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [65535, 65535, 65535, 65535, 3]
+2026-08-13 21:47:43,594 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: RUNNING -> RUNNING, file: /data/Metadata/plate_2.gcode, subtask: Dessous_de_verre_Lord_of_the_rings_et_rangement_
+2026-08-13 21:47:44,273 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': False, 'cfg': 1797255, 'first_layer_inspector': True, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-13 21:47:44,273 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'cfg', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-13 21:47:44,273 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] xcam cfg bitmask: 1797255 (binary: 0b110110110110010000111)
+2026-08-13 21:47:44,273 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: PAUSE, gcode_file: /data/Metadata/plate_1.gcode, subtask_name: Dessous de verre Lord of the rings et rangement 
+2026-08-13 21:47:44,273 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0, '1': 1, '128': 1}
+2026-08-13 21:47:44,274 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-13 21:47:44,274 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: [{'attr': 50339328, 'code': 65543}]
+2026-08-13 21:47:44,274 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] print_error: 50364424 (0x03008008) -> short_code=0300_8008
+2026-08-13 21:47:44,274 DEBUG [backend.app.services.bambu_mqtt] [-] [094, 03008008] HMS available actions: [] (job_id=)
+2026-08-13 21:47:44,274 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}, {'mode': 'on', 'node': 'chamber_light2'}]
+2026-08-13 21:47:44,274 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [259, 256, 65535, 0]
+2026-08-13 21:47:44,274 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: PAUSE -> PAUSE, file: /data/Metadata/plate_1.gcode, subtask: Dessous de verre Lord of the rings et rangement 
+2026-08-13 21:47:44,787 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'first_layer_inspector': True, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-13 21:47:44,787 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-13 21:47:44,787 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: RUNNING, gcode_file: /data/Metadata/plate_2.gcode, subtask_name: Dessous_de_verre_Lord_of_the_rings_et_rangement_
+2026-08-13 21:47:44,788 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] AMS dict fields: {'ams_exist_bits': '3', 'ams_exist_bits_raw': '3', 'cali_id': 0, 'cali_stat': 0, 'insert_flag': True, 'power_on_flag': True, 'tray_exist_bits': 'ff', 'tray_is_bbl_bits': 'ff', 'tray_now': '3', 'tray_pre': '3', 'tray_read_done_bits': 'ff', 'tray_reading_bits': '0', 'tray_tar': '3', 'unbind_ams_stat': 0, 'version': 1764}
+2026-08-13 21:47:44,788 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0, '1': 0}
+2026-08-13 21:47:44,788 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-13 21:47:44,788 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-13 21:47:44,788 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-13 21:47:44,788 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [65535, 65535, 65535, 65535, 3]
+2026-08-13 21:47:44,790 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: RUNNING -> RUNNING, file: /data/Metadata/plate_2.gcode, subtask: Dessous_de_verre_Lord_of_the_rings_et_rangement_
+2026-08-13 21:47:45,553 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': False, 'cfg': 1797255, 'first_layer_inspector': True, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-13 21:47:45,553 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'cfg', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-13 21:47:45,553 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] xcam cfg bitmask: 1797255 (binary: 0b110110110110010000111)
+2026-08-13 21:47:45,553 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: PAUSE, gcode_file: /data/Metadata/plate_1.gcode, subtask_name: Dessous de verre Lord of the rings et rangement 
+2026-08-13 21:47:45,553 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0, '1': 1, '128': 1}
+2026-08-13 21:47:45,553 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-13 21:47:45,554 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: [{'attr': 50339328, 'code': 65543}]
+2026-08-13 21:47:45,554 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] print_error: 50364424 (0x03008008) -> short_code=0300_8008
+2026-08-13 21:47:45,554 DEBUG [backend.app.services.bambu_mqtt] [-] [094, 03008008] HMS available actions: [] (job_id=)
+2026-08-13 21:47:45,554 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}, {'mode': 'on', 'node': 'chamber_light2'}]
+2026-08-13 21:47:45,555 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [259, 256, 65535, 0]
+2026-08-13 21:47:45,555 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: PAUSE -> PAUSE, file: /data/Metadata/plate_1.gcode, subtask: Dessous de verre Lord of the rings et rangement 
+2026-08-13 21:47:45,906 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'first_layer_inspector': True, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-13 21:47:45,906 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-13 21:47:45,907 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: RUNNING, gcode_file: /data/Metadata/plate_2.gcode, subtask_name: Dessous_de_verre_Lord_of_the_rings_et_rangement_
+2026-08-13 21:47:45,907 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0, '1': 0}
+2026-08-13 21:47:45,907 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-13 21:47:45,907 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-13 21:47:45,908 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-13 21:47:45,908 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [65535, 65535, 65535, 65535, 3]
+2026-08-13 21:47:45,908 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: RUNNING -> RUNNING, file: /data/Metadata/plate_2.gcode, subtask: Dessous_de_verre_Lord_of_the_rings_et_rangement_
+2026-08-13 21:47:46,023 DEBUG [backend.app.services.virtual_printer.ssdp_server] [-] Received M-SEARCH from [IP]
+2026-08-13 21:47:46,024 INFO [backend.app.services.virtual_printer.ssdp_server] [-] Sent SSDP response to [IP] for '[PRINTER] Proxy (Proxy)' (Location=[IP], USN=[SERIAL])
+2026-08-13 21:47:46,288 WARNING [backend.app.utils.local_time] [2829a5e5] Unrecognised TZ env value 'US/Eastern', falling back to UTC
+2026-08-13 21:47:46,288 WARNING [backend.app.utils.local_time] [2829a5e5] Unrecognised TZ env value 'US/Eastern', falling back to UTC
+2026-08-13 21:47:46,291 WARNING [backend.app.utils.local_time] [daa23f8f] Unrecognised TZ env value 'US/Eastern', falling back to UTC
+2026-08-13 21:47:46,291 WARNING [backend.app.utils.local_time] [daa23f8f] Unrecognised TZ env value 'US/Eastern', falling back to UTC
+2026-08-13 21:47:46,982 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': False, 'cfg': 1797255, 'first_layer_inspector': True, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-13 21:47:46,983 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'cfg', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-13 21:47:46,983 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] xcam cfg bitmask: 1797255 (binary: 0b110110110110010000111)
+2026-08-13 21:47:46,983 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: PAUSE, gcode_file: /data/Metadata/plate_1.gcode, subtask_name: Dessous de verre Lord of the rings et rangement 
+2026-08-13 21:47:46,983 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0, '1': 1, '128': 1}
+2026-08-13 21:47:46,983 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-13 21:47:46,983 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: [{'attr': 50339328, 'code': 65543}]
+2026-08-13 21:47:46,984 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] print_error: 50364424 (0x03008008) -> short_code=0300_8008
+2026-08-13 21:47:46,984 DEBUG [backend.app.services.bambu_mqtt] [-] [094, 03008008] HMS available actions: [] (job_id=)
+2026-08-13 21:47:46,984 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}, {'mode': 'on', 'node': 'chamber_light2'}]
+2026-08-13 21:47:46,985 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [259, 256, 65535, 0]
+2026-08-13 21:47:46,985 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: PAUSE -> PAUSE, file: /data/Metadata/plate_1.gcode, subtask: Dessous de verre Lord of the rings et rangement 
+2026-08-13 21:47:47,019 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'first_layer_inspector': True, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-13 21:47:47,019 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-13 21:47:47,019 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: RUNNING, gcode_file: /data/Metadata/plate_2.gcode, subtask_name: Dessous_de_verre_Lord_of_the_rings_et_rangement_
+2026-08-13 21:47:47,019 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0, '1': 0}
+2026-08-13 21:47:47,019 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-13 21:47:47,020 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-13 21:47:47,020 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-13 21:47:47,020 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [65535, 65535, 65535, 65535, 3]
+2026-08-13 21:47:47,020 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: RUNNING -> RUNNING, file: /data/Metadata/plate_2.gcode, subtask: Dessous_de_verre_Lord_of_the_rings_et_rangement_
+2026-08-13 21:47:48,123 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'first_layer_inspector': True, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-13 21:47:48,123 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-13 21:47:48,123 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: RUNNING, gcode_file: /data/Metadata/plate_2.gcode, subtask_name: Dessous_de_verre_Lord_of_the_rings_et_rangement_
+2026-08-13 21:47:48,123 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0, '1': 0}
+2026-08-13 21:47:48,124 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-13 21:47:48,124 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-13 21:47:48,124 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-13 21:47:48,124 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [65535, 65535, 65535, 65535, 3]
+2026-08-13 21:47:48,124 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: RUNNING -> RUNNING, file: /data/Metadata/plate_2.gcode, subtask: Dessous_de_verre_Lord_of_the_rings_et_rangement_
+2026-08-13 21:47:48,537 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': False, 'cfg': 1797255, 'first_layer_inspector': True, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-13 21:47:48,537 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'cfg', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-13 21:47:48,537 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] xcam cfg bitmask: 1797255 (binary: 0b110110110110010000111)
+2026-08-13 21:47:48,537 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: PAUSE, gcode_file: /data/Metadata/plate_1.gcode, subtask_name: Dessous de verre Lord of the rings et rangement 
+2026-08-13 21:47:48,537 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0, '1': 1, '128': 1}
+2026-08-13 21:47:48,537 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-13 21:47:48,537 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: [{'attr': 50339328, 'code': 65543}]
+2026-08-13 21:47:48,538 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] print_error: 50364424 (0x03008008) -> short_code=0300_8008
+2026-08-13 21:47:48,538 DEBUG [backend.app.services.bambu_mqtt] [-] [094, 03008008] HMS available actions: [] (job_id=)
+2026-08-13 21:47:48,538 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}, {'mode': 'on', 'node': 'chamber_light2'}]
+2026-08-13 21:47:48,538 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [259, 256, 65535, 0]
+2026-08-13 21:47:48,538 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: PAUSE -> PAUSE, file: /data/Metadata/plate_1.gcode, subtask: Dessous de verre Lord of the rings et rangement 
+2026-08-13 21:47:49,240 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'first_layer_inspector': True, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-13 21:47:49,240 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-13 21:47:49,240 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: RUNNING, gcode_file: /data/Metadata/plate_2.gcode, subtask_name: Dessous_de_verre_Lord_of_the_rings_et_rangement_
+2026-08-13 21:47:49,240 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0, '1': 0}
+2026-08-13 21:47:49,241 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-13 21:47:49,241 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-13 21:47:49,241 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-13 21:47:49,241 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [65535, 65535, 65535, 65535, 3]
+2026-08-13 21:47:49,241 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: RUNNING -> RUNNING, file: /data/Metadata/plate_2.gcode, subtask: Dessous_de_verre_Lord_of_the_rings_et_rangement_
+2026-08-13 21:47:49,910 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': False, 'cfg': 1797255, 'first_layer_inspector': True, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-13 21:47:49,910 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'cfg', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-13 21:47:49,910 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] xcam cfg bitmask: 1797255 (binary: 0b110110110110010000111)
+2026-08-13 21:47:49,910 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: PAUSE, gcode_file: /data/Metadata/plate_1.gcode, subtask_name: Dessous de verre Lord of the rings et rangement 
+2026-08-13 21:47:49,911 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0, '1': 1, '128': 1}
+2026-08-13 21:47:49,911 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-13 21:47:49,912 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: [{'attr': 50339328, 'code': 65543}]
+2026-08-13 21:47:49,912 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] print_error: 50364424 (0x03008008) -> short_code=0300_8008
+2026-08-13 21:47:49,912 DEBUG [backend.app.services.bambu_mqtt] [-] [094, 03008008] HMS available actions: [] (job_id=)
+2026-08-13 21:47:49,912 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}, {'mode': 'on', 'node': 'chamber_light2'}]
+2026-08-13 21:47:49,912 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [259, 256, 65535, 0]
+2026-08-13 21:47:49,913 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: PAUSE -> PAUSE, file: /data/Metadata/plate_1.gcode, subtask: Dessous de verre Lord of the rings et rangement 
+2026-08-13 21:47:50,370 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'first_layer_inspector': True, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-13 21:47:50,370 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-13 21:47:50,370 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: RUNNING, gcode_file: /data/Metadata/plate_2.gcode, subtask_name: Dessous_de_verre_Lord_of_the_rings_et_rangement_
+2026-08-13 21:47:50,371 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0, '1': 0}
+2026-08-13 21:47:50,371 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-13 21:47:50,371 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-13 21:47:50,371 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-13 21:47:50,371 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [65535, 65535, 65535, 65535, 3]
+2026-08-13 21:47:50,372 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: RUNNING -> RUNNING, file: /data/Metadata/plate_2.gcode, subtask: Dessous_de_verre_Lord_of_the_rings_et_rangement_
+2026-08-13 21:47:50,964 DEBUG [backend.app.services.virtual_printer.ssdp_server] [-] Received M-SEARCH from [IP]
+2026-08-13 21:47:50,964 INFO [backend.app.services.virtual_printer.ssdp_server] [-] Sent SSDP response to [IP] for '[PRINTER] Proxy (Proxy)' (Location=[IP], USN=[SERIAL])
+2026-08-13 21:47:51,225 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': False, 'cfg': 1797255, 'first_layer_inspector': True, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-13 21:47:51,226 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'cfg', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-13 21:47:51,226 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] xcam cfg bitmask: 1797255 (binary: 0b110110110110010000111)
+2026-08-13 21:47:51,226 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: PAUSE, gcode_file: /data/Metadata/plate_1.gcode, subtask_name: Dessous de verre Lord of the rings et rangement 
+2026-08-13 21:47:51,226 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0, '1': 1, '128': 1}
+2026-08-13 21:47:51,226 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-13 21:47:51,226 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: [{'attr': 50339328, 'code': 65543}]
+2026-08-13 21:47:51,226 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] print_error: 50364424 (0x03008008) -> short_code=0300_8008
+2026-08-13 21:47:51,227 DEBUG [backend.app.services.bambu_mqtt] [-] [094, 03008008] HMS available actions: [] (job_id=)
+2026-08-13 21:47:51,227 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}, {'mode': 'on', 'node': 'chamber_light2'}]
+2026-08-13 21:47:51,227 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [259, 256, 65535, 0]
+2026-08-13 21:47:51,227 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: PAUSE -> PAUSE, file: /data/Metadata/plate_1.gcode, subtask: Dessous de verre Lord of the rings et rangement 
+2026-08-13 21:47:51,512 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'first_layer_inspector': True, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-13 21:47:51,512 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-13 21:47:51,512 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: RUNNING, gcode_file: /data/Metadata/plate_2.gcode, subtask_name: Dessous_de_verre_Lord_of_the_rings_et_rangement_
+2026-08-13 21:47:51,513 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0, '1': 0}
+2026-08-13 21:47:51,513 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-13 21:47:51,513 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-13 21:47:51,513 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-13 21:47:51,513 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [65535, 65535, 65535, 65535, 3]
+2026-08-13 21:47:51,513 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: RUNNING -> RUNNING, file: /data/Metadata/plate_2.gcode, subtask: Dessous_de_verre_Lord_of_the_rings_et_rangement_
+2026-08-13 21:47:52,609 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'first_layer_inspector': True, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-13 21:47:52,609 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-13 21:47:52,609 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: RUNNING, gcode_file: /data/Metadata/plate_2.gcode, subtask_name: Dessous_de_verre_Lord_of_the_rings_et_rangement_
+2026-08-13 21:47:52,609 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0, '1': 0}
+2026-08-13 21:47:52,609 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-13 21:47:52,610 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-13 21:47:52,610 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-13 21:47:52,610 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [65535, 65535, 65535, 65535, 3]
+2026-08-13 21:47:52,610 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: RUNNING -> RUNNING, file: /data/Metadata/plate_2.gcode, subtask: Dessous_de_verre_Lord_of_the_rings_et_rangement_
+2026-08-13 21:47:52,842 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': False, 'cfg': 1797255, 'first_layer_inspector': True, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-13 21:47:52,842 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'cfg', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-13 21:47:52,842 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] xcam cfg bitmask: 1797255 (binary: 0b110110110110010000111)
+2026-08-13 21:47:52,842 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: PAUSE, gcode_file: /data/Metadata/plate_1.gcode, subtask_name: Dessous de verre Lord of the rings et rangement 
+2026-08-13 21:47:52,842 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0, '1': 1, '128': 1}
+2026-08-13 21:47:52,843 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-13 21:47:52,843 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: [{'attr': 50339328, 'code': 65543}]
+2026-08-13 21:47:52,843 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] print_error: 50364424 (0x03008008) -> short_code=0300_8008
+2026-08-13 21:47:52,843 DEBUG [backend.app.services.bambu_mqtt] [-] [094, 03008008] HMS available actions: [] (job_id=)
+2026-08-13 21:47:52,843 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}, {'mode': 'on', 'node': 'chamber_light2'}]
+2026-08-13 21:47:52,844 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [259, 256, 65535, 0]
+2026-08-13 21:47:52,844 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: PAUSE -> PAUSE, file: /data/Metadata/plate_1.gcode, subtask: Dessous de verre Lord of the rings et rangement 
+2026-08-13 21:47:53,381 DEBUG [backend.app.api.routes.printers] [67435b17] API returning ams_mapping: [], ams_extruder_map: {'0': 1, '128': 0}
+2026-08-13 21:47:53,381 DEBUG [backend.app.api.routes.printers] [67435b17] Using tray_now directly as global ID: 1
+2026-08-13 21:47:53,397 DEBUG [backend.app.api.routes.printers] [d3c1a674] API returning ams_mapping: [], ams_extruder_map: {'0': 0}
+2026-08-13 21:47:53,397 DEBUG [backend.app.api.routes.printers] [d3c1a674] Using tray_now directly as global ID: 255
+2026-08-13 21:47:53,749 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'first_layer_inspector': True, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-13 21:47:53,750 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-13 21:47:53,750 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: RUNNING, gcode_file: /data/Metadata/plate_2.gcode, subtask_name: Dessous_de_verre_Lord_of_the_rings_et_rangement_
+2026-08-13 21:47:53,750 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] AMS dict fields: {'ams_exist_bits': '3', 'ams_exist_bits_raw': '3', 'cali_id': 0, 'cali_stat': 0, 'insert_flag': True, 'power_on_flag': True, 'tray_exist_bits': 'ff', 'tray_is_bbl_bits': 'ff', 'tray_now': '3', 'tray_pre': '3', 'tray_read_done_bits': 'ff', 'tray_reading_bits': '0', 'tray_tar': '3', 'unbind_ams_stat': 0, 'version': 1765}
+2026-08-13 21:47:53,750 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0, '1': 0}
+2026-08-13 21:47:53,750 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-13 21:47:53,750 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-13 21:47:53,750 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-13 21:47:53,750 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [65535, 65535, 65535, 65535, 3]
+2026-08-13 21:47:53,750 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: RUNNING -> RUNNING, file: /data/Metadata/plate_2.gcode, subtask: Dessous_de_verre_Lord_of_the_rings_et_rangement_
+2026-08-13 21:47:54,330 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': False, 'cfg': 1797255, 'first_layer_inspector': True, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-13 21:47:54,331 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'cfg', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-13 21:47:54,331 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] xcam cfg bitmask: 1797255 (binary: 0b110110110110010000111)
+2026-08-13 21:47:54,331 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: PAUSE, gcode_file: /data/Metadata/plate_1.gcode, subtask_name: Dessous de verre Lord of the rings et rangement 
+2026-08-13 21:47:54,331 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0, '1': 1, '128': 1}
+2026-08-13 21:47:54,331 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-13 21:47:54,331 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: [{'attr': 50339328, 'code': 65543}]
+2026-08-13 21:47:54,332 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] print_error: 50364424 (0x03008008) -> short_code=0300_8008
+2026-08-13 21:47:54,332 DEBUG [backend.app.services.bambu_mqtt] [-] [094, 03008008] HMS available actions: [] (job_id=)
+2026-08-13 21:47:54,332 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}, {'mode': 'on', 'node': 'chamber_light2'}]
+2026-08-13 21:47:54,332 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [259, 256, 65535, 0]
+2026-08-13 21:47:54,332 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: PAUSE -> PAUSE, file: /data/Metadata/plate_1.gcode, subtask: Dessous de verre Lord of the rings et rangement 
