@@ -1,0 +1,200 @@
+2026-08-13 04:35:40,332 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] xcam cfg bitmask: 8088999 (binary: 0b11110110110110110100111)
+2026-08-13 04:35:40,333 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: FINISH, gcode_file: /data/Metadata/plate_3.gcode, subtask_name: printable_pendulum_rod_pendulum_shaft
+2026-08-13 04:35:40,333 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0}
+2026-08-13 04:35:40,333 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-13 04:35:40,333 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: [{'attr': 83887616, 'code': 131184, 'ts_boot': 33735, 'ts_unix': '20260722190528'}, {'attr': 84082688, 'code': 196647, 'ts_boot': 1241257059, 'ts_unix': '20260806035231'}]
+2026-08-13 04:35:40,334 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-13 04:35:40,334 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [65535, 1]
+2026-08-13 04:35:40,334 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: FINISH -> FINISH, file: /data/Metadata/plate_3.gcode, subtask: printable_pendulum_rod_pendulum_shaft
+2026-08-13 04:35:40,403 INFO [backend.app.services.print_scheduler] [-] Queue check: found 2 pending items: [(362, 1, 422, None), (376, 1, 437, None)]
+2026-08-13 04:35:40,406 INFO [backend.app.services.print_scheduler] [-] Queue skip summary: {'manual_start': 2}
+2026-08-13 04:35:40,406 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=FINISH, awaiting_plate_clear=False
+2026-08-13 04:35:41,613 DEBUG [backend.app.services.bambu_ftp] [-] FTP connected, logging in as bblp
+2026-08-13 04:35:41,628 DEBUG [backend.app.services.bambu_ftp] [-] FTP logged in, setting prot_p (protected) and passive mode
+2026-08-13 04:35:41,634 DEBUG [backend.app.services.bambu_ftp] [-] FTP server welcome: 220 (vsFTPd 3.0.5)
+2026-08-13 04:35:41,634 INFO [backend.app.services.bambu_ftp] [-] FTP connected successfully to [IP] (model=P2S, prot_c=False)
+2026-08-13 04:35:41,634 INFO [backend.app.services.bambu_ftp] [-] FTP connected to [IP]
+2026-08-13 04:35:41,635 INFO [backend.app.services.bambu_ftp] [-] FTP uploading /app/data/archive/unassigned/20260813_020308_main components for a,p and x series_plate_8/main components for a,p and x series_plate_8.gcode.3mf (9498772 bytes) to /main_components_for_a,p_and_x_series_plate_8.3mf
+2026-08-13 04:35:41,635 DEBUG [backend.app.services.bambu_ftp] [-] FTP STOR command starting for /main_components_for_a,p_and_x_series_plate_8.3mf
+2026-08-13 04:35:41,689 INFO [backend.app.services.bambu_ftp] [-] FTP data channel ready in 0.1s (PASV + TLS handshake)
+2026-08-13 04:35:41,689 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 65536/9498772 bytes
+2026-08-13 04:35:41,692 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 131072/9498772 bytes
+2026-08-13 04:35:41,697 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 196608/9498772 bytes
+2026-08-13 04:35:41,698 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 262144/9498772 bytes
+2026-08-13 04:35:41,702 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 327680/9498772 bytes
+2026-08-13 04:35:41,708 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 393216/9498772 bytes
+2026-08-13 04:35:41,715 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 458752/9498772 bytes
+2026-08-13 04:35:41,727 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 524288/9498772 bytes
+2026-08-13 04:35:41,737 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 589824/9498772 bytes
+2026-08-13 04:35:41,759 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 655360/9498772 bytes
+2026-08-13 04:35:41,762 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 720896/9498772 bytes
+2026-08-13 04:35:41,772 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 786432/9498772 bytes
+2026-08-13 04:35:41,782 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 851968/9498772 bytes
+2026-08-13 04:35:41,806 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 917504/9498772 bytes
+2026-08-13 04:35:41,808 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 983040/9498772 bytes
+2026-08-13 04:35:41,818 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 1048576/9498772 bytes
+2026-08-13 04:35:41,832 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 1114112/9498772 bytes
+2026-08-13 04:35:41,845 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 1179648/9498772 bytes
+2026-08-13 04:35:41,851 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 1245184/9498772 bytes
+2026-08-13 04:35:41,867 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 1310720/9498772 bytes
+2026-08-13 04:35:41,872 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 1376256/9498772 bytes
+2026-08-13 04:35:41,895 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 1441792/9498772 bytes
+2026-08-13 04:35:41,918 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 1507328/9498772 bytes
+2026-08-13 04:35:41,938 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 1572864/9498772 bytes
+2026-08-13 04:35:41,958 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 1638400/9498772 bytes
+2026-08-13 04:35:41,991 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 1703936/9498772 bytes
+2026-08-13 04:35:42,019 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 1769472/9498772 bytes
+2026-08-13 04:35:42,050 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 1835008/9498772 bytes
+2026-08-13 04:35:42,063 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 1900544/9498772 bytes
+2026-08-13 04:35:42,077 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': False, 'cfg': 8088999, 'first_layer_inspector': True, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-13 04:35:42,078 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'cfg', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-13 04:35:42,078 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] xcam cfg bitmask: 8088999 (binary: 0b11110110110110110100111)
+2026-08-13 04:35:42,078 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: FINISH, gcode_file: /data/Metadata/plate_3.gcode, subtask_name: printable_pendulum_rod_pendulum_shaft
+2026-08-13 04:35:42,078 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0}
+2026-08-13 04:35:42,078 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-13 04:35:42,079 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: [{'attr': 83887616, 'code': 131184, 'ts_boot': 33735, 'ts_unix': '20260722190528'}, {'attr': 84082688, 'code': 196647, 'ts_boot': 1241257059, 'ts_unix': '20260806035231'}]
+2026-08-13 04:35:42,079 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-13 04:35:42,080 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [65535, 1]
+2026-08-13 04:35:42,080 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: FINISH -> FINISH, file: /data/Metadata/plate_3.gcode, subtask: printable_pendulum_rod_pendulum_shaft
+2026-08-13 04:35:42,080 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 1966080/9498772 bytes
+2026-08-13 04:35:42,091 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 2031616/9498772 bytes
+2026-08-13 04:35:42,101 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 2097152/9498772 bytes
+2026-08-13 04:35:42,114 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 2162688/9498772 bytes
+2026-08-13 04:35:42,126 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 2228224/9498772 bytes
+2026-08-13 04:35:42,138 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 2293760/9498772 bytes
+2026-08-13 04:35:42,152 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 2359296/9498772 bytes
+2026-08-13 04:35:42,164 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 2424832/9498772 bytes
+2026-08-13 04:35:42,179 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 2490368/9498772 bytes
+2026-08-13 04:35:42,203 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 2555904/9498772 bytes
+2026-08-13 04:35:42,203 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 2621440/9498772 bytes
+2026-08-13 04:35:42,221 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 2686976/9498772 bytes
+2026-08-13 04:35:42,231 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 2752512/9498772 bytes
+2026-08-13 04:35:42,243 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 2818048/9498772 bytes
+2026-08-13 04:35:42,255 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 2883584/9498772 bytes
+2026-08-13 04:35:42,266 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 2949120/9498772 bytes
+2026-08-13 04:35:42,278 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 3014656/9498772 bytes
+2026-08-13 04:35:42,286 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 3080192/9498772 bytes
+2026-08-13 04:35:42,296 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 3145728/9498772 bytes
+2026-08-13 04:35:42,307 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 3211264/9498772 bytes
+2026-08-13 04:35:42,312 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 3276800/9498772 bytes
+2026-08-13 04:35:42,323 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 3342336/9498772 bytes
+2026-08-13 04:35:42,332 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 3407872/9498772 bytes
+2026-08-13 04:35:42,340 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 3473408/9498772 bytes
+2026-08-13 04:35:42,350 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 3538944/9498772 bytes
+2026-08-13 04:35:42,358 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 3604480/9498772 bytes
+2026-08-13 04:35:42,368 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 3670016/9498772 bytes
+2026-08-13 04:35:42,380 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 3735552/9498772 bytes
+2026-08-13 04:35:42,386 DEBUG [backend.app.services.virtual_printer.ssdp_server] [-] Rewrote SSDP for proxy:
+NOTIFY * HTTP/1.1
+Host: [IP]:1990
+Server: UPnP/1.0
+Location: [IP]
+NT: urn:bambulab-com:device:3dprinter:1
+NTS: ssdp:alive
+USN: [SERIAL]
+Cache-Control: max-age=1800
+DevModel.bambu.com: N7
+DevName.bambu.com: Bambuddy
+DevConnect.bambu.com: lan
+DevBind.bambu.com: free
+Devseclink.bambu.com: secure
+DevInf.bambu.com: wlan0
+DevVersion.bambu.com: 01.02.00.00
+DevCap.bambu.com: 1
+
+
+2026-08-13 04:35:42,386 DEBUG [backend.app.services.virtual_printer.ssdp_server] [-] Broadcast SSDP for '[PRINTER]' on LAN B ([IP])
+2026-08-13 04:35:42,396 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 3801088/9498772 bytes
+2026-08-13 04:35:42,406 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 3866624/9498772 bytes
+2026-08-13 04:35:42,416 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 3932160/9498772 bytes
+2026-08-13 04:35:42,425 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 3997696/9498772 bytes
+2026-08-13 04:35:42,451 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 4063232/9498772 bytes
+2026-08-13 04:35:42,459 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 4128768/9498772 bytes
+2026-08-13 04:35:42,480 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 4194304/9498772 bytes
+2026-08-13 04:35:42,490 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 4259840/9498772 bytes
+2026-08-13 04:35:42,501 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 4325376/9498772 bytes
+2026-08-13 04:35:42,512 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 4390912/9498772 bytes
+2026-08-13 04:35:42,523 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 4456448/9498772 bytes
+2026-08-13 04:35:42,533 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 4521984/9498772 bytes
+2026-08-13 04:35:42,547 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 4587520/9498772 bytes
+2026-08-13 04:35:42,559 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 4653056/9498772 bytes
+2026-08-13 04:35:42,567 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 4718592/9498772 bytes
+2026-08-13 04:35:42,579 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 4784128/9498772 bytes
+2026-08-13 04:35:42,589 DEBUG [backend.app.services.virtual_printer.ssdp_server] [-] Sent SSDP NOTIFY for BamQueue (Location=[IP], USN=22E00A391800002, bind=[IP])
+2026-08-13 04:35:42,591 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 4849664/9498772 bytes
+2026-08-13 04:35:42,604 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 4915200/9498772 bytes
+2026-08-13 04:35:42,616 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 4980736/9498772 bytes
+2026-08-13 04:35:42,627 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 5046272/9498772 bytes
+2026-08-13 04:35:42,638 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 5111808/9498772 bytes
+2026-08-13 04:35:42,655 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 5177344/9498772 bytes
+2026-08-13 04:35:42,666 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 5242880/9498772 bytes
+2026-08-13 04:35:42,681 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 5308416/9498772 bytes
+2026-08-13 04:35:42,690 DEBUG [backend.app.services.virtual_printer.ssdp_server] [-] Sent SSDP NOTIFY for BamReview (Location=[IP], USN=22E00A391800004, bind=[IP])
+2026-08-13 04:35:42,690 DEBUG [backend.app.services.virtual_printer.ssdp_server] [-] Sent SSDP NOTIFY for BamArchive (Location=[IP], USN=22E00A391800003, bind=[IP])
+2026-08-13 04:35:42,699 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 5373952/9498772 bytes
+2026-08-13 04:35:42,705 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 5439488/9498772 bytes
+2026-08-13 04:35:42,717 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 5505024/9498772 bytes
+2026-08-13 04:35:42,725 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 5570560/9498772 bytes
+2026-08-13 04:35:42,739 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 5636096/9498772 bytes
+2026-08-13 04:35:42,746 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 5701632/9498772 bytes
+2026-08-13 04:35:42,757 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 5767168/9498772 bytes
+2026-08-13 04:35:42,768 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 5832704/9498772 bytes
+2026-08-13 04:35:42,788 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 5898240/9498772 bytes
+2026-08-13 04:35:42,805 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 5963776/9498772 bytes
+2026-08-13 04:35:42,821 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 6029312/9498772 bytes
+2026-08-13 04:35:42,829 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 6094848/9498772 bytes
+2026-08-13 04:35:42,837 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 6160384/9498772 bytes
+2026-08-13 04:35:42,848 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 6225920/9498772 bytes
+2026-08-13 04:35:42,860 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 6291456/9498772 bytes
+2026-08-13 04:35:42,867 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 6356992/9498772 bytes
+2026-08-13 04:35:42,881 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 6422528/9498772 bytes
+2026-08-13 04:35:42,894 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 6488064/9498772 bytes
+2026-08-13 04:35:42,904 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 6553600/9498772 bytes
+2026-08-13 04:35:42,923 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 6619136/9498772 bytes
+2026-08-13 04:35:42,934 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 6684672/9498772 bytes
+2026-08-13 04:35:42,951 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 6750208/9498772 bytes
+2026-08-13 04:35:42,960 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 6815744/9498772 bytes
+2026-08-13 04:35:42,971 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 6881280/9498772 bytes
+2026-08-13 04:35:42,990 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 6946816/9498772 bytes
+2026-08-13 04:35:42,999 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 7012352/9498772 bytes
+2026-08-13 04:35:43,010 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 7077888/9498772 bytes
+2026-08-13 04:35:43,022 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 7143424/9498772 bytes
+2026-08-13 04:35:43,032 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 7208960/9498772 bytes
+2026-08-13 04:35:43,044 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 7274496/9498772 bytes
+2026-08-13 04:35:43,053 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 7340032/9498772 bytes
+2026-08-13 04:35:43,064 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 7405568/9498772 bytes
+2026-08-13 04:35:43,075 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 7471104/9498772 bytes
+2026-08-13 04:35:43,087 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 7536640/9498772 bytes
+2026-08-13 04:35:43,101 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 7602176/9498772 bytes
+2026-08-13 04:35:43,113 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 7667712/9498772 bytes
+2026-08-13 04:35:43,139 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 7733248/9498772 bytes
+2026-08-13 04:35:43,154 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 7798784/9498772 bytes
+2026-08-13 04:35:43,161 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 7864320/9498772 bytes
+2026-08-13 04:35:43,173 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 7929856/9498772 bytes
+2026-08-13 04:35:43,180 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 7995392/9498772 bytes
+2026-08-13 04:35:43,190 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 8060928/9498772 bytes
+2026-08-13 04:35:43,204 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 8126464/9498772 bytes
+2026-08-13 04:35:43,210 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': False, 'cfg': 8088999, 'first_layer_inspector': True, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-13 04:35:43,210 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'cfg', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-13 04:35:43,210 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] xcam cfg bitmask: 8088999 (binary: 0b11110110110110110100111)
+2026-08-13 04:35:43,210 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: FINISH, gcode_file: /data/Metadata/plate_3.gcode, subtask_name: printable_pendulum_rod_pendulum_shaft
+2026-08-13 04:35:43,210 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0}
+2026-08-13 04:35:43,210 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-13 04:35:43,211 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: [{'attr': 83887616, 'code': 131184, 'ts_boot': 33735, 'ts_unix': '20260722190528'}, {'attr': 84082688, 'code': 196647, 'ts_boot': 1241257059, 'ts_unix': '20260806035231'}]
+2026-08-13 04:35:43,211 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-13 04:35:43,211 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: [65535, 1]
+2026-08-13 04:35:43,211 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: FINISH -> FINISH, file: /data/Metadata/plate_3.gcode, subtask: printable_pendulum_rod_pendulum_shaft
+2026-08-13 04:35:43,219 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 8192000/9498772 bytes
+2026-08-13 04:35:43,222 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 8257536/9498772 bytes
+2026-08-13 04:35:43,233 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 8323072/9498772 bytes
+2026-08-13 04:35:43,243 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 8388608/9498772 bytes
+2026-08-13 04:35:43,255 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 8454144/9498772 bytes
+2026-08-13 04:35:43,266 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 8519680/9498772 bytes
+2026-08-13 04:35:43,278 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 8585216/9498772 bytes
+2026-08-13 04:35:43,287 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 8650752/9498772 bytes
+2026-08-13 04:35:43,297 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 8716288/9498772 bytes
+2026-08-13 04:35:43,309 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 8781824/9498772 bytes
+2026-08-13 04:35:43,342 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 8847360/9498772 bytes
+2026-08-13 04:35:43,354 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 8912896/9498772 bytes
+2026-08-13 04:35:43,360 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 8978432/9498772 bytes
+2026-08-13 04:35:43,393 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 9043968/9498772 bytes
