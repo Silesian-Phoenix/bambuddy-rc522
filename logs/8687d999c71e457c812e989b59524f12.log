@@ -1,0 +1,200 @@
+2026-08-14 08:19:27,906 INFO [uvicorn.access] [-] [IP]:49955 - "POST /api/v1/smart-plugs/1/control HTTP/1.1" 200
+2026-08-14 08:19:41,555 INFO [backend.app.services.print_scheduler] [-] Queue check: found 4 pending items: [(507, 1, 82, None), (540, 5, 82, None), (505, None, 123, None), (506, None, 123, None)]
+2026-08-14 08:19:41,556 INFO [backend.app.services.print_scheduler] [-] Queue skip summary: {'manual_start': 4}
+2026-08-14 08:19:43,516 INFO [backend.app.services.tasmota] [989c42c9] Turned ON smart plug 'banmbuswitch3' at [IP]
+2026-08-14 08:19:43,540 INFO [uvicorn.access] [-] [IP]:49955 - "POST /api/v1/smart-plugs/1/control HTTP/1.1" 200
+2026-08-14 08:20:07,242 INFO [backend.app.services.discovery] [35e5a01b] Starting SSDP discovery on port 2021 for Bambu Lab printers...
+2026-08-14 08:20:07,242 INFO [uvicorn.access] [-] [IP]:49992 - "POST /api/v1/discovery/start?duration=10 HTTP/1.1" 200
+2026-08-14 08:20:11,564 INFO [backend.app.services.print_scheduler] [-] Queue check: found 4 pending items: [(507, 1, 82, None), (540, 5, 82, None), (505, None, 123, None), (506, None, 123, None)]
+2026-08-14 08:20:11,565 INFO [backend.app.services.print_scheduler] [-] Queue skip summary: {'manual_start': 4}
+2026-08-14 08:20:11,763 INFO [backend.app.services.discovery] [35e5a01b] Discovered printer: [PRINTER] ([SERIAL]) at [IP]
+2026-08-14 08:20:17,253 INFO [uvicorn.access] [-] [IP]:49990 - "POST /api/v1/discovery/stop HTTP/1.1" 200
+2026-08-14 08:20:41,157 INFO [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Request topic subscription accepted. ams_mapping capture enabled for slicer-initiated prints.
+2026-08-14 08:20:41,232 INFO [uvicorn.access] [-] [IP]:49999 - "POST /api/v1/printers/diagnostic HTTP/1.1" 200
+2026-08-14 08:20:41,380 INFO [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Request topic subscription accepted. ams_mapping capture enabled for slicer-initiated prints.
+2026-08-14 08:20:41,574 INFO [backend.app.services.print_scheduler] [-] Queue check: found 4 pending items: [(507, 1, 82, None), (540, 5, 82, None), (505, None, 123, None), (506, None, 123, None)]
+2026-08-14 08:20:41,575 INFO [backend.app.services.print_scheduler] [-] Queue skip summary: {'manual_start': 4}
+2026-08-14 08:20:41,580 INFO [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Request topic subscription accepted. ams_mapping capture enabled for slicer-initiated prints.
+2026-08-14 08:20:41,728 INFO [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Firmware version: 01.02.00.00
+2026-08-14 08:20:42,402 INFO [backend.app.services.bambu_mqtt] [-] [[SERIAL]] AMS Filament Backup: ON
+2026-08-14 08:20:42,402 INFO [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Detected dual-nozzle printer from device.extruder.info
+2026-08-14 08:20:42,402 INFO [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Device identification: no known id fields; device.keys=['airduct', 'bed', 'bed_temp', 'cam', 'ctc', 'ext_tool', 'extruder', 'fan', 'fila_switch', 'fire_ext', 'fourth_axis', 'holder', 'laser', 'nozzle', 'plate', 'type']
+2026-08-14 08:20:42,402 INFO [backend.app.main] [-] [Printer 7] Broadcasting AMS change via WebSocket
+2026-08-14 08:20:42,403 INFO [backend.app.main] [-] [Printer 7] Broadcasting AMS change via WebSocket
+2026-08-14 08:20:42,413 INFO [backend.app.services.spool_tag_matcher] [-] Auto-assigned spool 62 to printer 7 AMS0-T0 (RFID match)
+2026-08-14 08:20:42,415 INFO [backend.app.main] [-] Auto-detected dual-nozzle printer 7, updated nozzle_count=2
+2026-08-14 08:20:42,416 INFO [backend.app.main] [-] RFID auto-assigned spool 62 to printer 7 AMS0-T0
+2026-08-14 08:20:42,419 INFO [backend.app.services.spool_tag_matcher] [-] Auto-assigned spool 9 to printer 7 AMS0-T1 (RFID match)
+2026-08-14 08:20:42,444 INFO [backend.app.main] [-] RFID auto-assigned spool 9 to printer 7 AMS0-T1
+2026-08-14 08:20:42,448 INFO [backend.app.services.spool_tag_matcher] [-] Auto-assigned spool 61 to printer 7 AMS0-T3 (RFID match)
+2026-08-14 08:20:42,449 INFO [backend.app.main] [-] RFID auto-assigned spool 61 to printer 7 AMS0-T3
+2026-08-14 08:20:42,452 INFO [backend.app.services.spool_tag_matcher] [-] Auto-assigned spool 60 to printer 7 AMS1-T0 (RFID match)
+2026-08-14 08:20:42,453 INFO [backend.app.main] [-] RFID auto-assigned spool 60 to printer 7 AMS1-T0
+2026-08-14 08:20:42,455 INFO [uvicorn.access] [-] [IP]:50000 - "POST /api/v1/printers/ HTTP/1.1" 200
+2026-08-14 08:20:42,456 INFO [backend.app.services.spool_tag_matcher] [-] Auto-assigned spool 51 to printer 7 AMS1-T1 (RFID match)
+2026-08-14 08:20:42,458 INFO [backend.app.main] [-] RFID auto-assigned spool 51 to printer 7 AMS1-T1
+2026-08-14 08:20:42,462 INFO [backend.app.services.spool_tag_matcher] [-] Auto-assigned spool 4 to printer 7 AMS2-T1 (RFID match)
+2026-08-14 08:20:42,465 INFO [backend.app.main] [-] RFID auto-assigned spool 4 to printer 7 AMS2-T1
+2026-08-14 08:20:42,476 INFO [backend.app.services.spool_tag_matcher] [-] Auto-assigned spool 67 to printer 7 AMS2-T3 (RFID match)
+2026-08-14 08:20:42,480 INFO [backend.app.main] [-] RFID auto-assigned spool 67 to printer 7 AMS2-T3
+2026-08-14 08:20:42,489 INFO [uvicorn.access] [-] [IP]:50001 - "POST /api/v1/discovery/stop HTTP/1.1" 200
+2026-08-14 08:20:42,489 INFO [uvicorn.access] [-] [IP]:50002 - "POST /api/v1/discovery/scan/stop HTTP/1.1" 200
+2026-08-14 08:20:42,550 INFO [backend.app.api.routes.cloud] [5f497dd9] get_filament_info called with 6 IDs: ['GFB00', 'GFG02', 'GFA00', 'GFA01', 'GFG99', 'P4d64437']
+2026-08-14 08:20:43,669 INFO [uvicorn.access] [-] [IP]:50004 - "POST /api/v1/cloud/filament-info HTTP/1.1" 200
+2026-08-14 08:21:11,583 INFO [backend.app.services.print_scheduler] [-] Queue check: found 4 pending items: [(507, 1, 82, None), (540, 5, 82, None), (505, None, 123, None), (506, None, 123, None)]
+2026-08-14 08:21:11,584 INFO [backend.app.services.print_scheduler] [-] Queue skip summary: {'manual_start': 4}
+2026-08-14 08:21:41,592 INFO [backend.app.services.print_scheduler] [-] Queue check: found 4 pending items: [(507, 1, 82, None), (540, 5, 82, None), (505, None, 123, None), (506, None, 123, None)]
+2026-08-14 08:21:41,594 INFO [backend.app.services.print_scheduler] [-] Queue skip summary: {'manual_start': 4}
+2026-08-14 08:22:11,603 INFO [backend.app.services.print_scheduler] [-] Queue check: found 4 pending items: [(507, 1, 82, None), (540, 5, 82, None), (505, None, 123, None), (506, None, 123, None)]
+2026-08-14 08:22:11,604 INFO [backend.app.services.print_scheduler] [-] Queue skip summary: {'manual_start': 4}
+2026-08-14 08:22:41,612 INFO [backend.app.services.print_scheduler] [-] Queue check: found 4 pending items: [(507, 1, 82, None), (540, 5, 82, None), (505, None, 123, None), (506, None, 123, None)]
+2026-08-14 08:22:41,613 INFO [backend.app.services.print_scheduler] [-] Queue skip summary: {'manual_start': 4}
+2026-08-14 08:23:11,622 INFO [backend.app.services.print_scheduler] [-] Queue check: found 4 pending items: [(507, 1, 82, None), (540, 5, 82, None), (505, None, 123, None), (506, None, 123, None)]
+2026-08-14 08:23:11,623 INFO [backend.app.services.print_scheduler] [-] Queue skip summary: {'manual_start': 4}
+2026-08-14 08:23:41,633 INFO [backend.app.services.print_scheduler] [-] Queue check: found 4 pending items: [(507, 1, 82, None), (540, 5, 82, None), (505, None, 123, None), (506, None, 123, None)]
+2026-08-14 08:23:41,634 INFO [backend.app.services.print_scheduler] [-] Queue skip summary: {'manual_start': 4}
+2026-08-14 08:23:56,696 INFO [backend.app.api.routes.websocket] [-] WebSocket client disconnected normally
+2026-08-14 08:23:56,797 INFO [backend.app.services.print_scheduler] [-] Print scheduler stopped
+2026-08-14 08:23:56,797 INFO [backend.app.services.smart_plug_manager] [-] Smart plug scheduler stopped
+2026-08-14 08:23:56,797 INFO [backend.app.services.smart_plug_manager] [-] Smart plug energy snapshot loop stopped
+2026-08-14 08:23:56,798 INFO [backend.app.services.ha_sensor_manager] [-] Home Assistant sensor poller stopped
+2026-08-14 08:23:56,798 INFO [backend.app.services.notification_service] [-] Notification digest scheduler stopped
+2026-08-14 08:23:56,798 INFO [backend.app.services.github_backup] [-] Stopped GitHub backup scheduler
+2026-08-14 08:23:56,798 INFO [backend.app.services.local_backup] [-] Stopped local backup scheduler
+2026-08-14 08:23:56,798 INFO [backend.app.services.library_trash] [-] Stopped library trash sweeper
+2026-08-14 08:23:56,798 INFO [backend.app.services.archive_purge] [-] Stopped archive auto-purge sweeper
+2026-08-14 08:23:56,798 INFO [backend.app.services.obico_detection] [-] Stopped Obico detection service
+2026-08-14 08:23:56,798 INFO [backend.app.main] [-] AMS history recording stopped
+2026-08-14 08:23:56,798 INFO [backend.app.main] [-] Printer sensor history recording stopped
+2026-08-14 08:23:56,798 INFO [backend.app.main] [-] Printer runtime tracking stopped
+2026-08-14 08:23:56,798 INFO [backend.app.main] [-] SpoolBuddy watchdog stopped
+2026-08-14 08:23:56,798 INFO [backend.app.main] [-] Camera stream cleanup stopped
+2026-08-14 08:23:56,798 INFO [backend.app.main] [-] Printer connection watchdog stopped
+2026-08-14 08:23:56,798 INFO [backend.app.services.loop_watchdog] [-] Event-loop stall watchdog stopped
+2026-08-14 08:23:56,798 INFO [backend.app.main] [-] Expected prints cleanup stopped
+2026-08-14 08:23:56,798 INFO [backend.app.main] [-] Auth periodic cleanup stopped
+2026-08-14 08:23:57,754 INFO [backend.app.services.virtual_printer.manager] [-] Stopping all virtual printer services...
+2026-08-14 08:23:57,755 INFO [backend.app.services.virtual_printer.manager] [-] All virtual printer services stopped
+2026-08-14 08:23:57,755 INFO [backend.app.main] [-] [#1752] Printer 7 connected→disconnected edge; scheduling offline notification in 60s
+2026-08-14 08:23:59,317 INFO [root] [-] Logging to file: /opt/[user]/projects/bambuddy/logs/bambuddy.log
+2026-08-14 08:23:59,317 INFO [root] [-] Bambuddy starting - debug=False, log_level=INFO
+2026-08-14 08:24:00,627 INFO [backend.app.core.database] [-] DB pool fits the server: up to 80 connection(s) per worker, 97 available (max_connections 100).
+2026-08-14 08:24:00,699 INFO [backend.app.services.mqtt_relay] [-] MQTT relay disabled
+2026-08-14 08:24:00,785 INFO [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Request topic subscription accepted. ams_mapping capture enabled for slicer-initiated prints.
+2026-08-14 08:24:00,881 INFO [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Firmware version: 01.02.00.00
+2026-08-14 08:24:01,706 INFO [backend.app.services.smart_plug_manager] [-] Smart plug scheduler started
+2026-08-14 08:24:01,706 INFO [backend.app.services.smart_plug_manager] [-] Smart plug energy snapshot loop started
+2026-08-14 08:24:01,707 INFO [backend.app.services.ha_sensor_manager] [-] Home Assistant sensor poller started
+2026-08-14 08:24:01,707 INFO [backend.app.services.print_scheduler] [-] Print scheduler started
+2026-08-14 08:24:01,732 INFO [backend.app.services.notification_service] [-] Notification digest scheduler started
+2026-08-14 08:24:01,732 INFO [backend.app.services.github_backup] [-] Starting GitHub backup scheduler
+2026-08-14 08:24:01,732 INFO [backend.app.services.local_backup] [-] Starting local backup scheduler
+2026-08-14 08:24:01,747 INFO [backend.app.services.obico_detection] [-] Starting Obico detection service
+2026-08-14 08:24:01,747 INFO [backend.app.services.library_trash] [-] Starting library trash sweeper
+2026-08-14 08:24:01,747 INFO [backend.app.services.archive_purge] [-] Starting archive auto-purge sweeper
+2026-08-14 08:24:01,747 INFO [backend.app.main] [-] AMS history recording started
+2026-08-14 08:24:01,747 INFO [backend.app.main] [-] Printer sensor history recording started
+2026-08-14 08:24:01,747 INFO [backend.app.main] [-] Printer runtime tracking started
+2026-08-14 08:24:01,747 INFO [backend.app.main] [-] SpoolBuddy watchdog started
+2026-08-14 08:24:01,747 INFO [backend.app.main] [-] Camera stream cleanup started
+2026-08-14 08:24:01,747 INFO [backend.app.main] [-] Printer connection watchdog started
+2026-08-14 08:24:01,785 INFO [backend.app.main] [-] Expected prints cleanup started
+2026-08-14 08:24:01,785 INFO [backend.app.main] [-] Auth periodic cleanup started
+2026-08-14 08:24:01,785 INFO [backend.app.services.loop_watchdog] [-] Event-loop stall watchdog started — dumps all thread stacks to stderr if the loop stalls for more than 30s
+2026-08-14 08:24:01,817 INFO [root] [-] Virtual printer manager synced from database
+2026-08-14 08:24:01,832 INFO [backend.app.services.print_scheduler] [-] Queue check: found 4 pending items: [(507, 1, 82, None), (540, 5, 82, None), (505, None, 123, None), (506, None, 123, None)]
+2026-08-14 08:24:01,835 INFO [backend.app.services.print_scheduler] [-] Queue skip summary: {'manual_start': 4}
+2026-08-14 08:24:02,190 INFO [backend.app.services.bambu_mqtt] [-] [[SERIAL]] AMS Filament Backup: ON
+2026-08-14 08:24:02,190 INFO [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Detected dual-nozzle printer from device.extruder.info
+2026-08-14 08:24:02,190 INFO [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Device identification: no known id fields; device.keys=['airduct', 'bed', 'bed_temp', 'cam', 'ctc', 'ext_tool', 'extruder', 'fan', 'fila_switch', 'fire_ext', 'fourth_axis', 'holder', 'laser', 'nozzle', 'plate', 'type']
+2026-08-14 08:24:02,192 INFO [backend.app.main] [-] [Printer 7] Broadcasting AMS change via WebSocket
+2026-08-14 08:24:02,192 INFO [backend.app.main] [-] [Printer 7] Broadcasting AMS change via WebSocket
+2026-08-14 08:24:02,940 INFO [uvicorn.access] [-] [IP]:50067 - "POST /api/v1/auth/ws-token HTTP/1.1" 200
+2026-08-14 08:24:02,947 INFO [backend.app.api.routes.websocket] [-] WebSocket client connecting (principal=[USER])
+2026-08-14 08:24:02,948 INFO [backend.app.api.routes.websocket] [-] WebSocket client connected
+2026-08-14 08:24:02,948 INFO [backend.app.api.routes.websocket] [-] Sent initial status for 3 printers
+2026-08-14 08:24:11,791 INFO [backend.app.main] [-] Sending humidity alarm for [PRINTER] AMS-A: 35.0% > 10.0%
+2026-08-14 08:24:11,794 INFO [backend.app.main] [-] Sending humidity alarm for [PRINTER] AMS-B: 38.0% > 10.0%
+2026-08-14 08:24:11,794 INFO [backend.app.main] [-] Sending humidity alarm for [PRINTER] AMS-C: 31.0% > 10.0%
+2026-08-14 08:24:11,811 INFO [backend.app.main] [-] Recorded 3 AMS sensor history entries
+2026-08-14 08:24:31,846 INFO [backend.app.services.print_scheduler] [-] Queue check: found 4 pending items: [(507, 1, 82, None), (540, 5, 82, None), (505, None, 123, None), (506, None, 123, None)]
+2026-08-14 08:24:31,848 INFO [backend.app.services.print_scheduler] [-] Queue skip summary: {'manual_start': 4}
+2026-08-14 08:24:31,899 INFO [backend.app.services.smart_plug_manager] [-] Captured 2 energy snapshot(s)
+2026-08-14 08:25:01,856 INFO [backend.app.services.print_scheduler] [-] Queue check: found 4 pending items: [(507, 1, 82, None), (540, 5, 82, None), (505, None, 123, None), (506, None, 123, None)]
+2026-08-14 08:25:01,858 INFO [backend.app.services.print_scheduler] [-] Queue skip summary: {'manual_start': 4}
+2026-08-14 08:25:18,161 INFO [backend.app.services.camera] [79ca6c4a] Found ffmpeg at: /usr/bin/ffmpeg
+2026-08-14 08:25:20,508 INFO [backend.app.services.virtual_printer.certificate] [54f6f724] Using existing CA certificate (expires in 7078 days)
+2026-08-14 08:25:31,865 INFO [backend.app.services.print_scheduler] [-] Queue check: found 4 pending items: [(507, 1, 82, None), (540, 5, 82, None), (505, None, 123, None), (506, None, 123, None)]
+2026-08-14 08:25:31,866 INFO [backend.app.services.print_scheduler] [-] Queue skip summary: {'manual_start': 4}
+2026-08-14 08:25:35,813 INFO [backend.app.api.routes.virtual_printers] [8da54792] Created virtual printer: [PRINTER] Proxy (id=5)
+2026-08-14 08:25:35,814 INFO [uvicorn.access] [-] [IP]:50079 - "POST /api/v1/virtual-printers HTTP/1.1" 200
+2026-08-14 08:25:39,765 INFO [backend.app.api.routes.virtual_printers] [d13b797b] Updated virtual printer: [PRINTER] Proxy (id=5)
+2026-08-14 08:25:39,766 INFO [uvicorn.access] [-] [IP]:50079 - "PUT /api/v1/virtual-printers/5 HTTP/1.1" 200
+2026-08-14 08:25:42,255 INFO [backend.app.api.routes.virtual_printers] [27331428] Updated virtual printer: [PRINTER] Proxy (id=5)
+2026-08-14 08:25:42,257 INFO [uvicorn.access] [-] [IP]:50079 - "PUT /api/v1/virtual-printers/5 HTTP/1.1" 200
+2026-08-14 08:26:01,875 INFO [backend.app.services.print_scheduler] [-] Queue check: found 4 pending items: [(507, 1, 82, None), (540, 5, 82, None), (505, None, 123, None), (506, None, 123, None)]
+2026-08-14 08:26:01,876 INFO [backend.app.services.print_scheduler] [-] Queue skip summary: {'manual_start': 4}
+2026-08-14 08:26:31,883 INFO [backend.app.services.print_scheduler] [-] Queue check: found 4 pending items: [(507, 1, 82, None), (540, 5, 82, None), (505, None, 123, None), (506, None, 123, None)]
+2026-08-14 08:26:31,884 INFO [backend.app.services.print_scheduler] [-] Queue skip summary: {'manual_start': 4}
+2026-08-14 08:27:01,146 INFO [backend.app.api.routes.support] [c18e3b15] Log level changed to DEBUG
+2026-08-14 08:27:01,146 INFO [backend.app.api.routes.bug_report] [c18e3b15] Bug report: enabled debug logging
+2026-08-14 08:27:01,147 WARNING [backend.app.services.bambu_mqtt] [c18e3b15] [[SERIAL]] request_status_update: not connected
+2026-08-14 08:27:01,147 WARNING [backend.app.services.bambu_mqtt] [c18e3b15] [[SERIAL]] request_status_update: not connected
+2026-08-14 08:27:01,147 DEBUG [backend.app.services.bambu_mqtt] [c18e3b15] [[SERIAL]] Requesting status update (pushall)
+2026-08-14 08:27:01,147 INFO [uvicorn.access] [-] [IP]:50112 - "POST /api/v1/bug-report/start-logging HTTP/1.1" 200
+2026-08-14 08:27:01,893 INFO [backend.app.services.print_scheduler] [-] Queue check: found 4 pending items: [(507, 1, 82, None), (540, 5, 82, None), (505, None, 123, None), (506, None, 123, None)]
+2026-08-14 08:27:01,895 INFO [backend.app.services.print_scheduler] [-] Queue skip summary: {'manual_start': 4}
+2026-08-14 08:27:02,116 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'cfg': 1789367, 'first_layer_inspector': True, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-14 08:27:02,117 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'cfg', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-14 08:27:02,117 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] xcam cfg bitmask: 1789367 (binary: 0b110110100110110110111)
+2026-08-14 08:27:02,117 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: IDLE, gcode_file: , subtask_name: 
+2026-08-14 08:27:02,117 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] AMS dict fields: {'ams_exist_bits': '7', 'ams_exist_bits_raw': '7', 'cali_id': 255, 'cali_stat': 0, 'cfs': [], 'insert_flag': True, 'power_on_flag': False, 'tray_exist_bits': 'fff', 'tray_hall_out_bits': '0', 'tray_is_bbl_bits': 'fff', 'tray_now': '255', 'tray_pre': '255', 'tray_read_done_bits': 'fff', 'tray_reading_bits': '0', 'tray_tar': '255', 'unbind_ams_stat': 0, 'version': 45}
+2026-08-14 08:27:02,117 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] tray_now updated: 255
+2026-08-14 08:27:02,117 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Merged AMS data: 3 new units, 3 total
+2026-08-14 08:27:02,117 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] AMS 0 info=0x11002103 -> extruder 1
+2026-08-14 08:27:02,117 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] AMS 1 info=0x10002003 -> extruder 0
+2026-08-14 08:27:02,117 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] AMS 2 info=0x10001001 -> extruder 0
+2026-08-14 08:27:02,117 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 1, '1': 0, '2': 0}
+2026-08-14 08:27:02,117 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_status: 0 (main=0, sub=0)
+2026-08-14 08:27:02,117 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-14 08:27:02,117 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] device.extruder.state=274 (switch_state bits 12-14: 0)
+2026-08-14 08:27:02,117 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] info.temp direct: 27°C (heater OFF)
+2026-08-14 08:27:02,117 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ctc_info keys: ['temp']
+2026-08-14 08:27:02,117 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Chamber heating calculated: target=0.0, current=27.0, heating=False, respect_local=False
+2026-08-14 08:27:02,117 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Chamber temp updated to: 27.0, target: 0.0, heating: False
+2026-08-14 08:27:02,118 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-14 08:27:02,118 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ipcam field: {'agora_service': 'disable', 'brtc_service': 'enable', 'bs_state': 0, 'cap_pic_enable': 'invalid', 'ipcam_dev': '1', 'ipcam_record': 'enable', 'laser_preview_res': 6, 'mode_bits': 2, 'resolution': '1080p', 'rtsp_url': 'rtsps://[IP]:322/streaming/live/1', 'timelapse': 'disable', 'tl_store_hpd_type': 2, 'tl_store_path_type': 2, 'tutk_server': 'disable'}
+2026-08-14 08:27:02,118 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -62dBm
+2026-08-14 08:27:02,118 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}, {'mode': 'on', 'node': 'chamber_light2'}]
+2026-08-14 08:27:02,118 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: []
+2026-08-14 08:27:02,118 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: IDLE -> IDLE, file: , subtask: 
+2026-08-14 08:27:03,720 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'cfg': 1789367, 'first_layer_inspector': True, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-14 08:27:03,720 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'cfg', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-14 08:27:03,720 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] xcam cfg bitmask: 1789367 (binary: 0b110110100110110110111)
+2026-08-14 08:27:03,720 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: IDLE, gcode_file: , subtask_name: 
+2026-08-14 08:27:03,721 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 1, '1': 0, '2': 0}
+2026-08-14 08:27:03,721 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-14 08:27:03,721 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-14 08:27:03,721 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}, {'mode': 'on', 'node': 'chamber_light2'}]
+2026-08-14 08:27:03,721 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: []
+2026-08-14 08:27:03,721 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: IDLE -> IDLE, file: , subtask: 
+2026-08-14 08:27:05,329 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'cfg': 1789367, 'first_layer_inspector': True, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-14 08:27:05,329 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'cfg', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-14 08:27:05,329 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] xcam cfg bitmask: 1789367 (binary: 0b110110100110110110111)
+2026-08-14 08:27:05,329 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: IDLE, gcode_file: , subtask_name: 
+2026-08-14 08:27:05,329 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 1, '1': 0, '2': 0}
+2026-08-14 08:27:05,330 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-14 08:27:05,330 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-14 08:27:05,330 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}, {'mode': 'on', 'node': 'chamber_light2'}]
+2026-08-14 08:27:05,330 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: []
+2026-08-14 08:27:05,330 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: IDLE -> IDLE, file: , subtask: 
+2026-08-14 08:27:06,966 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'cfg': 1789367, 'first_layer_inspector': True, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-14 08:27:06,966 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'cfg', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-14 08:27:06,966 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] xcam cfg bitmask: 1789367 (binary: 0b110110100110110110111)
+2026-08-14 08:27:06,966 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: IDLE, gcode_file: , subtask_name: 
+2026-08-14 08:27:06,966 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 1, '1': 0, '2': 0}
+2026-08-14 08:27:06,966 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-14 08:27:06,966 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-14 08:27:06,967 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}, {'mode': 'on', 'node': 'chamber_light2'}]
+2026-08-14 08:27:06,967 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT mapping field: []
+2026-08-14 08:27:06,967 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: IDLE -> IDLE, file: , subtask: 
