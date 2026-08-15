@@ -1,0 +1,200 @@
+2026-08-15 07:20:07,612 INFO [backend.app.main] [-] [SNAPSHOT] Fresh camera frame: 181327 bytes
+2026-08-15 07:20:41,503 INFO [backend.app.services.bambu_mqtt] [-] [[SERIAL]] PRINT COMPLETE detected - state: FINISH, status: completed, file: Radiomaster_Pocket_Gimbal_Protect.gcode.3mf, subtask: Radiomaster_Pocket_Gimbal_Protect, was_running: True, timelapse_during_print: False
+2026-08-15 07:20:41,503 INFO [backend.app.services.bambu_mqtt] [-] [[SERIAL]] FINISH PHOTO MOMENT (FINISH fallback) — stage-22 never fired; capturing at FINISH-state transition
+2026-08-15 07:20:41,504 INFO [backend.app.main] [-] [FINISH-PHOTO-MOMENT] printer=1 trigger=finish_state timelapse_active=False
+2026-08-15 07:20:41,504 INFO [backend.app.main] [-] [CALLBACK] on_print_complete started for printer 1
+2026-08-15 07:20:41,505 INFO [backend.app.main] [-] [TIMING] WebSocket send_print_complete: 0.000s elapsed
+2026-08-15 07:20:41,505 INFO [backend.app.main] [-] Print complete - filename: Radiomaster_Pocket_Gimbal_Protect.gcode.3mf, subtask: Radiomaster_Pocket_Gimbal_Protect, status: completed
+2026-08-15 07:20:41,505 INFO [backend.app.main] [-] Looking for archive in _active_prints, keys to try: [(1, 'Radiomaster_Pocket_Gimbal_Protect.3mf'), (1, 'Radiomaster_Pocket_Gimbal_Protect.gcode.3mf'), (1, 'Radiomaster_Pocket_Gimbal_Protect'), (1, 'Radiomaster_Pocket_Gimbal_Protect.gcode.3mf'), (1, 'Radiomaster_Pocket_Gimbal_Protect.gcode.3mf')]...
+2026-08-15 07:20:41,505 INFO [backend.app.main] [-] Current _active_prints: [(1, 'Radiomaster_Pocket_Gimbal_Protect.gcode.3mf'), (1, 'Radiomaster_Pocket_Gimbal_Protect.3mf')]
+2026-08-15 07:20:41,505 INFO [backend.app.main] [-] Found archive 73 with key (1, 'Radiomaster_Pocket_Gimbal_Protect.3mf')
+2026-08-15 07:20:41,517 INFO [backend.app.main] [-] [PLATE-RESTORE] printer 1: print height unknown — capturing without restore
+2026-08-15 07:20:41,518 INFO [backend.app.services.camera] [-] Capturing camera frame bytes from [IP] using chamber image protocol (model: A1 Mini)
+2026-08-15 07:20:42,320 INFO [backend.app.services.bambu_ftp] [-] FTP connected successfully to [IP] (model=A1 Mini, prot_c=False)
+2026-08-15 07:20:43,253 INFO [backend.app.services.bambu_ftp] [-] FTP connected successfully to [IP] (model=A1 Mini, prot_c=False)
+2026-08-15 07:20:43,275 INFO [backend.app.main] [-] [TIMING] SD card cleanup: 1.771s elapsed
+2026-08-15 07:20:43,278 INFO [backend.app.main] [-] [TIMING] Queue item update: 1.773s elapsed
+2026-08-15 07:20:43,283 INFO [backend.app.services.usage_tracker] [-] [UsageTracker] on_print_complete: printer=1, archive=73, session=yes, ams_mapping=None
+2026-08-15 07:20:43,283 INFO [backend.app.services.usage_tracker] [-] [UsageTracker] PRINT COMPLETE printer 1: mapping=None, tray_now=254, last_loaded_tray=254
+2026-08-15 07:20:43,286 INFO [backend.app.services.usage_tracker] [-] [UsageTracker] 3MF: archive 73, plate_id=None, filament_usage=[{'slot_id': 1, 'used_g': 20.84, 'type': 'PLA', 'color': '#5A657B'}]
+2026-08-15 07:20:43,288 INFO [backend.app.services.usage_tracker] [-] [UsageTracker] 3MF: slot_to_tray=None (source: none)
+2026-08-15 07:20:43,288 INFO [backend.app.services.usage_tracker] [-] [UsageTracker] 3MF: using tray_now_at_start=254 (single-filament fallback)
+2026-08-15 07:20:43,288 INFO [backend.app.services.usage_tracker] [-] [UsageTracker] 3MF: slot_id=1 -> global_tray=254 -> AMS255-T0 (used_g=20.8, tray_now_override=254)
+2026-08-15 07:20:43,289 INFO [backend.app.services.usage_tracker] [-] [UsageTracker] 3MF: no spool assignment at printer 1 AMS255-T0
+2026-08-15 07:20:43,293 INFO [backend.app.services.spoolman_tracking] [-] [SPOOLMAN] No tracking data for print (printer=1, archive=73)
+2026-08-15 07:20:43,293 INFO [backend.app.main] [-] [TIMING] Spoolman usage report: 1.789s elapsed
+2026-08-15 07:20:43,293 INFO [backend.app.main] [-] [TIMING] Filament usage tracking: 1.789s elapsed
+2026-08-15 07:20:43,293 INFO [backend.app.main] [-] [TIMING] Archive lookup: 1.789s elapsed
+2026-08-15 07:20:43,294 INFO [backend.app.main] [-] [ARCHIVE] Updating archive 73 status...
+2026-08-15 07:20:43,300 INFO [backend.app.main] [-] [ARCHIVE] Archive 73 status updated to completed, failure_reason=None
+2026-08-15 07:20:43,300 INFO [backend.app.main] [-] [ARCHIVE] WebSocket notification sent for archive 73
+2026-08-15 07:20:43,300 INFO [backend.app.main] [-] [TIMING] Archive status update: 1.795s elapsed
+2026-08-15 07:20:43,304 INFO [backend.app.main] [-] [PRINT_LOG] Log entry written for archive 73
+2026-08-15 07:20:43,304 INFO [backend.app.main] [-] [TIMING] Print log entry: 1.800s elapsed
+2026-08-15 07:20:43,304 INFO [backend.app.main] [-] [TIMING] Background tasks scheduled (energy, photo): 1.800s elapsed
+2026-08-15 07:20:43,305 INFO [backend.app.main] [-] [TIMING] All background tasks scheduled: 1.800s elapsed
+2026-08-15 07:20:43,305 INFO [backend.app.main] [-] [CALLBACK] on_print_complete finished for printer 1, archive 73
+2026-08-15 07:20:43,305 INFO [backend.app.main] [-] [ENERGY-BG] Starting energy calculation for archive 73
+2026-08-15 07:20:43,305 INFO [backend.app.main] [-] [PHOTO-BG] Starting finish photo capture for archive 73
+2026-08-15 07:20:43,305 INFO [backend.app.main] [-] [AUTO-OFF-BG] Starting smart plug automation for printer 1
+2026-08-15 07:20:43,306 INFO [backend.app.main] [-] [MAINT-BG] Starting maintenance check for printer 1
+2026-08-15 07:20:43,306 INFO [backend.app.main] [-] [LAYER-TL] Stitching layer timelapse for printer 1
+2026-08-15 07:20:43,309 INFO [backend.app.main] [-] [AUTO-OFF-BG] Completed
+2026-08-15 07:20:43,310 INFO [backend.app.main] [-] [ENERGY-BG] No start kWh recorded for archive 73
+2026-08-15 07:20:43,320 INFO [backend.app.main] [-] [MAINT-BG] Completed (no items need attention)
+2026-08-15 07:20:45,408 INFO [backend.app.main] [-] [FINISH-PHOTO-MOMENT] captured RTSP frame (207476 bytes)
+2026-08-15 07:20:45,410 INFO [backend.app.main] [-] [PHOTO-BG] Saved stage-22 pre-captured frame: finish_20260815_072045_ac01d758.jpg (207476 bytes)
+2026-08-15 07:20:45,413 INFO [backend.app.main] [-] [PHOTO-BG] Saved: finish_20260815_072045_ac01d758.jpg
+2026-08-15 07:20:45,413 INFO [backend.app.main] [-] [PHOTO-NOTIFY] Photo task returned: finish_20260815_072045_ac01d758.jpg
+2026-08-15 07:20:45,413 INFO [backend.app.main] [-] [NOTIFY-BG] Starting notifications for printer 1, photo=finish_20260815_072045_ac01d758.jpg
+2026-08-15 07:20:45,416 INFO [backend.app.main] [-] [NOTIFY-BG] Loaded finish photo bytes: 207476 bytes
+2026-08-15 07:20:45,416 INFO [backend.app.services.notification_service] [-] on_print_complete called for printer 1 ([PRINTER]), status=completed
+2026-08-15 07:20:45,418 INFO [backend.app.services.notification_service] [-] Found 1 providers for on_print_complete: ['[PRINTER]']
+2026-08-15 07:20:46,744 INFO [backend.app.services.notification_service] [-] Sent notification via [PRINTER]
+2026-08-15 07:20:46,744 INFO [backend.app.main] [-] [NOTIFY-BG] Completed
+2026-08-15 08:00:00,002 WARNING [backend.app.utils.local_time] [-] Unrecognised TZ env value 'UTC+2:00', falling back to UTC
+2026-08-15 09:00:00,003 WARNING [backend.app.utils.local_time] [-] Unrecognised TZ env value 'UTC+2:00', falling back to UTC
+2026-08-15 09:22:29,117 INFO [uvicorn.access] [-] [IP]:0 - "POST /api/v1/auth/login HTTP/1.1" 200
+2026-08-15 09:22:29,254 INFO [uvicorn.access] [-] [IP]:0 - "POST /api/v1/printers/camera/stream-token HTTP/1.1" 200
+2026-08-15 09:22:29,391 INFO [uvicorn.access] [-] [IP]:0 - "POST /api/v1/auth/ws-token HTTP/1.1" 200
+2026-08-15 09:22:29,454 INFO [backend.app.api.routes.websocket] [-] WebSocket client connecting (principal=[USER])
+2026-08-15 09:22:29,456 INFO [backend.app.api.routes.websocket] [-] WebSocket client connected
+2026-08-15 09:22:29,456 INFO [backend.app.api.routes.websocket] [-] Sent initial status for 1 printers
+2026-08-15 09:22:48,887 INFO [backend.app.services.discovery] [c47fe8e9] Starting subnet scan of [IP]/24 (254 hosts)
+2026-08-15 09:22:48,890 INFO [uvicorn.access] [-] [IP]:0 - "POST /api/v1/discovery/scan HTTP/1.1" 200
+2026-08-15 09:22:50,908 INFO [backend.app.services.discovery] [c47fe8e9] Found potential Bambu printer at [IP]
+2026-08-15 09:22:54,916 INFO [backend.app.services.discovery] [c47fe8e9] Subnet scan complete. Found 1 printers.
+2026-08-15 09:22:55,164 INFO [uvicorn.access] [-] [IP]:0 - "POST /api/v1/discovery/stop HTTP/1.1" 200
+2026-08-15 09:22:55,165 INFO [uvicorn.access] [-] [IP]:0 - "POST /api/v1/discovery/scan/stop HTTP/1.1" 200
+2026-08-15 09:23:39,101 INFO [backend.app.api.routes.websocket] [-] WebSocket client disconnected normally
+2026-08-15 10:00:00,003 WARNING [backend.app.utils.local_time] [-] Unrecognised TZ env value 'UTC+2:00', falling back to UTC
+2026-08-15 11:00:00,003 WARNING [backend.app.utils.local_time] [-] Unrecognised TZ env value 'UTC+2:00', falling back to UTC
+2026-08-15 11:52:30,354 INFO [uvicorn.access] [-] [IP]:0 - "POST /api/v1/auth/login HTTP/1.1" 200
+2026-08-15 11:52:30,529 INFO [uvicorn.access] [-] [IP]:0 - "POST /api/v1/printers/camera/stream-token HTTP/1.1" 200
+2026-08-15 11:52:30,572 INFO [uvicorn.access] [-] [IP]:0 - "POST /api/v1/auth/ws-token HTTP/1.1" 200
+2026-08-15 11:52:30,628 INFO [backend.app.api.routes.websocket] [-] WebSocket client connecting (principal=[USER])
+2026-08-15 11:52:30,629 INFO [backend.app.api.routes.websocket] [-] WebSocket client connected
+2026-08-15 11:52:30,630 INFO [backend.app.api.routes.websocket] [-] Sent initial status for 1 printers
+2026-08-15 11:52:33,609 INFO [backend.app.services.camera] [57fa6686] Found ffmpeg at: /usr/bin/ffmpeg
+2026-08-15 11:52:41,599 WARNING [backend.app.utils.local_time] [f67ac105] Unrecognised TZ env value 'UTC+2:00', falling back to UTC
+2026-08-15 11:52:51,654 WARNING [backend.app.utils.local_time] [330aeb30] Unrecognised TZ env value 'UTC+2:00', falling back to UTC
+2026-08-15 11:52:57,159 INFO [backend.app.api.routes.settings] [4bf85fa5] Pausing background services for restore...
+2026-08-15 11:52:57,159 INFO [backend.app.services.print_scheduler] [4bf85fa5] Print scheduler stopped
+2026-08-15 11:52:57,159 INFO [backend.app.services.smart_plug_manager] [4bf85fa5] Smart plug scheduler stopped
+2026-08-15 11:52:57,159 INFO [backend.app.services.smart_plug_manager] [4bf85fa5] Smart plug energy snapshot loop stopped
+2026-08-15 11:52:57,159 INFO [backend.app.services.notification_service] [4bf85fa5] Notification digest scheduler stopped
+2026-08-15 11:52:58,160 INFO [backend.app.api.routes.settings] [4bf85fa5] Closing database connections...
+2026-08-15 11:52:58,188 INFO [backend.app.api.routes.settings] [4bf85fa5] Restored .mfa_encryption_key from backup
+2026-08-15 11:52:58,189 INFO [backend.app.api.routes.settings] [4bf85fa5] Restoring database from backup...
+2026-08-15 11:52:58,214 INFO [backend.app.api.routes.settings] [4bf85fa5] Restoring archive directory...
+2026-08-15 11:52:58,385 INFO [backend.app.api.routes.settings] [4bf85fa5] Restoring virtual_printer directory...
+2026-08-15 11:52:58,851 INFO [backend.app.api.routes.settings] [4bf85fa5] Restore complete - restart required
+2026-08-15 11:52:58,915 INFO [uvicorn.access] [-] [IP]:0 - "POST /api/v1/local-backup/backups/bambuddy-backup-20260802-010057.zip/restore HTTP/1.1" 200
+2026-08-15 11:53:06,279 INFO [backend.app.api.routes.websocket] [-] WebSocket client disconnected normally
+2026-08-15 11:53:06,555 INFO [uvicorn.access] [-] [IP]:0 - "POST /api/v1/printers/camera/stream-token HTTP/1.1" 200
+2026-08-15 11:53:06,651 INFO [uvicorn.access] [-] [IP]:0 - "POST /api/v1/auth/ws-token HTTP/1.1" 200
+2026-08-15 11:53:06,710 INFO [backend.app.api.routes.websocket] [-] WebSocket client connecting (principal=[USER])
+2026-08-15 11:53:06,712 INFO [backend.app.api.routes.websocket] [-] WebSocket client connected
+2026-08-15 11:53:06,712 INFO [backend.app.api.routes.websocket] [-] Sent initial status for 1 printers
+2026-08-15 11:53:33,403 INFO [backend.app.api.routes.websocket] [-] WebSocket client disconnected normally
+2026-08-15 11:53:33,504 INFO [backend.app.services.print_scheduler] [-] Print scheduler stopped
+2026-08-15 11:53:33,504 INFO [backend.app.services.github_backup] [-] Stopped GitHub backup scheduler
+2026-08-15 11:53:33,504 INFO [backend.app.services.local_backup] [-] Stopped local backup scheduler
+2026-08-15 11:53:33,504 INFO [backend.app.services.library_trash] [-] Stopped library trash sweeper
+2026-08-15 11:53:33,504 INFO [backend.app.services.archive_purge] [-] Stopped archive auto-purge sweeper
+2026-08-15 11:53:33,504 INFO [backend.app.services.obico_detection] [-] Stopped Obico detection service
+2026-08-15 11:53:33,504 INFO [backend.app.main] [-] AMS history recording stopped
+2026-08-15 11:53:33,504 INFO [backend.app.main] [-] Printer sensor history recording stopped
+2026-08-15 11:53:33,504 INFO [backend.app.main] [-] Printer runtime tracking stopped
+2026-08-15 11:53:33,504 INFO [backend.app.main] [-] SpoolBuddy watchdog stopped
+2026-08-15 11:53:33,504 INFO [backend.app.main] [-] Camera stream cleanup stopped
+2026-08-15 11:53:33,504 INFO [backend.app.main] [-] Printer connection watchdog stopped
+2026-08-15 11:53:33,504 INFO [backend.app.services.loop_watchdog] [-] Event-loop stall watchdog stopped
+2026-08-15 11:53:33,504 INFO [backend.app.main] [-] Expected prints cleanup stopped
+2026-08-15 11:53:33,505 INFO [backend.app.main] [-] Auth periodic cleanup stopped
+2026-08-15 11:53:33,506 INFO [backend.app.services.virtual_printer.manager] [-] Stopping all virtual printer services...
+2026-08-15 11:53:33,506 INFO [backend.app.services.virtual_printer.manager] [-] All virtual printer services stopped
+2026-08-15 11:53:33,517 INFO [root] [-] WAL checkpoint completed
+2026-08-15 11:58:10,452 INFO [root] [-] Logging to file: /app/logs/bambuddy.log
+2026-08-15 11:58:10,453 INFO [root] [-] Bambuddy starting - debug=False, log_level=INFO
+2026-08-15 11:58:11,753 INFO [backend.app.services.printer_manager] [-] Loaded 1 printer(s) awaiting plate-clear acknowledgment: [1]
+2026-08-15 11:58:11,757 INFO [backend.app.services.mqtt_relay] [-] MQTT relay disabled
+2026-08-15 11:58:12,539 WARNING [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT disconnected: rc=Unspecified error, flags=DisconnectFlags(is_disconnect_packet_from_server=False)
+2026-08-15 11:58:12,539 WARNING [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Disconnected shortly after request topic subscription. Disabling request topic for this printer.
+2026-08-15 11:58:12,539 INFO [backend.app.main] [-] [#1752] Printer 1 connected→disconnected edge; scheduling offline notification in 60s
+2026-08-15 11:58:12,771 INFO [backend.app.services.smart_plug_manager] [-] Smart plug scheduler started
+2026-08-15 11:58:12,771 INFO [backend.app.services.smart_plug_manager] [-] Smart plug energy snapshot loop started
+2026-08-15 11:58:12,775 INFO [backend.app.services.print_scheduler] [-] Print scheduler started
+2026-08-15 11:58:12,778 INFO [backend.app.services.notification_service] [-] Notification digest scheduler started
+2026-08-15 11:58:12,778 INFO [backend.app.services.github_backup] [-] Starting GitHub backup scheduler
+2026-08-15 11:58:12,778 INFO [backend.app.services.local_backup] [-] Starting local backup scheduler
+2026-08-15 11:58:12,781 WARNING [backend.app.utils.local_time] [-] Unrecognised TZ env value 'UTC+2:00', falling back to UTC
+2026-08-15 11:58:12,783 INFO [backend.app.services.obico_detection] [-] Starting Obico detection service
+2026-08-15 11:58:12,783 INFO [backend.app.services.library_trash] [-] Starting library trash sweeper
+2026-08-15 11:58:12,783 INFO [backend.app.services.archive_purge] [-] Starting archive auto-purge sweeper
+2026-08-15 11:58:12,783 INFO [backend.app.main] [-] AMS history recording started
+2026-08-15 11:58:12,783 INFO [backend.app.main] [-] Printer sensor history recording started
+2026-08-15 11:58:12,783 INFO [backend.app.main] [-] Printer runtime tracking started
+2026-08-15 11:58:12,783 INFO [backend.app.main] [-] SpoolBuddy watchdog started
+2026-08-15 11:58:12,783 INFO [backend.app.main] [-] Camera stream cleanup started
+2026-08-15 11:58:12,783 INFO [backend.app.main] [-] Printer connection watchdog started
+2026-08-15 11:58:12,871 INFO [backend.app.main] [-] Expected prints cleanup started
+2026-08-15 11:58:12,871 INFO [backend.app.main] [-] Auth periodic cleanup started
+2026-08-15 11:58:12,872 INFO [backend.app.services.loop_watchdog] [-] Event-loop stall watchdog started — dumps all thread stacks to stderr if the loop stalls for more than 30s
+2026-08-15 11:58:12,881 INFO [root] [-] Virtual printer manager synced from database
+2026-08-15 11:58:14,303 INFO [backend.app.main] [-] [#1752] Printer 1 reconnected before debounce; cancelling pending offline notification
+2026-08-15 11:58:14,353 INFO [backend.app.services.bambu_mqtt] [-] [[SERIAL]] State is FINISH but completion NOT triggered: prev=None, was_running=False, already_triggered=False, has_callback=True
+2026-08-15 11:58:14,357 INFO [backend.app.main] [-] [Printer 1] Broadcasting AMS change via WebSocket
+2026-08-15 11:58:14,357 INFO [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Firmware version: 01.08.00.00
+2026-08-15 11:58:14,360 INFO [backend.app.main] [-] [Printer 1] Broadcasting AMS change via WebSocket
+2026-08-15 11:58:15,130 INFO [uvicorn.access] [-] [IP]:0 - "POST /api/v1/printers/camera/stream-token HTTP/1.1" 200
+2026-08-15 11:58:15,222 INFO [uvicorn.access] [-] [IP]:0 - "POST /api/v1/auth/ws-token HTTP/1.1" 200
+2026-08-15 11:58:15,276 INFO [backend.app.api.routes.websocket] [-] WebSocket client connecting (principal=[USER])
+2026-08-15 11:58:15,278 INFO [backend.app.api.routes.websocket] [-] WebSocket client connected
+2026-08-15 11:58:15,278 INFO [backend.app.api.routes.websocket] [-] Sent initial status for 1 printers
+2026-08-15 11:58:19,438 INFO [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Probing developer mode via ams_filament_setting (seq=5)
+2026-08-15 11:58:19,452 INFO [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Developer mode probe: ENABLED (result='success')
+2026-08-15 11:58:24,091 INFO [backend.app.services.camera] [b5dbff53] Found ffmpeg at: /usr/bin/ffmpeg
+2026-08-15 11:58:28,728 WARNING [backend.app.utils.local_time] [c7b7e9a5] Unrecognised TZ env value 'UTC+2:00', falling back to UTC
+2026-08-15 11:58:40,884 INFO [backend.app.services.local_backup] [de8d8826] Local backup created: /app/data/backups/bambuddy-backup-20260815-115836.zip
+2026-08-15 11:58:40,886 INFO [uvicorn.access] [-] [IP]:0 - "POST /api/v1/local-backup/run HTTP/1.1" 200
+2026-08-15 11:58:40,938 WARNING [backend.app.utils.local_time] [69a4d6a0] Unrecognised TZ env value 'UTC+2:00', falling back to UTC
+2026-08-15 11:58:40,952 WARNING [backend.app.utils.local_time] [b4c58454] Unrecognised TZ env value 'UTC+2:00', falling back to UTC
+2026-08-15 11:58:42,781 WARNING [backend.app.utils.local_time] [-] Unrecognised TZ env value 'UTC+2:00', falling back to UTC
+2026-08-15 11:58:59,534 INFO [backend.app.api.routes.websocket] [-] WebSocket client disconnected normally
+2026-08-15 11:59:24,574 INFO [uvicorn.access] [-] [IP]:0 - "POST /api/v1/auth/login HTTP/1.1" 200
+2026-08-15 11:59:24,777 INFO [uvicorn.access] [-] [IP]:0 - "POST /api/v1/printers/camera/stream-token HTTP/1.1" 200
+2026-08-15 11:59:24,920 INFO [uvicorn.access] [-] [IP]:0 - "POST /api/v1/auth/ws-token HTTP/1.1" 200
+2026-08-15 11:59:25,002 INFO [backend.app.api.routes.websocket] [-] WebSocket client connecting (principal=[USER])
+2026-08-15 11:59:25,003 INFO [backend.app.api.routes.websocket] [-] WebSocket client connected
+2026-08-15 11:59:25,003 INFO [backend.app.api.routes.websocket] [-] Sent initial status for 1 printers
+2026-08-15 11:59:25,985 INFO [uvicorn.access] [-] [IP]:0 - "POST /api/v1/sponsor-prompt/dismiss HTTP/1.1" 204
+2026-08-15 11:59:42,189 INFO [backend.app.api.routes.websocket] [-] WebSocket client disconnected normally
+2026-08-15 12:00:00,003 WARNING [backend.app.utils.local_time] [-] Unrecognised TZ env value 'UTC+2:00', falling back to UTC
+2026-08-15 12:02:25,919 INFO [uvicorn.access] [-] [IP]:0 - "POST /api/v1/auth/ws-token HTTP/1.1" 200
+2026-08-15 12:02:26,011 INFO [backend.app.api.routes.websocket] [-] WebSocket client connecting (principal=[USER])
+2026-08-15 12:02:26,012 INFO [backend.app.api.routes.websocket] [-] WebSocket client connected
+2026-08-15 12:02:26,013 INFO [backend.app.api.routes.websocket] [-] Sent initial status for 1 printers
+2026-08-15 12:02:27,504 INFO [backend.app.api.routes.support] [d4796bdc] Log level changed to DEBUG
+2026-08-15 12:02:27,504 INFO [backend.app.api.routes.bug_report] [d4796bdc] Bug report: enabled debug logging
+2026-08-15 12:02:27,504 DEBUG [backend.app.services.bambu_mqtt] [d4796bdc] [[SERIAL]] Requesting status update (pushall)
+2026-08-15 12:02:27,504 INFO [uvicorn.access] [-] [IP]:0 - "POST /api/v1/bug-report/start-logging HTTP/1.1" 200
+2026-08-15 12:02:27,659 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'buildplate_marker_detector': True}
+2026-08-15 12:02:27,659 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['buildplate_marker_detector']
+2026-08-15 12:02:27,659 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: FINISH, gcode_file: , subtask_name: Radiomaster_Pocket_Gimbal_Protect
+2026-08-15 12:02:27,660 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] AMS dict fields: {'ams_exist_bits': '0', 'tray_exist_bits': '0', 'tray_is_bbl_bits': '0', 'tray_tar': '255', 'tray_now': '254', 'tray_pre': '254', 'tray_read_done_bits': '0', 'tray_reading_bits': '0', 'version': 2, 'insert_flag': True, 'power_on_flag': False}
+2026-08-15 12:02:27,660 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] tray_now updated: 254
+2026-08-15 12:02:27,660 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Merged AMS data: 0 new units, 0 total
+2026-08-15 12:02:27,660 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_status: 0 (main=0, sub=0)
+2026-08-15 12:02:27,660 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-15 12:02:27,660 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper raw value: 5.0
+2026-08-15 12:02:27,660 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper direct value: 5.0°C (heater OFF)
+2026-08-15 12:02:27,660 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Chamber heating calculated: target=0.0, current=5.0, heating=False, respect_local=False
+2026-08-15 12:02:27,660 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Chamber temp updated to: 5.0, target: 0.0, heating: False
+2026-08-15 12:02:27,660 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-15 12:02:27,661 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ipcam field: {'ipcam_dev': '1', 'ipcam_record': 'disable', 'timelapse': 'disable', 'resolution': '1080p', 'tutk_server': 'disable', 'mode_bits': 3}
+2026-08-15 12:02:27,661 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -19dBm
+2026-08-15 12:02:27,661 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'node': 'chamber_light', 'mode': 'on'}]
+2026-08-15 12:02:27,661 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: FINISH -> FINISH, file: , subtask: Radiomaster_Pocket_Gimbal_Protect
+2026-08-15 12:02:29,683 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-15 12:02:29,683 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -20dBm
