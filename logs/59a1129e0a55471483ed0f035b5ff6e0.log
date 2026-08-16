@@ -1,0 +1,200 @@
+2026-08-16 18:30:57,386 INFO [backend.app.api.routes.notifications] [98f16b03] Updated notification provider: HA_WebHook
+2026-08-16 18:30:57,387 INFO [uvicorn.access] [-] [IP]:48262 - "PATCH /api/v1/notifications/3 HTTP/1.1" 200
+2026-08-16 18:31:02,698 INFO [backend.app.api.routes.notifications] [1875a6ce] Updated notification provider: HA_WebHook
+2026-08-16 18:31:02,699 INFO [uvicorn.access] [-] [IP]:33502 - "PATCH /api/v1/notifications/3 HTTP/1.1" 200
+2026-08-16 18:31:04,030 INFO [backend.app.api.routes.notifications] [3f2886e0] Updated notification provider: HA_WebHook
+2026-08-16 18:31:04,032 INFO [uvicorn.access] [-] [IP]:33516 - "PATCH /api/v1/notifications/3 HTTP/1.1" 200
+2026-08-16 18:31:09,932 INFO [backend.app.api.routes.notifications] [41651206] Updated notification provider: HA_WebHook
+2026-08-16 18:31:09,933 INFO [uvicorn.access] [-] [IP]:37112 - "PATCH /api/v1/notifications/3 HTTP/1.1" 200
+2026-08-16 18:31:19,665 INFO [backend.app.api.routes.notifications] [d862eaf1] Updated notification provider: HA_WebHook
+2026-08-16 18:31:19,666 INFO [uvicorn.access] [-] [IP]:34236 - "PATCH /api/v1/notifications/3 HTTP/1.1" 200
+2026-08-16 18:31:24,265 INFO [backend.app.api.routes.notifications] [19906546] Updated notification provider: HA_WebHook
+2026-08-16 18:31:24,266 INFO [uvicorn.access] [-] [IP]:34288 - "PATCH /api/v1/notifications/3 HTTP/1.1" 200
+2026-08-16 18:31:24,842 INFO [backend.app.api.routes.notifications] [9352e417] Updated notification provider: HA_WebHook
+2026-08-16 18:31:24,842 INFO [uvicorn.access] [-] [IP]:34304 - "PATCH /api/v1/notifications/3 HTTP/1.1" 200
+2026-08-16 18:31:26,377 INFO [backend.app.api.routes.notifications] [575a8950] Updated notification provider: HA_WebHook
+2026-08-16 18:31:26,378 INFO [uvicorn.access] [-] [IP]:34336 - "PATCH /api/v1/notifications/3 HTTP/1.1" 200
+2026-08-16 18:31:26,998 INFO [backend.app.api.routes.notifications] [018cdc60] Updated notification provider: HA_WebHook
+2026-08-16 18:31:26,999 INFO [uvicorn.access] [-] [IP]:34356 - "PATCH /api/v1/notifications/3 HTTP/1.1" 200
+2026-08-16 18:31:43,856 INFO [uvicorn.access] [-] [IP]:51886 - "POST /api/v1/notification-templates/preview HTTP/1.1" 200
+2026-08-16 18:31:48,160 INFO [uvicorn.access] [-] [IP]:51906 - "POST /api/v1/notification-templates/preview HTTP/1.1" 200
+2026-08-16 18:31:51,515 INFO [uvicorn.access] [-] [IP]:42578 - "PUT /api/v1/notification-templates/12 HTTP/1.1" 200
+2026-08-16 18:31:59,312 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-16 18:33:03,237 INFO [uvicorn.access] [-] [IP]:59248 - "POST /api/v1/notifications/3/test HTTP/1.1" 200
+2026-08-16 18:34:21,242 INFO [uvicorn.access] [-] [IP]:33234 - "POST /api/v1/notifications/3/test HTTP/1.1" 200
+2026-08-16 18:35:59,843 INFO [uvicorn.access] [-] [IP]:55618 - "POST /api/v1/notifications/3/test HTTP/1.1" 200
+2026-08-16 18:36:54,726 INFO [uvicorn.access] [-] [IP]:43304 - "POST /api/v1/notification-templates/preview HTTP/1.1" 200
+2026-08-16 18:36:59,319 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-16 18:39:17,682 INFO [uvicorn.access] [-] [IP]:33402 - "POST /api/v1/notification-templates/preview HTTP/1.1" 200
+2026-08-16 18:39:26,008 INFO [uvicorn.access] [-] [IP]:38256 - "POST /api/v1/notification-templates/preview HTTP/1.1" 200
+2026-08-16 18:39:26,211 INFO [uvicorn.access] [-] [IP]:38266 - "POST /api/v1/notification-templates/preview HTTP/1.1" 200
+2026-08-16 18:39:26,489 INFO [uvicorn.access] [-] [IP]:38282 - "POST /api/v1/notification-templates/preview HTTP/1.1" 200
+2026-08-16 18:39:26,623 INFO [uvicorn.access] [-] [IP]:38284 - "POST /api/v1/notification-templates/preview HTTP/1.1" 200
+2026-08-16 18:39:27,097 INFO [uvicorn.access] [-] [IP]:38288 - "POST /api/v1/notification-templates/preview HTTP/1.1" 200
+2026-08-16 18:39:27,220 INFO [uvicorn.access] [-] [IP]:38300 - "POST /api/v1/notification-templates/preview HTTP/1.1" 200
+2026-08-16 18:39:28,757 INFO [uvicorn.access] [-] [IP]:38336 - "POST /api/v1/notification-templates/preview HTTP/1.1" 200
+2026-08-16 18:39:30,666 INFO [uvicorn.access] [-] [IP]:42964 - "POST /api/v1/notification-templates/preview HTTP/1.1" 200
+2026-08-16 18:39:31,619 INFO [uvicorn.access] [-] [IP]:42980 - "POST /api/v1/notification-templates/preview HTTP/1.1" 200
+2026-08-16 18:39:34,955 INFO [uvicorn.access] [-] [IP]:42990 - "POST /api/v1/notification-templates/preview HTTP/1.1" 200
+2026-08-16 18:39:37,121 INFO [uvicorn.access] [-] [IP]:43000 - "POST /api/v1/notification-templates/preview HTTP/1.1" 200
+2026-08-16 18:39:39,599 INFO [uvicorn.access] [-] [IP]:37072 - "POST /api/v1/notification-templates/preview HTTP/1.1" 200
+2026-08-16 18:39:42,869 INFO [uvicorn.access] [-] [IP]:37076 - "POST /api/v1/notification-templates/preview HTTP/1.1" 200
+2026-08-16 18:39:44,365 INFO [uvicorn.access] [-] [IP]:37122 - "POST /api/v1/notification-templates/preview HTTP/1.1" 200
+2026-08-16 18:39:45,941 INFO [uvicorn.access] [-] [IP]:37130 - "POST /api/v1/notification-templates/preview HTTP/1.1" 200
+2026-08-16 18:39:52,493 INFO [uvicorn.access] [-] [IP]:49272 - "POST /api/v1/notification-templates/preview HTTP/1.1" 200
+2026-08-16 18:39:55,687 INFO [uvicorn.access] [-] [IP]:49294 - "POST /api/v1/notification-templates/preview HTTP/1.1" 200
+2026-08-16 18:39:57,651 INFO [uvicorn.access] [-] [IP]:49302 - "POST /api/v1/notification-templates/preview HTTP/1.1" 200
+2026-08-16 18:40:07,147 INFO [uvicorn.access] [-] [IP]:57076 - "PUT /api/v1/notification-templates/12 HTTP/1.1" 200
+2026-08-16 18:40:10,571 INFO [uvicorn.access] [-] [IP]:57782 - "POST /api/v1/notifications/3/test HTTP/1.1" 200
+2026-08-16 18:41:59,325 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-16 18:45:45,181 INFO [backend.app.api.routes.websocket] [-] WebSocket client disconnected normally
+2026-08-16 18:45:45,282 INFO [backend.app.services.print_scheduler] [-] Print scheduler stopped
+2026-08-16 18:45:45,282 INFO [backend.app.services.smart_plug_manager] [-] Smart plug scheduler stopped
+2026-08-16 18:45:45,282 INFO [backend.app.services.smart_plug_manager] [-] Smart plug energy snapshot loop stopped
+2026-08-16 18:45:45,282 INFO [backend.app.services.ha_sensor_manager] [-] Home Assistant sensor poller stopped
+2026-08-16 18:45:45,282 INFO [backend.app.services.notification_service] [-] Notification digest scheduler stopped
+2026-08-16 18:45:45,283 INFO [backend.app.services.github_backup] [-] Stopped GitHub backup scheduler
+2026-08-16 18:45:45,283 INFO [backend.app.services.local_backup] [-] Stopped local backup scheduler
+2026-08-16 18:45:45,283 INFO [backend.app.services.library_trash] [-] Stopped library trash sweeper
+2026-08-16 18:45:45,283 INFO [backend.app.services.archive_purge] [-] Stopped archive auto-purge sweeper
+2026-08-16 18:45:45,283 INFO [backend.app.services.obico_detection] [-] Stopped Obico detection service
+2026-08-16 18:45:45,283 INFO [backend.app.main] [-] AMS history recording stopped
+2026-08-16 18:45:45,283 INFO [backend.app.main] [-] Printer sensor history recording stopped
+2026-08-16 18:45:45,283 INFO [backend.app.main] [-] Printer runtime tracking stopped
+2026-08-16 18:45:45,283 INFO [backend.app.main] [-] SpoolBuddy watchdog stopped
+2026-08-16 18:45:45,284 INFO [backend.app.main] [-] Camera stream cleanup stopped
+2026-08-16 18:45:45,284 INFO [backend.app.main] [-] Printer connection watchdog stopped
+2026-08-16 18:45:45,284 INFO [backend.app.services.loop_watchdog] [-] Event-loop stall watchdog stopped
+2026-08-16 18:45:45,284 INFO [backend.app.main] [-] Expected prints cleanup stopped
+2026-08-16 18:45:45,284 INFO [backend.app.main] [-] Auth periodic cleanup stopped
+2026-08-16 18:45:45,286 INFO [backend.app.services.virtual_printer.manager] [-] Stopping all virtual printer services...
+2026-08-16 18:45:45,287 INFO [backend.app.services.virtual_printer.mqtt_bridge] [-] [Bambuddy] MQTT bridge unbound from printer 1
+2026-08-16 18:45:45,287 INFO [backend.app.services.virtual_printer.tcp_proxy] [-] Stopping Camera-6000 proxy
+2026-08-16 18:45:45,287 INFO [backend.app.services.virtual_printer.ftp_server] [-] Stopping FTP server
+2026-08-16 18:45:45,287 INFO [backend.app.services.virtual_printer.mqtt_server] [-] Stopping simple MQTT server
+2026-08-16 18:45:45,287 INFO [backend.app.services.virtual_printer.tcp_proxy] [-] Stopping Camera-6000 proxy
+2026-08-16 18:45:45,288 INFO [backend.app.services.virtual_printer.ftp_server] [-] Stopping FTP server
+2026-08-16 18:45:45,288 INFO [backend.app.services.virtual_printer.mqtt_server] [-] Periodic status push task stopped
+2026-08-16 18:45:45,288 INFO [backend.app.services.virtual_printer.bind_server] [-] Stopping bind server
+2026-08-16 18:45:45,288 INFO [backend.app.services.virtual_printer.ssdp_server] [-] Stopping SSDP server
+2026-08-16 18:45:45,289 INFO [backend.app.services.virtual_printer.mqtt_server] [-] Stopping simple MQTT server
+2026-08-16 18:45:45,289 INFO [backend.app.services.virtual_printer.bind_server] [-] Stopping bind server
+2026-08-16 18:45:45,289 INFO [backend.app.services.virtual_printer.manager] [-] Removed VP instance: Bambuddy
+2026-08-16 18:45:45,290 INFO [backend.app.services.virtual_printer.manager] [-] All virtual printer services stopped
+2026-08-16 18:45:45,290 INFO [backend.app.services.mqtt_smart_plug] [-] MQTT smart plug service disconnected cleanly
+2026-08-16 18:45:45,291 INFO [backend.app.services.mqtt_relay] [-] MQTT relay disconnected cleanly
+2026-08-16 18:45:45,303 INFO [root] [-] WAL checkpoint completed
+2026-08-16 18:45:52,945 INFO [root] [-] Logging to file: /app/logs/bambuddy.log
+2026-08-16 18:45:52,945 INFO [root] [-] Bambuddy starting - debug=False, log_level=INFO
+2026-08-16 18:45:56,058 INFO [backend.app.services.printer_manager] [-] Loaded 1 printer(s) awaiting plate-clear acknowledgment: [1]
+2026-08-16 18:45:56,069 INFO [backend.app.services.mqtt_relay] [-] MQTT relay connected successfully
+2026-08-16 18:45:57,066 INFO [backend.app.services.mqtt_relay] [-] MQTT relay connected to mqtt.scottheath.com:1883
+2026-08-16 18:45:57,070 INFO [backend.app.services.mqtt_smart_plug] [-] MQTT smart plug service connected successfully
+2026-08-16 18:45:58,068 INFO [backend.app.services.mqtt_smart_plug] [-] MQTT smart plug service connected to mqtt.scottheath.com:1883
+2026-08-16 18:45:59,094 INFO [backend.app.services.smart_plug_manager] [-] Smart plug scheduler started
+2026-08-16 18:45:59,095 INFO [backend.app.services.smart_plug_manager] [-] Smart plug energy snapshot loop started
+2026-08-16 18:45:59,095 INFO [backend.app.services.ha_sensor_manager] [-] Home Assistant sensor poller started
+2026-08-16 18:45:59,098 INFO [backend.app.services.print_scheduler] [-] Print scheduler started
+2026-08-16 18:45:59,102 INFO [backend.app.services.notification_service] [-] Notification digest scheduler started
+2026-08-16 18:45:59,102 INFO [backend.app.services.github_backup] [-] Starting GitHub backup scheduler
+2026-08-16 18:45:59,102 INFO [backend.app.services.local_backup] [-] Starting local backup scheduler
+2026-08-16 18:45:59,106 INFO [backend.app.services.obico_detection] [-] Starting Obico detection service
+2026-08-16 18:45:59,106 INFO [backend.app.services.library_trash] [-] Starting library trash sweeper
+2026-08-16 18:45:59,106 INFO [backend.app.services.archive_purge] [-] Starting archive auto-purge sweeper
+2026-08-16 18:45:59,107 INFO [backend.app.main] [-] AMS history recording started
+2026-08-16 18:45:59,107 INFO [backend.app.main] [-] Printer sensor history recording started
+2026-08-16 18:45:59,107 INFO [backend.app.main] [-] Printer runtime tracking started
+2026-08-16 18:45:59,107 INFO [backend.app.main] [-] SpoolBuddy watchdog started
+2026-08-16 18:45:59,108 INFO [backend.app.main] [-] Camera stream cleanup started
+2026-08-16 18:45:59,108 INFO [backend.app.main] [-] Printer connection watchdog started
+2026-08-16 18:45:59,223 INFO [backend.app.main] [-] Expected prints cleanup started
+2026-08-16 18:45:59,223 INFO [backend.app.main] [-] Auth periodic cleanup started
+2026-08-16 18:45:59,224 INFO [backend.app.services.loop_watchdog] [-] Event-loop stall watchdog started — dumps all thread stacks to stderr if the loop stalls for more than 30s
+2026-08-16 18:45:59,236 INFO [backend.app.services.virtual_printer.manager] [-] [VP Bambuddy] Starting server-mode services on [IP]
+2026-08-16 18:45:59,238 INFO [backend.app.services.virtual_printer.certificate] [-] Deleted printer certificate (CA preserved)
+2026-08-16 18:45:59,238 INFO [backend.app.services.virtual_printer.certificate] [-] Generating certificates for virtual printer (serial: [SERIAL])...
+2026-08-16 18:45:59,284 INFO [backend.app.services.virtual_printer.certificate] [-] Using existing CA certificate (expires in 7297 days)
+2026-08-16 18:45:59,308 INFO [backend.app.services.virtual_printer.certificate] [-] Generating printer certificate with CN=[SERIAL], local IP: [IP]
+2026-08-16 18:45:59,308 INFO [backend.app.services.virtual_printer.certificate] [-] Added additional SAN IP: [IP]
+2026-08-16 18:45:59,314 INFO [backend.app.services.virtual_printer.certificate] [-] Generated certificate chain at /app/data/virtual_printer/certs/1
+2026-08-16 18:45:59,315 INFO [backend.app.services.virtual_printer.certificate] [-]   CA: CN=Virtual Printer CA
+2026-08-16 18:45:59,315 INFO [backend.app.services.virtual_printer.certificate] [-]   Printer: CN=[SERIAL]
+2026-08-16 18:45:59,315 INFO [backend.app.services.virtual_printer.mqtt_bridge] [-] [Bambuddy] MQTT bridge IP encoding armed: target=[IP] vp=[IP] (bind_address)
+2026-08-16 18:45:59,315 INFO [backend.app.services.virtual_printer.mqtt_bridge] [-] [Bambuddy] MQTT bridge bound to printer 1 (serial=[SERIAL])
+2026-08-16 18:45:59,316 INFO [backend.app.services.virtual_printer.ftp_server] [-] [Bambuddy] Starting virtual printer implicit FTPS on [IP]:990
+2026-08-16 18:45:59,319 INFO [backend.app.services.virtual_printer.ftp_server] [-] FTP SSL context created with standard settings
+2026-08-16 18:45:59,319 INFO [backend.app.services.virtual_printer.mqtt_server] [-] Starting simple MQTT server on port 8883
+2026-08-16 18:45:59,347 INFO [backend.app.services.virtual_printer.mqtt_server] [-] MQTT SSL cert info: subject=CN=[SERIAL]
+issuer=CN=Virtual Printer CA
+2026-08-16 18:45:59,348 INFO [backend.app.services.virtual_printer.mqtt_server] [-] MQTT SSL context: TLS 1.2+, cert=/app/data/virtual_printer/certs/1/virtual_printer.crt
+2026-08-16 18:45:59,348 INFO [backend.app.services.virtual_printer.tcp_proxy] [-] Starting Camera-6000 TCP proxy: [IP]:6000 → [IP]:6000
+2026-08-16 18:45:59,350 INFO [backend.app.services.virtual_printer.bind_server] [-] Starting bind server on ports [3000, 3002] (serial=[SERIAL], model=C12, tls=True)
+2026-08-16 18:45:59,350 INFO [backend.app.services.virtual_printer.ssdp_server] [-] Starting virtual printer SSDP server: Bambuddy ([SERIAL])
+2026-08-16 18:45:59,351 INFO [backend.app.services.virtual_printer.ssdp_server] [-] SSDP server listening on port 2021, advertising IP: [IP]
+2026-08-16 18:45:59,351 INFO [backend.app.services.virtual_printer.ssdp_server] [-] Virtual printer: Bambuddy ([SERIAL]) model=C12
+2026-08-16 18:45:59,351 INFO [backend.app.services.virtual_printer.ssdp_server] [-] SSDP server also listening on [IP]:2021
+2026-08-16 18:45:59,352 INFO [backend.app.services.virtual_printer.ssdp_server] [-] Sent initial SSDP NOTIFY announcement
+2026-08-16 18:45:59,360 INFO [backend.app.services.virtual_printer.ftp_server] [-] Implicit FTPS server started on port 990
+2026-08-16 18:45:59,360 INFO [backend.app.services.virtual_printer.ftp_server] [-] FTP passive data port range: 50000-50009
+2026-08-16 18:45:59,360 INFO [backend.app.services.virtual_printer.mqtt_server] [-] Simple MQTT server listening on port 8883
+2026-08-16 18:45:59,360 INFO [backend.app.services.virtual_printer.tcp_proxy] [-] Camera-6000 TCP proxy listening on port 6000
+2026-08-16 18:45:59,360 INFO [backend.app.services.virtual_printer.bind_server] [-] Bind server listening on [IP]:3000 (plain)
+2026-08-16 18:45:59,362 INFO [backend.app.services.virtual_printer.mqtt_server] [-] Starting periodic status push task
+2026-08-16 18:45:59,362 INFO [backend.app.services.virtual_printer.bind_server] [-] Bind server listening on [IP]:3002 (TLS)
+2026-08-16 18:45:59,363 INFO [backend.app.services.virtual_printer.manager] [-] [VP Bambuddy] Server-mode services started on [IP]
+2026-08-16 18:45:59,363 INFO [backend.app.services.virtual_printer.manager] [-] Started server-mode VP: Bambuddy on [IP]
+2026-08-16 18:45:59,363 INFO [root] [-] Virtual printer manager synced from database
+2026-08-16 18:45:59,890 WARNING [backend.app.services.bambu_mqtt] [-] [[SERIAL]] MQTT disconnected: rc=Unspecified error, flags=DisconnectFlags(is_disconnect_packet_from_server=False)
+2026-08-16 18:45:59,891 WARNING [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Disconnected shortly after request topic subscription. Disabling request topic for this printer.
+2026-08-16 18:45:59,891 INFO [backend.app.main] [-] [#1752] Printer 1 connected→disconnected edge; scheduling offline notification in 60s
+2026-08-16 18:46:00,962 INFO [uvicorn.access] [-] [IP]:39550 - "POST /api/v1/auth/ws-token HTTP/1.1" 200
+2026-08-16 18:46:01,000 INFO [backend.app.api.routes.websocket] [-] WebSocket client connecting (principal=[USER])
+2026-08-16 18:46:01,004 INFO [backend.app.api.routes.websocket] [-] WebSocket client connected
+2026-08-16 18:46:01,005 INFO [backend.app.api.routes.websocket] [-] Sent initial status for 1 printers
+2026-08-16 18:46:02,485 INFO [backend.app.main] [-] [#1752] Printer 1 reconnected before debounce; cancelling pending offline notification
+2026-08-16 18:46:02,546 INFO [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Unnamed print stage 255 on model P1S, entered from -1 (Unknown stage (-1)); state=FINISH progress=100.0% layer=119/119
+2026-08-16 18:46:02,547 INFO [backend.app.services.bambu_mqtt] [-] [[SERIAL]] State is FINISH but completion NOT triggered: prev=None, was_running=False, already_triggered=False, has_callback=True
+2026-08-16 18:46:02,550 INFO [backend.app.main] [-] [Printer 1] Broadcasting AMS change via WebSocket
+2026-08-16 18:46:02,554 INFO [backend.app.main] [-] [Printer 1] Broadcasting AMS change via WebSocket
+2026-08-16 18:46:02,567 INFO [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Firmware version: 01.10.00.00
+2026-08-16 18:46:05,368 INFO [backend.app.services.camera] [4d9b3176] Found ffmpeg at: /usr/bin/ffmpeg
+2026-08-16 18:46:05,728 INFO [backend.app.api.routes.websocket] [-] WebSocket client disconnected normally
+2026-08-16 18:46:06,215 INFO [uvicorn.access] [-] [IP]:39944 - "POST /api/v1/printers/camera/stream-token HTTP/1.1" 200
+2026-08-16 18:46:06,504 INFO [uvicorn.access] [-] [IP]:40114 - "POST /api/v1/auth/ws-token HTTP/1.1" 200
+2026-08-16 18:46:06,547 INFO [backend.app.api.routes.websocket] [-] WebSocket client connecting (principal=[USER])
+2026-08-16 18:46:06,565 INFO [backend.app.api.routes.websocket] [-] WebSocket client connected
+2026-08-16 18:46:06,565 INFO [backend.app.api.routes.websocket] [-] Sent initial status for 1 printers
+2026-08-16 18:46:08,392 INFO [backend.app.api.routes.cloud] [b1150fdc] get_filament_info called with 5 IDs: ['GFSNL08', 'GFA00', 'GFA11', 'GFS05', 'GFU01']
+2026-08-16 18:46:08,852 INFO [uvicorn.access] [-] [IP]:40294 - "POST /api/v1/cloud/filament-info HTTP/1.1" 200
+2026-08-16 18:46:09,252 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-16 18:46:09,735 INFO [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Probing developer mode via ams_filament_setting (seq=5)
+2026-08-16 18:46:09,978 INFO [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Developer mode probe: ENABLED (result='success')
+2026-08-16 18:46:25,374 INFO [backend.app.api.routes.support] [b40b8ee7] Log level changed to DEBUG
+2026-08-16 18:46:25,374 INFO [backend.app.api.routes.bug_report] [b40b8ee7] Bug report: enabled debug logging
+2026-08-16 18:46:25,374 DEBUG [backend.app.services.bambu_mqtt] [b40b8ee7] [[SERIAL]] Requesting status update (pushall)
+2026-08-16 18:46:25,375 INFO [uvicorn.access] [-] [IP]:43584 - "POST /api/v1/bug-report/start-logging HTTP/1.1" 200
+2026-08-16 18:46:26,288 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: FINISH, gcode_file: , subtask_name: Radome
+2026-08-16 18:46:26,288 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] AMS dict fields: {'ams_exist_bits': '1', 'tray_exist_bits': 'f', 'tray_is_bbl_bits': 'f', 'tray_tar': '255', 'tray_now': '255', 'tray_pre': '255', 'tray_read_done_bits': 'f', 'tray_reading_bits': '0', 'version': 51, 'insert_flag': True, 'power_on_flag': True}
+2026-08-16 18:46:26,288 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] tray_now updated: 255
+2026-08-16 18:46:26,288 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Merged AMS data: 1 new units, 1 total
+2026-08-16 18:46:26,289 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] AMS 0 info=0x2003 -> extruder 0
+2026-08-16 18:46:26,289 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0}
+2026-08-16 18:46:26,289 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_status: 0 (main=0, sub=0)
+2026-08-16 18:46:26,289 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-16 18:46:26,289 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper raw value: 5.0
+2026-08-16 18:46:26,289 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper direct value: 5.0°C (heater OFF)
+2026-08-16 18:46:26,289 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Chamber heating calculated: target=0.0, current=5.0, heating=False, respect_local=False
+2026-08-16 18:46:26,290 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Chamber temp updated to: 5.0, target: 0.0, heating: False
+2026-08-16 18:46:26,290 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-16 18:46:26,290 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ipcam field: {'ipcam_dev': '1', 'ipcam_record': 'disable', 'timelapse': 'disable', 'resolution': '', 'tutk_server': 'disable', 'mode_bits': 3}
+2026-08-16 18:46:26,290 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -57dBm
+2026-08-16 18:46:26,290 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'node': 'chamber_light', 'mode': 'on'}]
+2026-08-16 18:46:26,290 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: FINISH -> FINISH, file: , subtask: Radome
+2026-08-16 18:46:28,400 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-16 18:46:28,401 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -60dBm
+2026-08-16 18:46:29,104 WARNING [backend.app.utils.local_time] [-] Unrecognised TZ env value 'America/New York', falling back to UTC
+2026-08-16 18:46:29,441 DEBUG [backend.app.services.virtual_printer.ssdp_server] [-] Sent SSDP NOTIFY for Bambuddy (Location=[IP], USN=[SERIAL], bind=[IP])
+2026-08-16 18:46:32,541 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-16 18:46:32,541 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -58dBm
+2026-08-16 18:46:34,614 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-16 18:46:34,615 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -59dBm
