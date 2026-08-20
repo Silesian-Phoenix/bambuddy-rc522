@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/maziggy/bambuddy,3225,1615
+/maziggy/bambuddy/issues,754,203
+/maziggy/bambuddy/releases,619,371
+/maziggy/bambuddy/releases/tag/v1.2.5.2,185,136
+/maziggy/bambuddy/releases/tag/v1.2.5.3,171,140
+/maziggy/bambuddy/pulls,157,77
+/maziggy/bambuddy/blob/main/docker-compose.yml,83,51
+/maziggy/bambuddy/tree/main,82,56
+/maziggy/bambuddy/blob/main/slicer-api/README.md,75,53
+/maziggy/bambuddy/tree/main/slicer-api,68,42
