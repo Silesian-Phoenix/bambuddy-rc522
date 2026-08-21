@@ -1,0 +1,200 @@
+2026-08-21 12:50:45,964 INFO [backend.app.services.bambu_ftp] [-] FTP connected successfully to [IP] (model=A1, prot_c=False)
+2026-08-21 12:50:47,061 WARNING [backend.app.services.firmware_update] [418b963d] Firmware upload already in progress for printer 1
+2026-08-21 12:50:47,063 INFO [uvicorn.access] [-] [IP]:64994 - "POST /api/v1/firmware/updates/1/upload?version=01.08.00.00 HTTP/1.1" 500
+2026-08-21 12:50:48,854 WARNING [backend.app.services.firmware_update] [4ab98784] Firmware upload already in progress for printer 1
+2026-08-21 12:50:48,854 INFO [uvicorn.access] [-] [IP]:64432 - "POST /api/v1/firmware/updates/1/upload?version=01.07.00.00 HTTP/1.1" 500
+2026-08-21 12:50:57,597 WARNING [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Connection stale - no message for 70.9s, forcing reconnect
+2026-08-21 12:50:57,598 INFO [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Disconnect callback after stale reconnect (expected), rc=Normal disconnection
+2026-08-21 12:50:57,650 INFO [backend.app.main] [-] [#1752] Printer 1 connected→disconnected edge; scheduling offline notification in 60s
+2026-08-21 12:50:59,273 INFO [backend.app.main] [-] [#1752] Printer 1 reconnected before debounce; cancelling pending offline notification
+2026-08-21 12:51:12,120 INFO [backend.app.api.routes.websocket] [-] WebSocket client disconnected normally
+2026-08-21 12:51:18,669 INFO [uvicorn.access] [-] [IP]:62505 - "POST /api/v1/auth/ws-token HTTP/1.1" 200
+2026-08-21 12:51:19,010 INFO [backend.app.api.routes.websocket] [-] WebSocket client connecting (principal=[USER])
+2026-08-21 12:51:19,012 INFO [backend.app.api.routes.websocket] [-] WebSocket client connected
+2026-08-21 12:51:19,013 INFO [backend.app.api.routes.websocket] [-] Sent initial status for 1 printers
+2026-08-21 12:51:22,143 INFO [backend.app.services.bambu_ftp] [-] FTP STOR confirmed for /offline-ota-n2s_v01.07.02.00-20260113213823.zip: 226
+2026-08-21 12:51:22,143 INFO [backend.app.services.bambu_ftp] [-] FTP upload complete: /offline-ota-n2s_v01.07.02.00-20260113213823.zip (8602600 bytes in 93.7s, 90 KB/s)
+2026-08-21 12:51:22,143 INFO [backend.app.services.bambu_ftp] [-] FTP mode cached for [IP]: prot_p
+2026-08-21 12:51:22,160 INFO [backend.app.services.firmware_update] [bcab71ad] Firmware upload complete for printer 1
+2026-08-21 12:52:07,196 INFO [backend.app.api.routes.websocket] [-] WebSocket client disconnected normally
+2026-08-21 12:52:48,871 INFO [uvicorn.access] [-] [IP]:50805 - "POST /api/v1/auth/ws-token HTTP/1.1" 200
+2026-08-21 12:52:49,189 INFO [backend.app.api.routes.websocket] [-] WebSocket client connecting (principal=[USER])
+2026-08-21 12:52:49,196 INFO [backend.app.api.routes.websocket] [-] WebSocket client connected
+2026-08-21 12:52:49,197 INFO [backend.app.api.routes.websocket] [-] Sent initial status for 1 printers
+2026-08-21 12:53:36,623 INFO [backend.app.api.routes.support] [0e432dd4] Log level changed to DEBUG
+2026-08-21 12:53:36,623 INFO [backend.app.api.routes.bug_report] [0e432dd4] Bug report: enabled debug logging
+2026-08-21 12:53:36,623 DEBUG [backend.app.services.bambu_mqtt] [0e432dd4] [[SERIAL]] Requesting status update (pushall)
+2026-08-21 12:53:36,624 INFO [uvicorn.access] [-] [IP]:50167 - "POST /api/v1/bug-report/start-logging HTTP/1.1" 200
+2026-08-21 12:53:36,714 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'buildplate_marker_detector': True}
+2026-08-21 12:53:36,714 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['buildplate_marker_detector']
+2026-08-21 12:53:36,714 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: FINISH, gcode_file: , subtask_name: All goku black_plate_7
+2026-08-21 12:53:36,714 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] AMS dict fields: {'ams_exist_bits': '0', 'tray_exist_bits': '0', 'tray_is_bbl_bits': '0', 'tray_tar': '254', 'tray_now': '254', 'tray_pre': '254', 'tray_read_done_bits': '0', 'tray_reading_bits': '0', 'version': 22, 'insert_flag': True, 'power_on_flag': False}
+2026-08-21 12:53:36,714 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] tray_now updated: 254
+2026-08-21 12:53:36,714 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Merged AMS data: 0 new units, 0 total
+2026-08-21 12:53:36,714 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_status: 0 (main=0, sub=0)
+2026-08-21 12:53:36,715 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-21 12:53:36,715 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper raw value: 5.0
+2026-08-21 12:53:36,715 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper direct value: 5.0°C (heater OFF)
+2026-08-21 12:53:36,715 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Chamber heating calculated: target=0.0, current=5.0, heating=False, respect_local=False
+2026-08-21 12:53:36,715 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Chamber temp updated to: 5.0, target: 0.0, heating: False
+2026-08-21 12:53:36,715 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-21 12:53:36,715 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ipcam field: {'ipcam_dev': '1', 'ipcam_record': 'disable', 'timelapse': 'disable', 'resolution': '1080p', 'tutk_server': 'disable', 'mode_bits': 3}
+2026-08-21 12:53:36,715 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -63dBm
+2026-08-21 12:53:36,715 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'node': 'chamber_light', 'mode': 'on'}]
+2026-08-21 12:53:36,716 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: FINISH -> FINISH, file: , subtask: All goku black_plate_7
+2026-08-21 12:53:38,670 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-21 12:53:40,682 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-21 12:53:40,682 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -64dBm
+2026-08-21 12:53:40,926 DEBUG [backend.app.services.bambu_ftp] [-] FTP connecting to [IP]:990 (timeout=30s, model=A1, prot_c=False, cap_tls_v1_2=False)
+2026-08-21 12:53:41,945 DEBUG [backend.app.services.bambu_ftp] [-] FTP connected, logging in as bblp
+2026-08-21 12:53:41,973 DEBUG [backend.app.services.bambu_ftp] [-] FTP logged in, setting prot_p (protected) and passive mode
+2026-08-21 12:53:42,001 DEBUG [backend.app.services.bambu_ftp] [-] FTP server welcome: 220 BBL-P003 FTP Server
+2026-08-21 12:53:42,001 INFO [backend.app.services.bambu_ftp] [-] FTP connected successfully to [IP] (model=A1, prot_c=False)
+2026-08-21 12:53:42,013 DEBUG [backend.app.services.bambu_ftp] [-] AVBL command not supported: 502 
+2026-08-21 12:53:43,145 DEBUG [backend.app.services.bambu_ftp] [-] FTP connecting to [IP]:990 (timeout=30s, model=A1, prot_c=False, cap_tls_v1_2=False)
+2026-08-21 12:53:44,098 DEBUG [backend.app.services.bambu_ftp] [-] FTP connecting to [IP]:990 (timeout=30s, model=A1, prot_c=False, cap_tls_v1_2=False)
+2026-08-21 12:53:44,140 DEBUG [backend.app.services.bambu_ftp] [-] FTP connected, logging in as bblp
+2026-08-21 12:53:44,750 INFO [backend.app.api.routes.websocket] [-] WebSocket client disconnected normally
+2026-08-21 12:53:44,766 DEBUG [backend.app.services.bambu_ftp] [-] FTP connecting to [IP]:990 (timeout=30s, model=A1, prot_c=False, cap_tls_v1_2=False)
+2026-08-21 12:53:45,099 DEBUG [backend.app.services.bambu_ftp] [-] FTP logged in, setting prot_p (protected) and passive mode
+2026-08-21 12:53:45,673 DEBUG [backend.app.services.bambu_ftp] [-] FTP connected, logging in as bblp
+2026-08-21 12:53:45,831 INFO [uvicorn.access] [-] [IP]:53956 - "POST /api/v1/auth/ws-token HTTP/1.1" 200
+2026-08-21 12:53:46,069 DEBUG [backend.app.services.bambu_ftp] [-] FTP logged in, setting prot_p (protected) and passive mode
+2026-08-21 12:53:46,069 DEBUG [backend.app.services.bambu_ftp] [-] FTP server welcome: 220 BBL-P003 FTP Server
+2026-08-21 12:53:46,070 INFO [backend.app.services.bambu_ftp] [-] FTP connected successfully to [IP] (model=A1, prot_c=False)
+2026-08-21 12:53:46,087 DEBUG [backend.app.services.bambu_ftp] [-] AVBL command not supported: 502 
+2026-08-21 12:53:46,102 DEBUG [backend.app.services.bambu_ftp] [-] FTP connected, logging in as bblp
+2026-08-21 12:53:46,140 INFO [backend.app.api.routes.websocket] [-] WebSocket client connecting (principal=[USER])
+2026-08-21 12:53:46,142 INFO [backend.app.api.routes.websocket] [-] WebSocket client connected
+2026-08-21 12:53:46,142 INFO [backend.app.api.routes.websocket] [-] Sent initial status for 1 printers
+2026-08-21 12:53:47,490 DEBUG [backend.app.services.bambu_ftp] [-] FTP server welcome: 220 BBL-P003 FTP Server
+2026-08-21 12:53:47,491 INFO [backend.app.services.bambu_ftp] [-] FTP connected successfully to [IP] (model=A1, prot_c=False)
+2026-08-21 12:53:47,742 DEBUG [backend.app.services.bambu_ftp] [-] AVBL command not supported: 502 
+2026-08-21 12:53:47,742 DEBUG [backend.app.services.bambu_ftp] [-] FTP logged in, setting prot_p (protected) and passive mode
+2026-08-21 12:53:48,254 DEBUG [backend.app.services.bambu_ftp] [-] FTP server welcome: 220 BBL-P003 FTP Server
+2026-08-21 12:53:48,254 INFO [backend.app.services.bambu_ftp] [-] FTP connected successfully to [IP] (model=A1, prot_c=False)
+2026-08-21 12:53:48,269 DEBUG [backend.app.services.bambu_ftp] [-] AVBL command not supported: 502 
+2026-08-21 12:54:02,963 DEBUG [backend.app.services.bambu_ftp] [-] FTP connecting to [IP]:990 (timeout=30s, model=A1, prot_c=False, cap_tls_v1_2=False)
+2026-08-21 12:54:06,030 INFO [backend.app.api.routes.websocket] [-] WebSocket client disconnected normally
+2026-08-21 12:54:06,045 DEBUG [backend.app.services.bambu_ftp] [-] FTP connecting to [IP]:990 (timeout=30s, model=A1, prot_c=False, cap_tls_v1_2=False)
+2026-08-21 12:54:09,509 DEBUG [backend.app.services.bambu_ftp] [-] FTP connected, logging in as bblp
+2026-08-21 12:54:09,974 DEBUG [backend.app.services.bambu_ftp] [-] FTP logged in, setting prot_p (protected) and passive mode
+2026-08-21 12:54:10,672 DEBUG [backend.app.services.bambu_ftp] [-] FTP server welcome: 220 BBL-P003 FTP Server
+2026-08-21 12:54:10,672 INFO [backend.app.services.bambu_ftp] [-] FTP connected successfully to [IP] (model=A1, prot_c=False)
+2026-08-21 12:54:10,696 DEBUG [backend.app.services.bambu_ftp] [-] AVBL command not supported: 502 
+2026-08-21 12:54:14,945 DEBUG [backend.app.services.bambu_ftp] [-] FTP connected, logging in as bblp
+2026-08-21 12:54:14,965 DEBUG [backend.app.services.bambu_ftp] [-] FTP logged in, setting prot_p (protected) and passive mode
+2026-08-21 12:54:14,982 DEBUG [backend.app.services.bambu_ftp] [-] FTP server welcome: 220 BBL-P003 FTP Server
+2026-08-21 12:54:14,982 INFO [backend.app.services.bambu_ftp] [-] FTP connected successfully to [IP] (model=A1, prot_c=False)
+2026-08-21 12:54:14,989 DEBUG [backend.app.services.bambu_ftp] [-] AVBL command not supported: 502 
+2026-08-21 12:54:17,076 INFO [backend.app.services.firmware_check] [afa79bdc] Downloading firmware from https://public-cdn.bblmw.com/upgrade/device/offline/N2S/01.04.00.00/1496eccbb7/offline-ota-n2s_v01.04.00.00-20241210144933.zip
+2026-08-21 12:54:17,078 INFO [uvicorn.access] [-] [IP]:50167 - "POST /api/v1/firmware/updates/1/upload?version=01.04.00.00 HTTP/1.1" 200
+2026-08-21 12:54:17,752 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-21 12:54:18,970 INFO [backend.app.services.firmware_check] [afa79bdc] Firmware downloaded successfully: C:\ProgramData\Bambuddy\data\firmware\offline-ota-n2s_v01.04.00.00-20241210144933.zip
+2026-08-21 12:54:18,970 INFO [backend.app.services.firmware_update] [afa79bdc] Uploading firmware to printer 1: /offline-ota-n2s_v01.04.00.00-20241210144933.zip
+2026-08-21 12:54:18,976 INFO [backend.app.services.bambu_ftp] [-] FTP connecting to [IP] for upload (model=A1, mode=prot_p, socket_timeout=30.0s, deadline=600s)...
+2026-08-21 12:54:18,976 DEBUG [backend.app.services.bambu_ftp] [-] FTP connecting to [IP]:990 (timeout=30.0s, model=A1, prot_c=False, cap_tls_v1_2=False)
+2026-08-21 12:54:19,802 DEBUG [backend.app.services.bambu_ftp] [-] FTP connected, logging in as bblp
+2026-08-21 12:54:19,820 DEBUG [backend.app.services.bambu_ftp] [-] FTP logged in, setting prot_p (protected) and passive mode
+2026-08-21 12:54:19,846 DEBUG [backend.app.services.bambu_ftp] [-] FTP server welcome: 220 BBL-P003 FTP Server
+2026-08-21 12:54:19,847 INFO [backend.app.services.bambu_ftp] [-] FTP connected successfully to [IP] (model=A1, prot_c=False)
+2026-08-21 12:54:19,847 INFO [backend.app.services.bambu_ftp] [-] FTP connected to [IP]
+2026-08-21 12:54:19,848 INFO [backend.app.services.bambu_ftp] [-] FTP uploading C:\ProgramData\Bambuddy\data\firmware\offline-ota-n2s_v01.04.00.00-20241210144933.zip (6163862 bytes) to /offline-ota-n2s_v01.04.00.00-20241210144933.zip
+2026-08-21 12:54:19,862 DEBUG [backend.app.services.bambu_ftp] [-] FTP STOR command starting for /offline-ota-n2s_v01.04.00.00-20241210144933.zip
+2026-08-21 12:54:20,003 INFO [uvicorn.access] [-] [IP]:50167 - "POST /api/v1/printers/camera/stream-token HTTP/1.1" 200
+2026-08-21 12:54:20,006 INFO [backend.app.services.bambu_ftp] [-] FTP data channel ready in 0.1s (PASV + TLS handshake)
+2026-08-21 12:54:20,009 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 65536/6163862 bytes
+2026-08-21 12:54:20,300 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 131072/6163862 bytes
+2026-08-21 12:54:20,679 INFO [uvicorn.access] [-] [IP]:52409 - "POST /api/v1/auth/ws-token HTTP/1.1" 200
+2026-08-21 12:54:20,697 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 196608/6163862 bytes
+2026-08-21 12:54:20,827 DEBUG [backend.app.api.routes.printers] [0c1448b5] API returning ams_mapping: [], ams_extruder_map: {}
+2026-08-21 12:54:20,827 DEBUG [backend.app.api.routes.printers] [0c1448b5] Using tray_now directly as global ID: 254
+2026-08-21 12:54:20,978 INFO [backend.app.api.routes.cloud] [dd47b753] get_filament_info called with 1 IDs: ['GFA05']
+2026-08-21 12:54:20,979 INFO [uvicorn.access] [-] [IP]:63616 - "POST /api/v1/cloud/filament-info HTTP/1.1" 200
+2026-08-21 12:54:21,078 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 262144/6163862 bytes
+2026-08-21 12:54:21,533 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 327680/6163862 bytes
+2026-08-21 12:54:21,940 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 393216/6163862 bytes
+2026-08-21 12:54:22,334 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 458752/6163862 bytes
+2026-08-21 12:54:22,742 INFO [uvicorn.access] [-] [IP]:52409 - "POST /api/v1/auth/ws-token HTTP/1.1" 200
+2026-08-21 12:54:22,817 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 524288/6163862 bytes
+2026-08-21 12:54:23,061 INFO [backend.app.api.routes.websocket] [-] WebSocket client connecting (principal=[USER])
+2026-08-21 12:54:23,069 INFO [backend.app.api.routes.websocket] [-] WebSocket client connected
+2026-08-21 12:54:23,070 INFO [backend.app.api.routes.websocket] [-] Sent initial status for 1 printers
+2026-08-21 12:54:23,201 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 589824/6163862 bytes
+2026-08-21 12:54:23,331 WARNING [backend.app.services.firmware_update] [d346f0e2] Firmware upload already in progress for printer 1
+2026-08-21 12:54:23,332 INFO [uvicorn.access] [-] [IP]:54464 - "POST /api/v1/firmware/updates/1/upload?version=01.07.00.00 HTTP/1.1" 500
+2026-08-21 12:54:23,643 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 655360/6163862 bytes
+2026-08-21 12:54:24,986 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 720896/6163862 bytes
+2026-08-21 12:54:25,113 DEBUG [backend.app.main] [-] Recorded 3 printer sensor history entries
+2026-08-21 12:54:25,444 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 786432/6163862 bytes
+2026-08-21 12:54:26,009 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 851968/6163862 bytes
+2026-08-21 12:54:26,292 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 917504/6163862 bytes
+2026-08-21 12:54:26,654 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 983040/6163862 bytes
+2026-08-21 12:54:27,045 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 1048576/6163862 bytes
+2026-08-21 12:54:27,413 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 1114112/6163862 bytes
+2026-08-21 12:54:27,780 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 1179648/6163862 bytes
+2026-08-21 12:54:28,431 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 1245184/6163862 bytes
+2026-08-21 12:54:28,816 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 1310720/6163862 bytes
+2026-08-21 12:54:29,219 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 1376256/6163862 bytes
+2026-08-21 12:54:29,590 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 1441792/6163862 bytes
+2026-08-21 12:54:30,470 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 1507328/6163862 bytes
+2026-08-21 12:54:30,933 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 1572864/6163862 bytes
+2026-08-21 12:54:31,359 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 1638400/6163862 bytes
+2026-08-21 12:54:32,453 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 1703936/6163862 bytes
+2026-08-21 12:54:32,917 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 1769472/6163862 bytes
+2026-08-21 12:54:33,345 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 1835008/6163862 bytes
+2026-08-21 12:54:33,721 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 1900544/6163862 bytes
+2026-08-21 12:54:34,083 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 1966080/6163862 bytes
+2026-08-21 12:54:34,442 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 2031616/6163862 bytes
+2026-08-21 12:54:34,811 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 2097152/6163862 bytes
+2026-08-21 12:54:35,339 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 2162688/6163862 bytes
+2026-08-21 12:54:35,734 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 2228224/6163862 bytes
+2026-08-21 12:54:36,161 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 2293760/6163862 bytes
+2026-08-21 12:54:37,357 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 2359296/6163862 bytes
+2026-08-21 12:54:37,694 INFO [backend.app.api.routes.websocket] [-] WebSocket client disconnected normally
+2026-08-21 12:54:38,412 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 2424832/6163862 bytes
+2026-08-21 12:54:38,433 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-21 12:54:38,611 INFO [uvicorn.access] [-] [IP]:52409 - "POST /api/v1/printers/camera/stream-token HTTP/1.1" 200
+2026-08-21 12:54:38,920 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 2490368/6163862 bytes
+2026-08-21 12:54:38,982 INFO [uvicorn.access] [-] [IP]:52014 - "POST /api/v1/auth/ws-token HTTP/1.1" 200
+2026-08-21 12:54:39,289 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 2555904/6163862 bytes
+2026-08-21 12:54:39,468 INFO [backend.app.api.routes.websocket] [-] WebSocket client connecting (principal=[USER])
+2026-08-21 12:54:39,475 INFO [backend.app.api.routes.websocket] [-] WebSocket client connected
+2026-08-21 12:54:39,476 INFO [backend.app.api.routes.websocket] [-] Sent initial status for 1 printers
+2026-08-21 12:54:39,768 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 2621440/6163862 bytes
+2026-08-21 12:54:40,130 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 2686976/6163862 bytes
+2026-08-21 12:54:40,494 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 2752512/6163862 bytes
+2026-08-21 12:54:40,854 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 2818048/6163862 bytes
+2026-08-21 12:54:42,052 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 2883584/6163862 bytes
+2026-08-21 12:54:42,416 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 2949120/6163862 bytes
+2026-08-21 12:54:42,769 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 3014656/6163862 bytes
+2026-08-21 12:54:43,126 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 3080192/6163862 bytes
+2026-08-21 12:54:43,660 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 3145728/6163862 bytes
+2026-08-21 12:54:44,075 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 3211264/6163862 bytes
+2026-08-21 12:54:44,456 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 3276800/6163862 bytes
+2026-08-21 12:54:44,826 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 3342336/6163862 bytes
+2026-08-21 12:54:45,221 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 3407872/6163862 bytes
+2026-08-21 12:54:45,640 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 3473408/6163862 bytes
+2026-08-21 12:54:46,034 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 3538944/6163862 bytes
+2026-08-21 12:54:46,394 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 3604480/6163862 bytes
+2026-08-21 12:54:46,765 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 3670016/6163862 bytes
+2026-08-21 12:54:47,142 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 3735552/6163862 bytes
+2026-08-21 12:54:47,515 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 3801088/6163862 bytes
+2026-08-21 12:54:47,987 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 3866624/6163862 bytes
+2026-08-21 12:54:48,405 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 3932160/6163862 bytes
+2026-08-21 12:54:48,935 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 3997696/6163862 bytes
+2026-08-21 12:54:53,537 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 4063232/6163862 bytes
+2026-08-21 12:54:53,947 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 4128768/6163862 bytes
+2026-08-21 12:54:54,347 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 4194304/6163862 bytes
+2026-08-21 12:54:54,717 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 4259840/6163862 bytes
+2026-08-21 12:54:55,090 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 4325376/6163862 bytes
+2026-08-21 12:54:55,457 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 4390912/6163862 bytes
+2026-08-21 12:54:55,839 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 4456448/6163862 bytes
+2026-08-21 12:54:56,262 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 4521984/6163862 bytes
+2026-08-21 12:54:56,632 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 4587520/6163862 bytes
+2026-08-21 12:54:56,698 DEBUG [backend.app.services.bambu_mqtt] [1caf8146] [[SERIAL]] Requesting status update (pushall)
+2026-08-21 12:54:56,699 INFO [uvicorn.access] [-] [IP]:54992 - "POST /api/v1/bug-report/start-logging HTTP/1.1" 200
+2026-08-21 12:54:57,013 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 4653056/6163862 bytes
+2026-08-21 12:54:57,381 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 4718592/6163862 bytes
+2026-08-21 12:54:57,761 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 4784128/6163862 bytes
+2026-08-21 12:54:58,147 DEBUG [backend.app.services.bambu_ftp] [-] FTP upload progress: 4849664/6163862 bytes
