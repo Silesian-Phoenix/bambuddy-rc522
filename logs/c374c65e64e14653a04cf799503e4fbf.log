@@ -1,0 +1,200 @@
+2026-08-22 17:42:51,069 INFO [backend.app.services.virtual_printer.tcp_proxy] [1bbcb127] FTP-Data-50072 TCP proxy listening on port 50072
+2026-08-22 17:42:51,069 INFO [backend.app.services.virtual_printer.tcp_proxy] [1bbcb127] FTP-Data-50073 TCP proxy listening on port 50073
+2026-08-22 17:42:51,069 INFO [backend.app.services.virtual_printer.tcp_proxy] [1bbcb127] FTP-Data-50074 TCP proxy listening on port 50074
+2026-08-22 17:42:51,069 INFO [backend.app.services.virtual_printer.tcp_proxy] [1bbcb127] FTP-Data-50075 TCP proxy listening on port 50075
+2026-08-22 17:42:51,070 INFO [backend.app.services.virtual_printer.tcp_proxy] [1bbcb127] FTP-Data-50076 TCP proxy listening on port 50076
+2026-08-22 17:42:51,070 INFO [backend.app.services.virtual_printer.tcp_proxy] [1bbcb127] FTP-Data-50077 TCP proxy listening on port 50077
+2026-08-22 17:42:51,070 INFO [backend.app.services.virtual_printer.tcp_proxy] [1bbcb127] FTP-Data-50078 TCP proxy listening on port 50078
+2026-08-22 17:42:51,070 INFO [backend.app.services.virtual_printer.tcp_proxy] [1bbcb127] FTP-Data-50079 TCP proxy listening on port 50079
+2026-08-22 17:42:51,070 INFO [backend.app.services.virtual_printer.tcp_proxy] [1bbcb127] FTP-Data-50080 TCP proxy listening on port 50080
+2026-08-22 17:42:51,071 INFO [backend.app.services.virtual_printer.tcp_proxy] [1bbcb127] FTP-Data-50081 TCP proxy listening on port 50081
+2026-08-22 17:42:51,071 INFO [backend.app.services.virtual_printer.tcp_proxy] [1bbcb127] FTP-Data-50082 TCP proxy listening on port 50082
+2026-08-22 17:42:51,071 INFO [backend.app.services.virtual_printer.tcp_proxy] [1bbcb127] FTP-Data-50083 TCP proxy listening on port 50083
+2026-08-22 17:42:51,071 INFO [backend.app.services.virtual_printer.tcp_proxy] [1bbcb127] FTP-Data-50084 TCP proxy listening on port 50084
+2026-08-22 17:42:51,072 INFO [backend.app.services.virtual_printer.tcp_proxy] [1bbcb127] FTP-Data-50085 TCP proxy listening on port 50085
+2026-08-22 17:42:51,072 INFO [backend.app.services.virtual_printer.tcp_proxy] [1bbcb127] FTP-Data-50086 TCP proxy listening on port 50086
+2026-08-22 17:42:51,072 INFO [backend.app.services.virtual_printer.tcp_proxy] [1bbcb127] FTP-Data-50087 TCP proxy listening on port 50087
+2026-08-22 17:42:51,072 INFO [backend.app.services.virtual_printer.tcp_proxy] [1bbcb127] FTP-Data-50088 TCP proxy listening on port 50088
+2026-08-22 17:42:51,072 INFO [backend.app.services.virtual_printer.tcp_proxy] [1bbcb127] FTP-Data-50089 TCP proxy listening on port 50089
+2026-08-22 17:42:51,073 INFO [backend.app.services.virtual_printer.tcp_proxy] [1bbcb127] FTP-Data-50090 TCP proxy listening on port 50090
+2026-08-22 17:42:51,073 INFO [backend.app.services.virtual_printer.tcp_proxy] [1bbcb127] FTP-Data-50091 TCP proxy listening on port 50091
+2026-08-22 17:42:51,073 INFO [backend.app.services.virtual_printer.tcp_proxy] [1bbcb127] FTP-Data-50092 TCP proxy listening on port 50092
+2026-08-22 17:42:51,073 INFO [backend.app.services.virtual_printer.tcp_proxy] [1bbcb127] FTP-Data-50093 TCP proxy listening on port 50093
+2026-08-22 17:42:51,074 INFO [backend.app.services.virtual_printer.tcp_proxy] [1bbcb127] FTP-Data-50094 TCP proxy listening on port 50094
+2026-08-22 17:42:51,074 INFO [backend.app.services.virtual_printer.tcp_proxy] [1bbcb127] FTP-Data-50095 TCP proxy listening on port 50095
+2026-08-22 17:42:51,074 INFO [backend.app.services.virtual_printer.tcp_proxy] [1bbcb127] FTP-Data-50096 TCP proxy listening on port 50096
+2026-08-22 17:42:51,074 INFO [backend.app.services.virtual_printer.tcp_proxy] [1bbcb127] FTP-Data-50097 TCP proxy listening on port 50097
+2026-08-22 17:42:51,074 INFO [backend.app.services.virtual_printer.tcp_proxy] [1bbcb127] FTP-Data-50098 TCP proxy listening on port 50098
+2026-08-22 17:42:51,075 INFO [backend.app.services.virtual_printer.tcp_proxy] [1bbcb127] FTP-Data-50099 TCP proxy listening on port 50099
+2026-08-22 17:42:51,075 INFO [backend.app.services.virtual_printer.tcp_proxy] [1bbcb127] FTP-Data-50100 TCP proxy listening on port 50100
+2026-08-22 17:42:51,076 INFO [backend.app.services.virtual_printer.bind_server] [1bbcb127] Bind server listening on [IP]:3002 (TLS)
+2026-08-22 17:42:51,077 INFO [backend.app.services.virtual_printer.tcp_proxy] [1bbcb127] Proxy diagnostic: probing un-proxied ports [21, 80, 443] on [IP]
+2026-08-22 17:42:51,077 INFO [backend.app.services.virtual_printer.tcp_proxy] [1bbcb127] Slicer proxy started for [IP] (transparent TCP + MQTT TLS, 101 FTP data ports)
+2026-08-22 17:42:51,079 INFO [uvicorn.access] [-] [IP]:49441 - "PUT /api/v1/virtual-printers/1 HTTP/1.1" 200
+2026-08-22 17:44:17,176 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-22 17:49:17,190 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-22 17:53:23,114 INFO [backend.app.services.virtual_printer.bind_server] [1bbcb127] Bind server: client connected from [IP]:49517
+2026-08-22 17:53:23,115 INFO [backend.app.services.virtual_printer.bind_server] [1bbcb127] Bind server: client connected from [IP]:49518
+2026-08-22 17:53:23,116 INFO [backend.app.services.virtual_printer.bind_server] [1bbcb127] Bind server: received from [IP]:49518: {'login': {'command': 'detect', 'sequence_id': '20001'}}
+2026-08-22 17:53:23,116 INFO [backend.app.services.virtual_printer.bind_server] [1bbcb127] Bind server: sent detect response to [IP]:49518 (serial=[SERIAL])
+2026-08-22 17:53:23,118 INFO [backend.app.services.virtual_printer.bind_server] [1bbcb127] Bind server: received from [IP]:49517: {'login': {'command': 'detect', 'sequence_id': '20000'}}
+2026-08-22 17:53:23,118 INFO [backend.app.services.virtual_printer.bind_server] [1bbcb127] Bind server: sent detect response to [IP]:49517 (serial=[SERIAL])
+2026-08-22 17:53:38,484 INFO [backend.app.services.virtual_printer.bind_server] [1bbcb127] Bind server: client connected from [IP]:49582
+2026-08-22 17:53:38,486 INFO [backend.app.services.virtual_printer.bind_server] [1bbcb127] Bind server: received from [IP]:49582: {'login': {'command': 'detect', 'sequence_id': '20002'}}
+2026-08-22 17:53:38,487 INFO [backend.app.services.virtual_printer.bind_server] [1bbcb127] Bind server: sent detect response to [IP]:49582 (serial=[SERIAL])
+2026-08-22 17:54:17,205 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-22 17:55:12,640 INFO [backend.app.services.virtual_printer.tcp_proxy] [1bbcb127] FTP proxy: client connected from [IP]:49585
+2026-08-22 17:55:12,640 INFO [backend.app.services.virtual_printer.manager] [1bbcb127] [VP BamBuddy P1S] Proxy FTP: connected: [IP]:49585
+2026-08-22 17:55:12,647 INFO [backend.app.services.virtual_printer.tcp_proxy] [1bbcb127] FTP proxy: connected to printer [IP]:990
+2026-08-22 17:55:12,648 INFO [backend.app.services.virtual_printer.tcp_proxy] [1bbcb127] FTP proxy: client [IP]:49585 disconnected
+2026-08-22 17:55:12,648 INFO [backend.app.services.virtual_printer.manager] [1bbcb127] [VP BamBuddy P1S] Proxy FTP: disconnected: [IP]:49585
+2026-08-22 17:55:12,651 INFO [backend.app.services.virtual_printer.tcp_proxy] [1bbcb127] FileTransfer proxy: client connected from [IP]:49586
+2026-08-22 17:55:12,651 INFO [backend.app.services.virtual_printer.manager] [1bbcb127] [VP BamBuddy P1S] Proxy FileTransfer: connected: [IP]:49586
+2026-08-22 17:55:12,666 INFO [backend.app.services.virtual_printer.tcp_proxy] [1bbcb127] FileTransfer proxy: connected to printer [IP]:6000
+2026-08-22 17:55:12,667 INFO [backend.app.services.virtual_printer.tcp_proxy] [1bbcb127] FileTransfer proxy: client [IP]:49586 disconnected
+2026-08-22 17:55:12,667 INFO [backend.app.services.virtual_printer.manager] [1bbcb127] [VP BamBuddy P1S] Proxy FileTransfer: disconnected: [IP]:49586
+2026-08-22 17:55:12,676 INFO [backend.app.services.virtual_printer.tcp_proxy] [1bbcb127] Aux-2024 proxy: client connected from [IP]:49587
+2026-08-22 17:55:12,676 INFO [backend.app.services.virtual_printer.manager] [1bbcb127] [VP BamBuddy P1S] Proxy Aux-2024: connected: [IP]:49587
+2026-08-22 17:55:12,691 ERROR [backend.app.services.virtual_printer.tcp_proxy] [1bbcb127] Aux-2024 proxy: failed to connect to [IP]:2024: [Errno 111] Connect call failed ('[IP]', 2024)
+2026-08-22 17:55:12,702 INFO [backend.app.services.virtual_printer.tcp_proxy] [1bbcb127] Aux-2025 proxy: client connected from [IP]:49588
+2026-08-22 17:55:12,703 INFO [backend.app.services.virtual_printer.manager] [1bbcb127] [VP BamBuddy P1S] Proxy Aux-2025: connected: [IP]:49588
+2026-08-22 17:55:12,706 ERROR [backend.app.services.virtual_printer.tcp_proxy] [1bbcb127] Aux-2025 proxy: failed to connect to [IP]:2025: [Errno 111] Connect call failed ('[IP]', 2025)
+2026-08-22 17:55:12,726 INFO [backend.app.services.virtual_printer.tcp_proxy] [1bbcb127] Aux-2026 proxy: client connected from [IP]:49589
+2026-08-22 17:55:12,726 INFO [backend.app.services.virtual_printer.manager] [1bbcb127] [VP BamBuddy P1S] Proxy Aux-2026: connected: [IP]:49589
+2026-08-22 17:55:12,757 ERROR [backend.app.services.virtual_printer.tcp_proxy] [1bbcb127] Aux-2026 proxy: failed to connect to [IP]:2026: [Errno 111] Connect call failed ('[IP]', 2026)
+2026-08-22 17:55:34,609 INFO [backend.app.services.virtual_printer.tcp_proxy] [1bbcb127] FTP-Data-50000 proxy: client connected from [IP]:49590
+2026-08-22 17:55:34,612 ERROR [backend.app.services.virtual_printer.tcp_proxy] [1bbcb127] FTP-Data-50000 proxy: failed to connect to [IP]:50000: [Errno 111] Connect call failed ('[IP]', 50000)
+2026-08-22 17:55:34,626 INFO [backend.app.services.virtual_printer.tcp_proxy] [1bbcb127] FTP-Data-50001 proxy: client connected from [IP]:49591
+2026-08-22 17:55:34,630 ERROR [backend.app.services.virtual_printer.tcp_proxy] [1bbcb127] FTP-Data-50001 proxy: failed to connect to [IP]:50001: [Errno 111] Connect call failed ('[IP]', 50001)
+2026-08-22 17:55:34,641 INFO [backend.app.services.virtual_printer.tcp_proxy] [1bbcb127] FTP-Data-50002 proxy: client connected from [IP]:49592
+2026-08-22 17:55:34,644 ERROR [backend.app.services.virtual_printer.tcp_proxy] [1bbcb127] FTP-Data-50002 proxy: failed to connect to [IP]:50002: [Errno 111] Connect call failed ('[IP]', 50002)
+2026-08-22 17:59:18,466 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-22 18:02:25,029 INFO [backend.app.services.virtual_printer.bind_server] [1bbcb127] Bind server: client connected from [IP]:49614
+2026-08-22 18:02:25,030 INFO [backend.app.services.virtual_printer.bind_server] [1bbcb127] Bind server: client connected from [IP]:49615
+2026-08-22 18:02:25,031 INFO [backend.app.services.virtual_printer.bind_server] [1bbcb127] Bind server: received from [IP]:49615: {'login': {'command': 'detect', 'sequence_id': '20001'}}
+2026-08-22 18:02:25,032 INFO [backend.app.services.virtual_printer.bind_server] [1bbcb127] Bind server: sent detect response to [IP]:49615 (serial=[SERIAL])
+2026-08-22 18:02:25,033 INFO [backend.app.services.virtual_printer.bind_server] [1bbcb127] Bind server: received from [IP]:49614: {'login': {'command': 'detect', 'sequence_id': '20000'}}
+2026-08-22 18:02:25,034 INFO [backend.app.services.virtual_printer.bind_server] [1bbcb127] Bind server: sent detect response to [IP]:49614 (serial=[SERIAL])
+2026-08-22 18:02:59,834 INFO [backend.app.services.virtual_printer.bind_server] [1bbcb127] Bind server: client connected from [IP]:49679
+2026-08-22 18:02:59,835 INFO [backend.app.services.virtual_printer.bind_server] [1bbcb127] Bind server: received from [IP]:49679: {'login': {'command': 'detect', 'sequence_id': '20002'}}
+2026-08-22 18:02:59,836 INFO [backend.app.services.virtual_printer.bind_server] [1bbcb127] Bind server: sent detect response to [IP]:49679 (serial=[SERIAL])
+2026-08-22 18:04:18,480 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-22 18:09:18,494 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-22 18:14:18,508 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-22 18:19:18,522 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-22 18:24:18,537 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-22 18:29:18,551 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-22 18:34:18,565 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-22 18:39:18,580 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-22 18:40:07,491 INFO [uvicorn.access] [-] [IP]:49710 - "POST /api/v1/printers/camera/stream-token HTTP/1.1" 200
+2026-08-22 18:44:18,595 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-22 18:49:18,610 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-22 18:54:18,625 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-22 18:59:18,639 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-22 19:04:18,653 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-22 19:09:18,667 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-22 19:13:50,340 INFO [backend.app.services.virtual_printer.bind_server] [1bbcb127] Bind server: client connected from [IP]:49881
+2026-08-22 19:13:50,342 WARNING [backend.app.services.virtual_printer.bind_server] [1bbcb127] Bind server: invalid frame from [IP]:49881
+2026-08-22 19:14:18,682 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-22 19:18:24,381 INFO [backend.app.api.routes.cloud] [1c1c7acb] get_filament_info called with 2 IDs: ['GFA01', 'GFA00']
+2026-08-22 19:18:24,418 INFO [uvicorn.access] [-] [IP]:49910 - "POST /api/v1/cloud/filament-info HTTP/1.1" 200
+2026-08-22 19:19:18,696 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-22 19:24:18,710 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-22 19:25:27,522 INFO [backend.app.api.routes.support] [37763db1] Log level changed to DEBUG
+2026-08-22 19:25:27,522 INFO [backend.app.api.routes.bug_report] [37763db1] Bug report: enabled debug logging
+2026-08-22 19:25:27,522 DEBUG [backend.app.services.bambu_mqtt] [37763db1] [[SERIAL]] Requesting status update (pushall)
+2026-08-22 19:25:27,524 INFO [uvicorn.access] [-] [IP]:50034 - "POST /api/v1/bug-report/start-logging HTTP/1.1" 200
+2026-08-22 19:25:27,596 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: IDLE, gcode_file: , subtask_name: 
+2026-08-22 19:25:27,596 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] AMS dict fields: {'ams_exist_bits': '1', 'tray_exist_bits': 'f', 'tray_is_bbl_bits': 'f', 'tray_tar': '255', 'tray_now': '255', 'tray_pre': '255', 'tray_read_done_bits': 'f', 'tray_reading_bits': '0', 'version': 4, 'insert_flag': True, 'power_on_flag': False}
+2026-08-22 19:25:27,597 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] tray_now updated: 255
+2026-08-22 19:25:27,597 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Merged AMS data: 1 new units, 1 total
+2026-08-22 19:25:27,597 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] AMS 0 info=0x2003 -> extruder 0
+2026-08-22 19:25:27,598 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0}
+2026-08-22 19:25:27,598 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_status: 0 (main=0, sub=0)
+2026-08-22 19:25:27,598 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-22 19:25:27,599 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper raw value: 5.0
+2026-08-22 19:25:27,599 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper direct value: 5.0°C (heater OFF)
+2026-08-22 19:25:27,599 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Chamber heating calculated: target=0.0, current=5.0, heating=False, respect_local=False
+2026-08-22 19:25:27,600 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Chamber temp updated to: 5.0, target: 0.0, heating: False
+2026-08-22 19:25:27,600 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-22 19:25:27,600 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ipcam field: {'ipcam_dev': '1', 'ipcam_record': 'enable', 'timelapse': 'disable', 'resolution': '', 'tutk_server': 'disable', 'mode_bits': 3}
+2026-08-22 19:25:27,601 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -58dBm
+2026-08-22 19:25:27,601 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'node': 'chamber_light', 'mode': 'off'}]
+2026-08-22 19:25:27,601 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: IDLE -> IDLE, file: , subtask: 
+2026-08-22 19:25:32,365 DEBUG [backend.app.services.virtual_printer.ssdp_server] [1bbcb127] Sent SSDP NOTIFY for BamBuddy P1S (Proxy) (Location=[IP], USN=[SERIAL], bind=[IP])
+2026-08-22 19:25:35,798 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0}
+2026-08-22 19:25:35,798 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-22 19:25:37,871 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0}
+2026-08-22 19:25:37,871 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-22 19:25:39,911 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-22 19:25:39,911 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -57dBm
+2026-08-22 19:25:44,007 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0}
+2026-08-22 19:25:44,008 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-22 19:25:46,085 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0}
+2026-08-22 19:25:46,086 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-22 19:25:48,150 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-22 19:25:48,151 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -58dBm
+2026-08-22 19:25:52,259 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-22 19:25:54,337 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0}
+2026-08-22 19:25:54,337 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-22 19:25:56,348 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-22 19:25:58,408 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0}
+2026-08-22 19:25:58,408 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-22 19:25:58,408 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -57dBm
+2026-08-22 19:26:02,426 DEBUG [backend.app.services.virtual_printer.ssdp_server] [1bbcb127] Sent SSDP NOTIFY for BamBuddy P1S (Proxy) (Location=[IP], USN=[SERIAL], bind=[IP])
+2026-08-22 19:26:04,469 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-22 19:26:04,469 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -58dBm
+2026-08-22 19:26:06,534 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0}
+2026-08-22 19:26:06,534 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-22 19:26:07,370 DEBUG [backend.app.main] [-] Recorded 3 printer sensor history entries
+2026-08-22 19:26:10,604 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0}
+2026-08-22 19:26:10,604 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-22 19:26:14,683 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0}
+2026-08-22 19:26:14,684 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-22 19:26:16,734 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0}
+2026-08-22 19:26:16,734 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-22 19:26:20,781 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-22 19:26:24,863 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-22 19:26:24,863 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -57dBm
+2026-08-22 19:26:28,943 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0}
+2026-08-22 19:26:28,943 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-22 19:26:28,944 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -58dBm
+2026-08-22 19:26:30,994 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0}
+2026-08-22 19:26:30,994 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-22 19:26:32,498 DEBUG [backend.app.services.virtual_printer.ssdp_server] [1bbcb127] Sent SSDP NOTIFY for BamBuddy P1S (Proxy) (Location=[IP], USN=[SERIAL], bind=[IP])
+2026-08-22 19:26:33,047 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0}
+2026-08-22 19:26:33,047 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-22 19:26:37,098 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-22 19:26:37,099 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -57dBm
+2026-08-22 19:26:39,163 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0}
+2026-08-22 19:26:39,164 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-22 19:26:39,164 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -58dBm
+2026-08-22 19:26:41,220 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0}
+2026-08-22 19:26:41,220 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-22 19:26:43,269 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0}
+2026-08-22 19:26:43,270 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-22 19:26:43,270 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -57dBm
+2026-08-22 19:26:47,330 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-22 19:26:47,331 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -58dBm
+2026-08-22 19:26:51,426 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0}
+2026-08-22 19:26:51,427 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-22 19:26:51,427 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -57dBm
+2026-08-22 19:26:55,531 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0}
+2026-08-22 19:26:55,531 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-22 19:26:55,532 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -58dBm
+2026-08-22 19:27:02,562 DEBUG [backend.app.services.virtual_printer.ssdp_server] [1bbcb127] Sent SSDP NOTIFY for BamBuddy P1S (Proxy) (Location=[IP], USN=[SERIAL], bind=[IP])
+2026-08-22 19:27:03,658 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0}
+2026-08-22 19:27:03,659 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-22 19:27:05,711 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-22 19:27:07,380 DEBUG [backend.app.main] [-] Recorded 3 printer sensor history entries
+2026-08-22 19:27:07,773 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0}
+2026-08-22 19:27:07,773 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-22 19:27:09,826 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0}
+2026-08-22 19:27:09,826 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-22 19:27:13,877 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-22 19:27:15,913 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-22 19:27:24,021 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0}
+2026-08-22 19:27:24,022 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-22 19:27:24,022 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -57dBm
+2026-08-22 19:27:26,074 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0}
+2026-08-22 19:27:26,075 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
