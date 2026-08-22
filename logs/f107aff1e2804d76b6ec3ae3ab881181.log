@@ -1,0 +1,25 @@
+2026-08-22 14:49:14,845 [INFO] [-] Sent initial status for 1 printers
+2026-08-22 14:49:14,844 [INFO] [-] WebSocket client connected
+2026-08-22 14:49:14,843 [INFO] [-] WebSocket client connecting (principal=gyrene2083)
+2026-08-22 14:49:14,740 [INFO] [-] 10.180.40.85:57178 - "POST /api/v1/auth/ws-token HTTP/1.1" 200
+2026-08-22 14:49:12,802 [INFO] [-] [SNAPSHOT] Fresh camera frame: 223307 bytes
+2026-08-22 14:49:12,801 [INFO] [-] Successfully captured camera frame bytes: 223307 bytes
+2026-08-22 14:49:11,432 [INFO] [-] Capturing camera frame bytes from 10.180.40.126 using RTSP (model: H2C)
+2026-08-22 14:49:11,431 [INFO] [-] [SNAPSHOT] Capturing fresh frame for printer 1
+2026-08-22 14:48:43,325 [INFO] [-] WebSocket client disconnected normally
+2026-08-22 14:48:19,605 [INFO] [-] [SNAPSHOT] Fresh camera frame: 285756 bytes
+2026-08-22 14:48:19,604 [INFO] [-] Successfully captured camera frame bytes: 285756 bytes
+2026-08-22 14:48:18,228 [INFO] [-] Capturing camera frame bytes from 10.180.40.126 using RTSP (model: H2C)
+2026-08-22 14:48:18,227 [INFO] [-] [SNAPSHOT] Capturing fresh frame for printer 1
+2026-08-22 14:47:56,969 [INFO] [10e1c983] Camera stream cancelled (stream_id=1-fanout-09f9c8e1)
+2026-08-22 14:47:51,969 [INFO] [10e1c983] Camera viewer detached from printer-1 (subscribers=0)
+2026-08-22 14:47:36,941 [INFO] [10e1c983] Starting RTSP camera stream for 10.180.40.126 (stream_id=1-fanout-09f9c8e1, model=H2C, fps=10, probesize=32, analyzeduration=0)
+2026-08-22 14:47:36,940 [INFO] [10e1c983] Camera viewer attached to printer-1 (subscribers=1)
+2026-08-22 14:47:36,940 [INFO] [10e1c983] Using RTSP protocol for H2C
+2026-08-22 14:47:26,222 [INFO] [-] [SNAPSHOT] Fresh camera frame: 286073 bytes
+2026-08-22 14:47:26,222 [INFO] [-] Successfully captured camera frame bytes: 286073 bytes
+2026-08-22 14:47:24,872 [INFO] [-] Capturing camera frame bytes from 10.180.40.126 using RTSP (model: H2C)
+2026-08-22 14:47:24,872 [INFO] [-] [SNAPSHOT] Capturing fresh frame for printer 1
+2026-08-22 14:47:11,477 [INFO] [-] Recorded 3 AMS sensor history entries
+2026-08-22 14:46:58,870 [INFO] [-] [SNAPSHOT] Fresh camera frame: 293101 bytes
+2026-08-22 14:46:58,870 [INFO] [-] Successfully captured camera frame bytes: 293101 bytes
