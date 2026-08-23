@@ -1,0 +1,200 @@
+2026-08-23 18:42:22,011 INFO [backend.app.services.print_scheduler] [-] Queue skip summary: {'manual_start': 3}
+2026-08-23 18:42:22,011 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-23 18:42:28,233 INFO [backend.app.main] [-] [Printer 1] Broadcasting AMS change via WebSocket
+2026-08-23 18:42:32,283 INFO [backend.app.main] [-] [SNAPSHOT] Using buffered frame for printer 1: 68743 bytes
+2026-08-23 18:42:52,057 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(89, None, 73, None), (90, None, 73, None), (91, None, 73, None)]
+2026-08-23 18:42:52,065 INFO [backend.app.services.print_scheduler] [-] Queue skip summary: {'manual_start': 3}
+2026-08-23 18:42:52,066 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-23 18:43:06,737 INFO [backend.app.main] [-] [SNAPSHOT] Using buffered frame for printer 1: 71256 bytes
+2026-08-23 18:43:22,116 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(89, None, 73, None), (90, None, 73, None), (91, None, 73, None)]
+2026-08-23 18:43:22,122 INFO [backend.app.services.print_scheduler] [-] Queue skip summary: {'manual_start': 3}
+2026-08-23 18:43:22,123 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-23 18:43:38,208 INFO [backend.app.main] [-] [SNAPSHOT] Using buffered frame for printer 1: 71731 bytes
+2026-08-23 18:43:52,177 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(89, None, 73, None), (90, None, 73, None), (91, None, 73, None)]
+2026-08-23 18:43:52,185 INFO [backend.app.services.print_scheduler] [-] Queue skip summary: {'manual_start': 3}
+2026-08-23 18:43:52,186 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-23 18:43:57,399 INFO [backend.app.main] [-] [Printer 1] Broadcasting AMS change via WebSocket
+2026-08-23 18:44:04,518 INFO [backend.app.main] [-] [SNAPSHOT] Using buffered frame for printer 1: 67999 bytes
+2026-08-23 18:44:22,248 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(89, None, 73, None), (90, None, 73, None), (91, None, 73, None)]
+2026-08-23 18:44:22,257 INFO [backend.app.services.print_scheduler] [-] Queue skip summary: {'manual_start': 3}
+2026-08-23 18:44:22,258 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-23 18:44:31,719 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-23 18:44:31,891 INFO [backend.app.main] [-] [SNAPSHOT] Using buffered frame for printer 1: 70928 bytes
+2026-08-23 18:44:52,299 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(89, None, 73, None), (90, None, 73, None), (91, None, 73, None)]
+2026-08-23 18:44:52,305 INFO [backend.app.services.print_scheduler] [-] Queue skip summary: {'manual_start': 3}
+2026-08-23 18:44:52,305 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-23 18:44:57,299 INFO [backend.app.main] [-] [SNAPSHOT] Using buffered frame for printer 1: 70726 bytes
+2026-08-23 18:45:22,356 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(89, None, 73, None), (90, None, 73, None), (91, None, 73, None)]
+2026-08-23 18:45:22,362 INFO [backend.app.services.print_scheduler] [-] Queue skip summary: {'manual_start': 3}
+2026-08-23 18:45:22,363 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-23 18:45:27,696 INFO [backend.app.main] [-] [Printer 1] Broadcasting AMS change via WebSocket
+2026-08-23 18:45:29,750 INFO [backend.app.main] [-] [SNAPSHOT] Using buffered frame for printer 1: 69113 bytes
+2026-08-23 18:45:52,410 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(89, None, 73, None), (90, None, 73, None), (91, None, 73, None)]
+2026-08-23 18:45:52,417 INFO [backend.app.services.print_scheduler] [-] Queue skip summary: {'manual_start': 3}
+2026-08-23 18:45:52,417 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-23 18:46:05,257 INFO [backend.app.main] [-] [SNAPSHOT] Using buffered frame for printer 1: 70670 bytes
+2026-08-23 18:46:22,459 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(89, None, 73, None), (90, None, 73, None), (91, None, 73, None)]
+2026-08-23 18:46:22,466 INFO [backend.app.services.print_scheduler] [-] Queue skip summary: {'manual_start': 3}
+2026-08-23 18:46:22,467 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-23 18:46:36,681 INFO [backend.app.main] [-] [SNAPSHOT] Using buffered frame for printer 1: 69024 bytes
+2026-08-23 18:46:49,877 INFO [backend.app.main] [-] [Printer 1] Broadcasting AMS change via WebSocket
+2026-08-23 18:46:52,513 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(89, None, 73, None), (90, None, 73, None), (91, None, 73, None)]
+2026-08-23 18:46:52,521 INFO [backend.app.services.print_scheduler] [-] Queue skip summary: {'manual_start': 3}
+2026-08-23 18:46:52,521 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-23 18:47:08,201 INFO [backend.app.main] [-] [SNAPSHOT] Using buffered frame for printer 1: 73982 bytes
+2026-08-23 18:47:22,575 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(89, None, 73, None), (90, None, 73, None), (91, None, 73, None)]
+2026-08-23 18:47:22,581 INFO [backend.app.services.print_scheduler] [-] Queue skip summary: {'manual_start': 3}
+2026-08-23 18:47:22,582 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-23 18:47:33,151 INFO [backend.app.api.routes.cloud] [43ebd7dc] get_filament_info called with 3 IDs: ['GFA00', 'GFA01', 'GFA16']
+2026-08-23 18:47:33,248 INFO [uvicorn.access] [-] [IP]:60834 - "POST /api/v1/cloud/filament-info HTTP/1.1" 200
+2026-08-23 18:47:37,769 INFO [backend.app.main] [-] [SNAPSHOT] Using buffered frame for printer 1: 68969 bytes
+2026-08-23 18:47:52,628 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(89, None, 73, None), (90, None, 73, None), (91, None, 73, None)]
+2026-08-23 18:47:52,637 INFO [backend.app.services.print_scheduler] [-] Queue skip summary: {'manual_start': 3}
+2026-08-23 18:47:52,638 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-23 18:48:06,896 INFO [backend.app.main] [-] [SNAPSHOT] Using buffered frame for printer 1: 71389 bytes
+2026-08-23 18:48:11,948 INFO [backend.app.main] [-] [Printer 1] Broadcasting AMS change via WebSocket
+2026-08-23 18:48:22,682 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(89, None, 73, None), (90, None, 73, None), (91, None, 73, None)]
+2026-08-23 18:48:22,688 INFO [backend.app.services.print_scheduler] [-] Queue skip summary: {'manual_start': 3}
+2026-08-23 18:48:22,688 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-23 18:48:37,403 INFO [backend.app.main] [-] [SNAPSHOT] Using buffered frame for printer 1: 68570 bytes
+2026-08-23 18:48:52,743 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(89, None, 73, None), (90, None, 73, None), (91, None, 73, None)]
+2026-08-23 18:48:52,760 INFO [backend.app.services.print_scheduler] [-] Queue skip summary: {'manual_start': 3}
+2026-08-23 18:48:52,760 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-23 18:49:05,832 INFO [backend.app.main] [-] [SNAPSHOT] Using buffered frame for printer 1: 70494 bytes
+2026-08-23 18:49:22,807 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(89, None, 73, None), (90, None, 73, None), (91, None, 73, None)]
+2026-08-23 18:49:22,813 INFO [backend.app.services.print_scheduler] [-] Queue skip summary: {'manual_start': 3}
+2026-08-23 18:49:22,814 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-23 18:49:31,738 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-23 18:49:38,350 INFO [backend.app.main] [-] [SNAPSHOT] Using buffered frame for printer 1: 71031 bytes
+2026-08-23 18:49:51,471 INFO [uvicorn.access] [-] [IP]:27243 - "POST /api/v1/printers/camera/stream-token HTTP/1.1" 200
+2026-08-23 18:49:52,858 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(89, None, 73, None), (90, None, 73, None), (91, None, 73, None)]
+2026-08-23 18:49:52,867 INFO [backend.app.services.print_scheduler] [-] Queue skip summary: {'manual_start': 3}
+2026-08-23 18:49:52,868 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-23 18:49:58,524 INFO [backend.app.api.routes.support] [1fcc4ca9] Log level changed to DEBUG
+2026-08-23 18:49:58,525 INFO [backend.app.api.routes.bug_report] [1fcc4ca9] Bug report: enabled debug logging
+2026-08-23 18:49:58,525 DEBUG [backend.app.services.bambu_mqtt] [1fcc4ca9] [[SERIAL]] Requesting status update (pushall)
+2026-08-23 18:49:58,528 INFO [uvicorn.access] [-] [IP]:27243 - "POST /api/v1/bug-report/start-logging HTTP/1.1" 200
+2026-08-23 18:49:58,735 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'first_layer_inspector': False, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-23 18:49:58,736 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-23 18:49:58,737 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: RUNNING, gcode_file: /data/Metadata/plate_1.gcode, subtask_name: phaeton-seat-holder
+2026-08-23 18:49:58,742 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] AMS dict fields: {'ams_exist_bits': '1', 'ams_exist_bits_raw': '1', 'insert_flag': True, 'power_on_flag': False, 'tray_exist_bits': 'f', 'tray_is_bbl_bits': 'f', 'tray_now': '1', 'tray_pre': '1', 'tray_read_done_bits': 'f', 'tray_reading_bits': '0', 'tray_tar': '1', 'version': 329}
+2026-08-23 18:49:58,742 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] tray_now updated: 1
+2026-08-23 18:49:58,743 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Merged AMS data: 1 new units, 1 total
+2026-08-23 18:49:58,744 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_status: 768 (main=3, sub=0)
+2026-08-23 18:49:58,744 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-23 18:49:58,745 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper raw value: 37.0
+2026-08-23 18:49:58,746 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper direct value: 37.0°C (heater OFF)
+2026-08-23 18:49:58,747 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Chamber heating calculated: target=0.0, current=37.0, heating=False, respect_local=False
+2026-08-23 18:49:58,747 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Chamber temp updated to: 37.0, target: 0.0, heating: False
+2026-08-23 18:49:58,748 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: [{'attr': 201326848, 'code': 65540}]
+2026-08-23 18:49:58,748 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ipcam field: {'agora_service': 'disable', 'ipcam_dev': '1', 'ipcam_record': 'enable', 'mode_bits': 2, 'resolution': '1080p', 'rtsp_url': 'rtsps://[IP]:322/streaming/live/1', 'timelapse': 'enable', 'tutk_server': 'disable'}
+2026-08-23 18:49:58,749 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Timelapse detected during print (from ipcam)
+2026-08-23 18:49:58,750 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -47dBm
+2026-08-23 18:49:58,750 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-23 18:49:58,751 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: RUNNING -> RUNNING, file: /data/Metadata/plate_1.gcode, subtask: phaeton-seat-holder
+2026-08-23 18:49:59,281 DEBUG [backend.app.api.routes.printers] [c7d63413] API returning ams_mapping: [], ams_extruder_map: {}
+2026-08-23 18:49:59,282 DEBUG [backend.app.api.routes.printers] [c7d63413] Using tray_now directly as global ID: 1
+2026-08-23 18:49:59,666 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'first_layer_inspector': False, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-23 18:49:59,667 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-23 18:49:59,667 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: RUNNING, gcode_file: /data/Metadata/plate_1.gcode, subtask_name: phaeton-seat-holder
+2026-08-23 18:49:59,668 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-23 18:49:59,668 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper raw value: 37.0
+2026-08-23 18:49:59,669 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper direct value: 37.0°C (heater OFF)
+2026-08-23 18:49:59,670 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: [{'attr': 201326848, 'code': 65540}]
+2026-08-23 18:49:59,671 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Timelapse detected during print (from ipcam)
+2026-08-23 18:49:59,671 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-23 18:49:59,672 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: RUNNING -> RUNNING, file: /data/Metadata/plate_1.gcode, subtask: phaeton-seat-holder
+2026-08-23 18:50:00,664 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'first_layer_inspector': False, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-23 18:50:00,664 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-23 18:50:00,664 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: RUNNING, gcode_file: /data/Metadata/plate_1.gcode, subtask_name: phaeton-seat-holder
+2026-08-23 18:50:00,665 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-23 18:50:00,665 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper raw value: 37.0
+2026-08-23 18:50:00,665 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper direct value: 37.0°C (heater OFF)
+2026-08-23 18:50:00,666 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: [{'attr': 201326848, 'code': 65540}]
+2026-08-23 18:50:00,667 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Timelapse detected during print (from ipcam)
+2026-08-23 18:50:00,668 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-23 18:50:00,668 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: RUNNING -> RUNNING, file: /data/Metadata/plate_1.gcode, subtask: phaeton-seat-holder
+2026-08-23 18:50:01,695 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'first_layer_inspector': False, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-23 18:50:01,696 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-23 18:50:01,697 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: RUNNING, gcode_file: /data/Metadata/plate_1.gcode, subtask_name: phaeton-seat-holder
+2026-08-23 18:50:01,697 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-23 18:50:01,698 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper raw value: 37.0
+2026-08-23 18:50:01,698 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper direct value: 37.0°C (heater OFF)
+2026-08-23 18:50:01,699 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: [{'attr': 201326848, 'code': 65540}]
+2026-08-23 18:50:01,700 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Timelapse detected during print (from ipcam)
+2026-08-23 18:50:01,700 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-23 18:50:01,701 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: RUNNING -> RUNNING, file: /data/Metadata/plate_1.gcode, subtask: phaeton-seat-holder
+2026-08-23 18:50:02,712 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'first_layer_inspector': False, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-23 18:50:02,712 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-23 18:50:02,713 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: RUNNING, gcode_file: /data/Metadata/plate_1.gcode, subtask_name: phaeton-seat-holder
+2026-08-23 18:50:02,714 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-23 18:50:02,715 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper raw value: 37.0
+2026-08-23 18:50:02,715 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper direct value: 37.0°C (heater OFF)
+2026-08-23 18:50:02,716 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: [{'attr': 201326848, 'code': 65540}]
+2026-08-23 18:50:02,717 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Timelapse detected during print (from ipcam)
+2026-08-23 18:50:02,717 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-23 18:50:02,718 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: RUNNING -> RUNNING, file: /data/Metadata/plate_1.gcode, subtask: phaeton-seat-holder
+2026-08-23 18:50:03,722 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'first_layer_inspector': False, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-23 18:50:03,723 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-23 18:50:03,724 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: RUNNING, gcode_file: /data/Metadata/plate_1.gcode, subtask_name: phaeton-seat-holder
+2026-08-23 18:50:03,725 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-23 18:50:03,725 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper raw value: 37.0
+2026-08-23 18:50:03,726 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper direct value: 37.0°C (heater OFF)
+2026-08-23 18:50:03,726 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: [{'attr': 201326848, 'code': 65540}]
+2026-08-23 18:50:03,727 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Timelapse detected during print (from ipcam)
+2026-08-23 18:50:03,727 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-23 18:50:03,728 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: RUNNING -> RUNNING, file: /data/Metadata/plate_1.gcode, subtask: phaeton-seat-holder
+2026-08-23 18:50:04,580 DEBUG [backend.app.services.virtual_printer.ssdp_server] [-] Sent SSDP NOTIFY for VP1 (Location=[IP], USN=[SERIAL], bind=[IP])
+2026-08-23 18:50:04,740 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'first_layer_inspector': False, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-23 18:50:04,741 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-23 18:50:04,742 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: RUNNING, gcode_file: /data/Metadata/plate_1.gcode, subtask_name: phaeton-seat-holder
+2026-08-23 18:50:04,742 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-23 18:50:04,743 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper raw value: 37.0
+2026-08-23 18:50:04,744 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper direct value: 37.0°C (heater OFF)
+2026-08-23 18:50:04,744 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: [{'attr': 201326848, 'code': 65540}]
+2026-08-23 18:50:04,745 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Timelapse detected during print (from ipcam)
+2026-08-23 18:50:04,746 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-23 18:50:04,746 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: RUNNING -> RUNNING, file: /data/Metadata/plate_1.gcode, subtask: phaeton-seat-holder
+2026-08-23 18:50:04,763 INFO [backend.app.main] [-] [SNAPSHOT] Using buffered frame for printer 1: 70952 bytes
+2026-08-23 18:50:04,764 DEBUG [backend.app.main] [-] [FINISH-PHOTO-BANK] banked in-print frame for printer 1 at layer 1176/1226 (70952 bytes)
+2026-08-23 18:50:05,757 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'first_layer_inspector': False, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-23 18:50:05,759 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-23 18:50:05,760 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: RUNNING, gcode_file: /data/Metadata/plate_1.gcode, subtask_name: phaeton-seat-holder
+2026-08-23 18:50:05,760 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-23 18:50:05,761 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper raw value: 37.0
+2026-08-23 18:50:05,763 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper direct value: 37.0°C (heater OFF)
+2026-08-23 18:50:05,764 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: [{'attr': 201326848, 'code': 65540}]
+2026-08-23 18:50:05,764 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Timelapse detected during print (from ipcam)
+2026-08-23 18:50:05,765 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-23 18:50:05,765 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: RUNNING -> RUNNING, file: /data/Metadata/plate_1.gcode, subtask: phaeton-seat-holder
+2026-08-23 18:50:06,763 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'first_layer_inspector': False, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-23 18:50:06,764 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-23 18:50:06,764 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: RUNNING, gcode_file: /data/Metadata/plate_1.gcode, subtask_name: phaeton-seat-holder
+2026-08-23 18:50:06,765 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-23 18:50:06,765 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper raw value: 37.0
+2026-08-23 18:50:06,766 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper direct value: 37.0°C (heater OFF)
+2026-08-23 18:50:06,767 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: [{'attr': 201326848, 'code': 65540}]
+2026-08-23 18:50:06,768 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Timelapse detected during print (from ipcam)
+2026-08-23 18:50:06,769 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-23 18:50:06,769 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: RUNNING -> RUNNING, file: /data/Metadata/plate_1.gcode, subtask: phaeton-seat-holder
+2026-08-23 18:50:07,020 DEBUG [backend.app.main] [-] Recorded 3 printer sensor history entries
+2026-08-23 18:50:07,774 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'first_layer_inspector': False, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-23 18:50:07,775 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-23 18:50:07,776 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: RUNNING, gcode_file: /data/Metadata/plate_1.gcode, subtask_name: phaeton-seat-holder
+2026-08-23 18:50:07,776 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-23 18:50:07,777 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper raw value: 37.0
+2026-08-23 18:50:07,777 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper direct value: 37.0°C (heater OFF)
+2026-08-23 18:50:07,778 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: [{'attr': 201326848, 'code': 65540}]
+2026-08-23 18:50:07,779 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Timelapse detected during print (from ipcam)
+2026-08-23 18:50:07,780 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-23 18:50:07,781 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: RUNNING -> RUNNING, file: /data/Metadata/plate_1.gcode, subtask: phaeton-seat-holder
+2026-08-23 18:50:08,790 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Found xcam inside print data: {'allow_skip_parts': False, 'buildplate_marker_detector': True, 'first_layer_inspector': False, 'halt_print_sensitivity': 'medium', 'print_halt': True, 'printing_monitor': True, 'spaghetti_detector': True}
+2026-08-23 18:50:08,793 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Parsing xcam data - all fields: ['allow_skip_parts', 'buildplate_marker_detector', 'first_layer_inspector', 'halt_print_sensitivity', 'print_halt', 'printing_monitor', 'spaghetti_detector']
+2026-08-23 18:50:08,795 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: RUNNING, gcode_file: /data/Metadata/plate_1.gcode, subtask_name: phaeton-seat-holder
+2026-08-23 18:50:08,797 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-23 18:50:08,799 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper raw value: 37.0
+2026-08-23 18:50:08,800 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper direct value: 37.0°C (heater OFF)
+2026-08-23 18:50:08,801 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: [{'attr': 201326848, 'code': 65540}]
+2026-08-23 18:50:08,802 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Timelapse detected during print (from ipcam)
+2026-08-23 18:50:08,802 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'mode': 'on', 'node': 'chamber_light'}, {'mode': 'flashing', 'node': 'work_light'}]
+2026-08-23 18:50:08,803 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: RUNNING -> RUNNING, file: /data/Metadata/plate_1.gcode, subtask: phaeton-seat-holder
