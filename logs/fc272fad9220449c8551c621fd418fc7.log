@@ -1,0 +1,200 @@
+2026-08-25 13:41:26,851 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 13:41:26,859 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 13:41:56,912 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 13:41:56,918 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 13:41:57,444 INFO [backend.app.main] [-] [SNAPSHOT] Using buffered frame for printer 1: 79714 bytes
+2026-08-25 13:42:26,956 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 13:42:26,964 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 13:42:57,004 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 13:42:57,008 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 13:43:27,049 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 13:43:27,057 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 13:43:57,090 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 13:43:57,100 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 13:44:27,130 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 13:44:27,135 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 13:44:57,170 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 13:44:57,179 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 13:45:27,217 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 13:45:27,220 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 13:45:27,768 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-25 13:45:41,397 INFO [backend.app.main] [-] [SNAPSHOT] Using buffered frame for printer 1: 75077 bytes
+2026-08-25 13:45:57,253 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 13:45:57,260 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 13:46:27,310 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 13:46:27,315 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 13:46:57,351 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 13:46:57,361 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 13:47:27,409 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 13:47:27,413 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 13:47:57,448 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 13:47:57,455 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 13:48:27,481 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 13:48:27,484 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 13:48:28,116 INFO [backend.app.main] [-] [SNAPSHOT] Using buffered frame for printer 1: 79310 bytes
+2026-08-25 13:48:57,509 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 13:48:57,514 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 13:49:27,562 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 13:49:27,570 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 13:49:57,610 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 13:49:57,618 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 13:50:27,659 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 13:50:27,667 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 13:50:27,779 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-25 13:50:57,709 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 13:50:57,717 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 13:51:27,763 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 13:51:27,767 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 13:51:57,803 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 13:51:57,810 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 13:52:27,844 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 13:52:27,852 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 13:52:57,882 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 13:52:57,887 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 13:53:27,924 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 13:53:27,928 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 13:53:57,966 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 13:53:57,971 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 13:54:28,002 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 13:54:28,006 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 13:54:48,794 INFO [backend.app.main] [-] [SNAPSHOT] Using buffered frame for printer 1: 67239 bytes
+2026-08-25 13:54:58,040 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 13:54:58,045 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 13:55:27,793 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-25 13:55:28,087 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 13:55:28,095 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 13:55:58,144 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 13:55:58,151 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 13:56:04,036 INFO [backend.app.main] [-] [SNAPSHOT] Using buffered frame for printer 1: 76488 bytes
+2026-08-25 13:56:28,204 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 13:56:28,212 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 13:56:58,258 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 13:56:58,266 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 13:57:28,316 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 13:57:28,323 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 13:57:58,368 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 13:57:58,375 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 13:58:28,408 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 13:58:28,412 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 13:58:58,444 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 13:58:58,451 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 13:59:28,488 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 13:59:28,492 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 13:59:58,527 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 13:59:58,534 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 14:00:27,809 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-25 14:00:28,577 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 14:00:28,582 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 14:00:58,613 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 14:00:58,616 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 14:01:15,273 INFO [backend.app.main] [-] [SNAPSHOT] Using buffered frame for printer 1: 72104 bytes
+2026-08-25 14:01:28,636 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 14:01:28,639 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 14:01:58,669 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 14:01:58,673 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 14:02:28,697 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 14:02:28,700 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 14:02:58,733 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 14:02:58,741 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 14:03:28,797 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 14:03:28,807 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 14:03:58,853 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 14:03:58,861 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 14:04:14,339 INFO [backend.app.main] [-] [SNAPSHOT] Using buffered frame for printer 1: 77114 bytes
+2026-08-25 14:04:28,895 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 14:04:28,899 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 14:04:58,933 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 14:04:58,941 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 14:05:27,820 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-25 14:05:28,976 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 14:05:28,980 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 14:05:59,005 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 14:05:59,012 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 14:06:29,061 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 14:06:29,065 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 14:06:59,100 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 14:06:59,108 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 14:07:29,142 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 14:07:29,147 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 14:07:44,176 INFO [backend.app.main] [-] [SNAPSHOT] Using buffered frame for printer 1: 78069 bytes
+2026-08-25 14:07:59,169 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 14:07:59,175 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 14:08:29,213 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 14:08:29,220 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 14:08:59,265 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 14:08:59,269 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 14:09:29,305 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 14:09:29,311 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 14:09:59,354 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 14:09:59,362 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 14:10:27,839 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-25 14:10:29,401 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 14:10:29,408 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 14:10:59,446 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 14:10:59,449 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 14:11:17,983 INFO [backend.app.main] [-] [SNAPSHOT] Using buffered frame for printer 1: 76782 bytes
+2026-08-25 14:11:29,488 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 14:11:29,498 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 14:11:59,546 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 14:11:59,553 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 14:12:29,593 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 14:12:29,605 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 14:12:59,649 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 14:12:59,656 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 14:13:29,700 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 14:13:29,709 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 14:13:59,748 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 14:13:59,754 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 14:14:13,153 INFO [backend.app.main] [-] [SNAPSHOT] Using buffered frame for printer 1: 74121 bytes
+2026-08-25 14:14:29,794 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 14:14:29,801 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 14:14:59,846 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 14:14:59,854 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 14:15:27,856 INFO [backend.app.main] [-] Recorded 1 AMS sensor history entries
+2026-08-25 14:15:29,902 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 14:15:29,910 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 14:15:59,955 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 14:15:59,964 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 14:16:30,013 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 14:16:30,020 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 14:17:00,069 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 14:17:00,077 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 14:17:30,118 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 14:17:30,127 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 14:17:51,875 INFO [backend.app.main] [-] [SNAPSHOT] Using buffered frame for printer 1: 76005 bytes
+2026-08-25 14:18:00,171 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 14:18:00,180 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 14:18:22,244 INFO [backend.app.api.routes.support] [525a0838] Log level changed to DEBUG
+2026-08-25 14:18:22,245 INFO [backend.app.api.routes.bug_report] [525a0838] Bug report: enabled debug logging
+2026-08-25 14:18:22,245 DEBUG [backend.app.services.bambu_mqtt] [525a0838] [[SERIAL]] Requesting status update (pushall)
+2026-08-25 14:18:22,246 INFO [uvicorn.access] [-] [IP]:57930 - "POST /api/v1/bug-report/start-logging HTTP/1.1" 200
+2026-08-25 14:18:22,286 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received gcode_state: RUNNING, gcode_file: 10_infinity_cube_YMCA.3mf, subtask_name: 10_infinity_cube_YMCA
+2026-08-25 14:18:22,286 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] AMS dict fields: {'ams_exist_bits': '1', 'tray_exist_bits': 'f', 'tray_is_bbl_bits': 'f', 'tray_tar': '3', 'tray_now': '3', 'tray_pre': '3', 'tray_read_done_bits': 'f', 'tray_reading_bits': '0', 'version': 10, 'insert_flag': True, 'power_on_flag': False}
+2026-08-25 14:18:22,287 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] tray_now updated: 3
+2026-08-25 14:18:22,287 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Merged AMS data: 1 new units, 1 total
+2026-08-25 14:18:22,287 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] AMS 0 info=0x1001 -> extruder 0
+2026-08-25 14:18:22,287 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0}
+2026-08-25 14:18:22,288 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_status: 768 (main=3, sub=0)
+2026-08-25 14:18:22,288 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-25 14:18:22,288 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper raw value: 5.0
+2026-08-25 14:18:22,289 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] chamber_temper direct value: 5.0°C (heater OFF)
+2026-08-25 14:18:22,289 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Chamber heating calculated: target=0.0, current=5.0, heating=False, respect_local=False
+2026-08-25 14:18:22,290 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Chamber temp updated to: 5.0, target: 0.0, heating: False
+2026-08-25 14:18:22,290 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] HMS data received: []
+2026-08-25 14:18:22,290 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ipcam field: {'ipcam_dev': '1', 'ipcam_record': 'enable', 'timelapse': 'disable', 'resolution': '', 'tutk_server': 'disable', 'mode_bits': 3}
+2026-08-25 14:18:22,290 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -61dBm
+2026-08-25 14:18:22,291 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] lights_report: [{'node': 'chamber_light', 'mode': 'on'}]
+2026-08-25 14:18:22,291 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] gcode_state: RUNNING -> RUNNING, file: 10_infinity_cube_YMCA.3mf, subtask: 10_infinity_cube_YMCA
+2026-08-25 14:18:22,763 DEBUG [backend.app.api.routes.printers] [8b7b58d9] API returning ams_mapping: [], ams_extruder_map: {'0': 0}
+2026-08-25 14:18:22,763 DEBUG [backend.app.api.routes.printers] [8b7b58d9] Using tray_now directly as global ID: 3
+2026-08-25 14:18:24,355 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0}
+2026-08-25 14:18:24,356 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-25 14:18:24,571 DEBUG [backend.app.main] [-] [[PRINTER]] Runtime tracking: added 30s, total=55470s (15.41h)
+2026-08-25 14:18:24,578 DEBUG [backend.app.main] [-] Updated runtime for 1 printer(s)
+2026-08-25 14:18:26,379 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-25 14:18:26,380 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -58dBm
+2026-08-25 14:18:30,222 INFO [backend.app.services.print_scheduler] [-] Queue check: found 3 pending items: [(8, 1, None, 1), (9, 1, None, 1), (10, 1, None, 1)]
+2026-08-25 14:18:30,230 INFO [backend.app.services.print_scheduler] [-] Queue: printer 1 not available — connected=True, state=RUNNING, awaiting_plate_clear=False
+2026-08-25 14:18:30,453 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] ams_extruder_map: {'0': 0}
+2026-08-25 14:18:30,453 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] Received command response: push_status
+2026-08-25 14:18:30,454 DEBUG [backend.app.services.bambu_mqtt] [-] [[SERIAL]] wifi_signal received: -63dBm
