@@ -9,6 +9,12 @@ from daemon.config import Config
 from daemon.main import heartbeat_loop, scale_poll_loop
 
 
+@pytest.fixture(autouse=True)
+def isolated_system_stats(monkeypatch):
+    # These tests exercise dispatch, not the host's Linux /proc implementation.
+    monkeypatch.setattr("daemon.main.system_stats.collect", lambda: {})
+
+
 def _make_config(**overrides):
     cfg = Config(
         backend_url="http://localhost:5000",
@@ -28,6 +34,48 @@ def _make_api():
     api.heartbeat = AsyncMock(return_value=None)
     api.update_tare = AsyncMock(return_value={"ok": True})
     return api
+
+
+@pytest.mark.asyncio
+@pytest.mark.parametrize(
+    "reader,command,script",
+    [
+        ("rc522", "run_nfc_diag", "mfrc522_diag.py"),
+        ("rc522", "run_read_tag_diag", "mfrc522_diag.py"),
+        ("pn5180", "run_nfc_diag", "pn5180_diag.py"),
+        ("pn5180", "run_read_tag_diag", "read_tag.py"),
+    ],
+)
+async def test_diagnostic_uses_selected_reader_and_reinitializes(monkeypatch, reader, command, script):
+    monkeypatch.setenv("SPOOLBUDDY_NFC_READER", reader)
+    config, api = _make_config(), _make_api()
+    api.heartbeat.side_effect = [{"pending_command": command}, None]
+    old_reader, new_reader = MagicMock(), MagicMock()
+    shared = {"nfc": old_reader, "scale": None, "display": MagicMock()}
+    completed = asyncio.Event()
+    api.diagnostic_result.side_effect = lambda *args: completed.set()
+    with (
+        patch("daemon.main.subprocess.run", return_value=MagicMock(returncode=0, stdout="OK", stderr="")) as run,
+        patch("daemon.main.NFCReader", return_value=new_reader),
+    ):
+        task = asyncio.create_task(heartbeat_loop(config, api, time.monotonic(), shared))
+        try:
+            await asyncio.wait_for(completed.wait(), 2)
+            # Await reinitialization after the diagnostic result was sent.
+            for _ in range(100):
+                if shared["nfc"] is new_reader:
+                    break
+                await asyncio.sleep(0.001)
+            args = run.call_args.args[0]
+            assert args[1].endswith(script)
+            assert ("--require-tag" in args) == (reader == "rc522" and command == "run_read_tag_diag")
+            assert shared["nfc"] is new_reader
+            assert not shared["nfc_scan_paused"]
+            old_reader.close.assert_called_once()
+        finally:
+            task.cancel()
+            with pytest.raises(asyncio.CancelledError):
+                await task
 
 
 class TestHeartbeatLoopCommands:

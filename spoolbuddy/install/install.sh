@@ -54,6 +54,7 @@ INSTALL_MODE=""          # "spoolbuddy" or "full"
 INSTALL_PATH=""
 INSTALL_REPO=""
 INSTALL_REF=""
+NFC_READER="${SPOOLBUDDY_NFC_READER:-}"
 DETECTED_INSTALLER_REPO=""
 DETECTED_INSTALLER_REF=""
 BAMBUDDY_URL=""
@@ -196,6 +197,7 @@ show_help() {
     echo "  --mode MODE          \"spoolbuddy\" (companion only) or \"full\" (Bambuddy + SpoolBuddy)"
     echo "  --repo URL           Git repository URL to install from"
     echo "  --ref REF            Git ref to install (branch/tag/commit)"
+    echo "  --nfc-reader TYPE    pn5180 (default) or rc522; preserves existing selection"
     echo "  --bambuddy-url URL   Bambuddy server URL (required for spoolbuddy mode)"
     echo "  --api-key KEY        Bambuddy API key (required for spoolbuddy mode)"
     echo "  --path PATH          Installation directory (default: /opt/spoolbuddy or /opt/bambuddy)"
@@ -375,9 +377,24 @@ enable_i2c() {
     fi
 }
 
+resolve_nfc_reader() {
+    # Preserve the selection on reinstalls; never execute the .env file.
+    local env_file="$INSTALL_PATH/spoolbuddy/.env"
+    if [[ -z "$NFC_READER" && -f "$env_file" ]]; then
+        NFC_READER="$(sed -n 's/^SPOOLBUDDY_NFC_READER=//p' "$env_file" | tail -n1 | tr -d '\r\"\047')"
+    fi
+    NFC_READER="${NFC_READER:-pn5180}"
+    NFC_READER="${NFC_READER,,}"
+    [[ "$NFC_READER" == "mfrc522" ]] && NFC_READER="rc522"
+    case "$NFC_READER" in
+        pn5180|rc522) info "NFC reader: $NFC_READER" ;;
+        *) error "Invalid NFC reader (use --nfc-reader pn5180 or rc522)" ;;
+    esac
+}
+
 configure_boot_config() {
     # Find the boot config file (Bookworm+ uses /boot/firmware/config.txt)
-    local boot_config="/boot/firmware/config.txt"
+    local boot_config="${1:-/boot/firmware/config.txt}"
     if [[ ! -f "$boot_config" ]]; then
         boot_config="/boot/config.txt"
     fi
@@ -410,6 +427,16 @@ configure_boot_config() {
         success "Added dtparam=i2c_arm=on"
     else
         success "dtparam=i2c_arm=on already set"
+    fi
+
+    # RC522 uses the kernel's CE0/CE1, unlike PN5180's manual GPIO23 CS.
+    if [[ "$NFC_READER" == "rc522" ]]; then
+        if grep -Eq '^[[:space:]]*dtoverlay=spi0-0cs([,[:space:]]|$)' "$boot_config"; then
+            sed -i -E '/^[[:space:]]*dtoverlay=spi0-0cs([,[:space:]]|$)/s/^/# RC522 hardware CS: /' "$boot_config"
+            REBOOT_NEEDED="true"
+        fi
+        success "Keeping hardware SPI chip-select for RC522"
+        return
     fi
 
     # Disable SPI auto chip-select (manual CS on GPIO23 for PN5180)
@@ -565,6 +592,10 @@ create_spoolbuddy_env() {
     info "Creating SpoolBuddy configuration..."
 
     local env_file="$INSTALL_PATH/spoolbuddy/.env"
+    local nfc_settings=""
+    if [[ -f "$env_file" ]]; then
+        nfc_settings="$(grep '^SPOOLBUDDY_NFC_' "$env_file" | grep -v '^SPOOLBUDDY_NFC_READER=' || true)"
+    fi
 
     cat > "$env_file" << EOF
 # SpoolBuddy Configuration
@@ -578,6 +609,10 @@ SPOOLBUDDY_API_KEY=$API_KEY
 
 # NAU7802 scale bus (RPi GPIO2/GPIO3)
 SPOOLBUDDY_I2C_BUS=1
+
+# Reader selection and existing hardware overrides
+SPOOLBUDDY_NFC_READER=$NFC_READER
+$nfc_settings
 EOF
 
     chown "$SPOOLBUDDY_SERVICE_USER:$SPOOLBUDDY_SERVICE_USER" "$env_file"
@@ -1351,6 +1386,10 @@ EOF
 parse_args() {
     while [[ $# -gt 0 ]]; do
         case "$1" in
+            --nfc-reader)
+                NFC_READER="${2:?--nfc-reader requires pn5180 or rc522}"
+                shift 2
+                ;;
             --mode)
                 INSTALL_MODE="$2"
                 shift 2
@@ -1573,6 +1612,7 @@ main() {
     # Gather user preferences
     ask_install_mode
     gather_config
+    resolve_nfc_reader
 
     # Validate mode
     if [[ "$INSTALL_MODE" != "spoolbuddy" && "$INSTALL_MODE" != "full" ]]; then
@@ -1692,4 +1732,6 @@ main() {
     echo ""
 }
 
-main "$@"
+if [[ "${BASH_SOURCE[0]}" == "$0" ]]; then
+    main "$@"
+fi

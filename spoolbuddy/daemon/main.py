@@ -14,6 +14,7 @@ from . import __version__, system_stats
 from .api_client import APIClient
 from .config import Config
 from .display_control import DisplayControl
+from .nfc_backend import diagnostic_args
 from .nfc_reader import NFCReader, NFCState
 from .scale_reader import ScaleReader
 
@@ -118,7 +119,7 @@ async def nfc_poll_loop(config: Config, api: APIClient, shared: dict):
                 continue
 
             nfc: NFCReader | None = shared.get("nfc")
-            if not nfc or not nfc.ok:
+            if not nfc:
                 await asyncio.sleep(config.nfc_poll_interval)
                 continue
 
@@ -324,7 +325,8 @@ async def heartbeat_loop(config: Config, api: APIClient, start_time: float, shar
                 else:
                     diagnostic = "nfc"
                     script_name = "pn5180_diag.py"
-                script_path = Path(__file__).resolve().parent.parent / "scripts" / script_name
+                args = [script_name] if diagnostic == "scale" else diagnostic_args(cmd)
+                script_path = Path(__file__).resolve().parent.parent / "scripts" / args[0]
 
                 if diagnostic in ("nfc", "read_tag"):
                     logger.info("Pausing NFC continuous scan for diagnostic")
@@ -338,7 +340,7 @@ async def heartbeat_loop(config: Config, api: APIClient, start_time: float, shar
                 try:
                     proc = await asyncio.to_thread(
                         subprocess.run,
-                        [sys.executable, str(script_path)],
+                        [sys.executable, str(script_path), *args[1:]],
                         capture_output=True,
                         text=True,
                         timeout=45,

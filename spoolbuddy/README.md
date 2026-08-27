@@ -1,5 +1,11 @@
 # SpoolBuddy Hardware Setup
 
+## RC522 fork
+
+This fork adds an optional RC522 backend selected through `.env`; PN5180 remains
+the default. See [RC522 setup, diagnostics and update precautions](RC522.md).
+No frontend changes are required. Hardware validation is still required.
+
 ## PN5180 NFC Reader (SPI)
 
 ### Wiring

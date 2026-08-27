@@ -1,8 +1,11 @@
 """NFC reader wrapper with state machine for tag presence detection."""
 
 import logging
+import threading
 import time
 from enum import Enum, auto
+
+from .nfc_backend import create_reader, reader_name
 
 logger = logging.getLogger(__name__)
 
@@ -17,6 +20,8 @@ class NFCState(Enum):
 
 class NFCReader:
     def __init__(self):
+        self._lock = threading.RLock()
+        self._reader_name = reader_name()
         self._nfc = None
         self._state = NFCState.IDLE
         self._current_uid: str | None = None
@@ -28,18 +33,19 @@ class NFCReader:
         self._last_status_log = 0.0
 
         try:
-            from .pn5180 import PN5180
-
-            self._nfc = PN5180()
+            self._nfc = create_reader()
             self._init_rf()
             self._ok = True
             logger.info("NFC reader initialized")
         except Exception as e:
             logger.warning("NFC not available: %s", e)
+            self.close()
 
     def _init_rf(self):
         """Full RF initialization sequence."""
         self._nfc.reset()
+        if self._reader_name == "rc522":
+            return  # RC522 reset includes its register setup and RF activation.
         self._nfc.load_rf_config(0x00, 0x80)
         time.sleep(0.010)
         self._nfc.rf_on()
@@ -51,6 +57,7 @@ class NFCReader:
         try:
             self._init_rf()
             self._error_count = 0
+            self._ok = True
             logger.info("NFC reader recovered after full reset")
             return True
         except Exception as e:
@@ -60,7 +67,7 @@ class NFCReader:
     @property
     def reader_type(self) -> str:
         """Return NFC reader hardware type."""
-        return "PN5180" if self._nfc is not None else "Unknown"
+        return "MFRC522" if self._reader_name == "rc522" else "PN5180"
 
     @property
     def connection(self) -> str:
@@ -80,17 +87,31 @@ class NFCReader:
         return self._current_uid
 
     def close(self):
-        try:
-            self._nfc.rf_off()
-            self._nfc.close()
-        except Exception:
-            pass
+        # Diagnostics may close the reader while a poll runs in another thread.
+        with self._lock:
+            if self._nfc is not None:
+                try:
+                    self._nfc.rf_off()
+                except Exception:
+                    pass
+                try:
+                    self._nfc.close()
+                except Exception:
+                    pass
+            self._nfc = None
+            self._ok = False
+            self._state = NFCState.IDLE
+            self._current_uid = self._current_sak = None
 
     @property
     def current_sak(self) -> int | None:
         return self._current_sak
 
     def write_ntag(self, data: bytes) -> tuple[bool, str]:
+        with self._lock:
+            return self._write_ntag(data)
+
+    def _write_ntag(self, data: bytes) -> tuple[bool, str]:
         """Write raw NDEF bytes to currently present NTAG tag.
 
         Requires tag in TAG_PRESENT state with SAK=0x00.
@@ -125,6 +146,12 @@ class NFCReader:
             return False, f"Write error: {e}"
 
     def poll(self) -> tuple[str, dict | None]:
+        with self._lock:
+            if self._nfc is None:
+                return "none", None
+            return self._poll()
+
+    def _poll(self) -> tuple[str, dict | None]:
         """Poll for tag. Returns (event_type, event_data).
 
         event_type: "none", "tag_detected", "tag_removed"
@@ -143,7 +170,16 @@ class NFCReader:
             )
             self._last_status_log = now
 
-        if self._state == NFCState.IDLE:
+        if self._reader_name == "rc522":
+            # RF cycle returns the previous card to IDLE without the PN5180 workaround.
+            try:
+                self._nfc.rf_off()
+                time.sleep(0.005)
+                self._nfc.rf_on()
+                time.sleep(0.010)
+            except Exception:
+                self._full_reset()
+        elif self._state == NFCState.IDLE:
             # Full hardware reset before every idle poll. Each activate_type_a()
             # call that returns None corrupts the PN5180 state — subsequent calls
             # silently fail even when a tag is present. Only a full RST pin toggle
@@ -198,6 +234,12 @@ class NFCReader:
             uid_hex = uid_bytes.hex().upper()
             self._miss_count = 0
 
+            if self._state == NFCState.TAG_PRESENT and uid_hex != self._current_uid:
+                old_uid = self._current_uid
+                self._state = NFCState.IDLE
+                self._current_uid = self._current_sak = None
+                return "tag_removed", {"tag_uid": old_uid}
+
             if self._state == NFCState.IDLE:
                 self._state = NFCState.TAG_PRESENT
                 self._current_uid = uid_hex
@@ -208,7 +250,11 @@ class NFCReader:
                 tag_type = "mifare_classic" if sak in (0x08, 0x18) else "ntag" if sak in (0x00, 0x04) else "unknown"
 
                 if sak in (0x08, 0x18):
-                    blocks = self._nfc.read_bambu_tag(uid_bytes)
+                    try:
+                        blocks = self._nfc.read_bambu_tag(uid_bytes)
+                    except Exception as exc:
+                        logger.warning("Bambu metadata read failed; retaining UID: %s", exc)
+                        blocks = None
                     if blocks:
                         tray_uuid = _extract_tray_uuid(blocks)
 
