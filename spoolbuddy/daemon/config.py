@@ -24,6 +24,8 @@ class Config:
     api_key: str = ""
     device_id: str = ""
     hostname: str = ""
+    migrate_legacy_uids: bool = False
+    uid_migration_log: str = "/var/lib/spoolbuddy/uid-migrations.jsonl"
 
     nfc_poll_interval: float = 0.3
     scale_read_interval: float = 0.1
@@ -43,6 +45,11 @@ class Config:
         cfg.api_key = os.environ.get("SPOOLBUDDY_API_KEY", "")
         cfg.device_id = os.environ.get("SPOOLBUDDY_DEVICE_ID", "")
         cfg.hostname = os.environ.get("SPOOLBUDDY_HOSTNAME", "")
+        migration = os.environ.get("SPOOLBUDDY_NFC_MIGRATE_LEGACY_UIDS", "false").strip().lower()
+        if migration not in ("true", "false"):
+            raise RuntimeError("SPOOLBUDDY_NFC_MIGRATE_LEGACY_UIDS must be true or false")
+        cfg.migrate_legacy_uids = migration == "true"
+        cfg.uid_migration_log = os.environ.get("SPOOLBUDDY_UID_MIGRATION_LOG", cfg.uid_migration_log)
 
         if not cfg.backend_url:
             raise RuntimeError("SPOOLBUDDY_BACKEND_URL is required (e.g. http://192.168.1.100:5000)")

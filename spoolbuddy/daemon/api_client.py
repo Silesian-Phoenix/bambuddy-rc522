@@ -3,8 +3,11 @@
 import asyncio
 import logging
 from collections import deque
+from pathlib import Path
 
 import httpx
+
+from .uid_migration import UIDMigrationConflict, UIDMigrator
 
 logger = logging.getLogger(__name__)
 
@@ -12,10 +15,16 @@ MAX_BUFFER_SIZE = 100
 
 
 class APIClient:
-    def __init__(self, backend_url: str, api_key: str):
+    def __init__(self, backend_url: str, api_key: str, uid_migration_log: Path | None = None):
         self._base = backend_url.rstrip("/") + "/api/v1/spoolbuddy"
         self._headers = {"X-API-Key": api_key} if api_key else {}
         self._client = httpx.AsyncClient(timeout=10.0, headers=self._headers)
+        self._scan_lock = asyncio.Lock()
+        self._uid_migrator = (
+            UIDMigrator(self._client, backend_url.rstrip("/") + "/api/v1", uid_migration_log)
+            if uid_migration_log is not None
+            else None
+        )
         self._backoff = 1.0
         self._max_backoff = 30.0
         self._buffer: deque[dict] = deque(maxlen=MAX_BUFFER_SIZE)
@@ -24,14 +33,26 @@ class APIClient:
     async def close(self):
         await self._client.aclose()
 
+    async def _send_post(self, path: str, data: dict):
+        if path == "/nfc/tag-scanned" and self._uid_migrator is not None:
+            async with self._scan_lock:
+                await self._uid_migrator.prepare(data)
+                return await self._client.post(f"{self._base}{path}", json=data)
+        return await self._client.post(f"{self._base}{path}", json=data)
+
     async def _post(self, path: str, data: dict) -> dict | None:
         try:
-            resp = await self._client.post(f"{self._base}{path}", json=data)
+            resp = await self._send_post(path, data)
             resp.raise_for_status()
             self._backoff = 1.0
             self._connected = True
             return resp.json()
+        except UIDMigrationConflict as e:
+            logger.error("Scan blocked: %s", e)
+            return None
         except Exception as e:
+            if path == "/nfc/tag-scanned" and self._uid_migrator is not None:
+                logger.warning("UID migration/scan deferred (%s); will recheck before retry", type(e).__name__)
             if self._connected:
                 logger.warning("Backend connection lost: %s", e)
                 self._connected = False
@@ -51,8 +72,11 @@ class APIClient:
         while self._buffer:
             item = self._buffer[0]
             try:
-                resp = await self._client.post(f"{self._base}{item['path']}", json=item["data"])
+                resp = await self._send_post(item["path"], item["data"])
                 resp.raise_for_status()
+                self._buffer.popleft()
+            except UIDMigrationConflict as e:
+                logger.error("Buffered scan blocked: %s", e)
                 self._buffer.popleft()
             except Exception:
                 break

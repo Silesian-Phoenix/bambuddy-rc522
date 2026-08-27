@@ -14,7 +14,7 @@ from . import __version__, system_stats
 from .api_client import APIClient
 from .config import Config
 from .display_control import DisplayControl
-from .nfc_backend import diagnostic_args
+from .nfc_backend import diagnostic_args, reader_name
 from .nfc_reader import NFCReader, NFCState
 from .scale_reader import ScaleReader
 
@@ -430,7 +430,13 @@ async def main():
         "SpoolBuddy daemon v%s starting (device=%s, backend=%s)", __version__, config.device_id, config.backend_url
     )
 
-    api = APIClient(config.backend_url, config.api_key)
+    if config.migrate_legacy_uids and reader_name() != "rc522":
+        raise RuntimeError("Legacy UID migration requires SPOOLBUDDY_NFC_READER=rc522")
+    api = APIClient(
+        config.backend_url,
+        config.api_key,
+        uid_migration_log=Path(config.uid_migration_log) if config.migrate_legacy_uids else None,
+    )
     ip = _get_ip()
     start_time = time.monotonic()
 

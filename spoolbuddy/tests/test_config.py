@@ -7,6 +7,21 @@ from daemon.config import Config, _get_mac_id
 class TestConfigLoad:
     """Config.load() reads env vars and validates required fields."""
 
+    @pytest.mark.parametrize("value,enabled", [("false", False), ("true", True), ("TRUE", True)])
+    def test_legacy_uid_migration_opt_in(self, monkeypatch, value, enabled):
+        monkeypatch.setenv("SPOOLBUDDY_BACKEND_URL", "http://localhost:5000")
+        monkeypatch.setenv("SPOOLBUDDY_API_KEY", "key")
+        monkeypatch.setenv("SPOOLBUDDY_NFC_MIGRATE_LEGACY_UIDS", value)
+        monkeypatch.setenv("SPOOLBUDDY_UID_MIGRATION_LOG", "/tmp/uid-audit.jsonl")
+        cfg = Config.load()
+        assert cfg.migrate_legacy_uids is enabled
+        assert cfg.uid_migration_log == "/tmp/uid-audit.jsonl"
+
+    def test_invalid_migration_setting_fails(self, monkeypatch):
+        monkeypatch.setenv("SPOOLBUDDY_NFC_MIGRATE_LEGACY_UIDS", "tru")
+        with pytest.raises(RuntimeError, match="must be true or false"):
+            Config.load()
+
     def test_load_with_all_env_vars(self, monkeypatch):
         monkeypatch.setenv("SPOOLBUDDY_BACKEND_URL", "http://10.0.0.1:5000")
         monkeypatch.setenv("SPOOLBUDDY_API_KEY", "test-key-123")
