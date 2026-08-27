@@ -6,6 +6,12 @@ import time
 import pytest
 
 
+@pytest.fixture(autouse=True)
+def isolate_kiosk_fifo(monkeypatch, tmp_path):
+    # Running tests on a real kiosk must not wake it or change its idle timer.
+    monkeypatch.setattr("daemon.display_control.WAKE_FIFO", tmp_path / "unused-wake-fifo")
+
+
 class TestDisplayControlNoBacklight:
     """DisplayControl behavior when no backlight is present."""
 
